@@ -27,6 +27,30 @@
   </url>
   
   <url>
+    <loc>https://yoseobmite.github.io/no/series/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://yoseobmite.github.io/series/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://yoseobmite.github.io/fr/series/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="kr"
+                href="https://yoseobmite.github.io/kr/series/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="no"
+                href="https://yoseobmite.github.io/no/series/"
+                />
+  </url>
+  
+  <url>
     <loc>https://yoseobmite.github.io/no/</loc>
     <xhtml:link
                 rel="alternate"
