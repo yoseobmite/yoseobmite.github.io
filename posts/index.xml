@@ -1,0 +1,1184 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Posts on Story about learning</title>
+        <link>https://yoseobmite.github.io/posts/</link>
+        <description>Recent content in Posts on Story about learning</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>ko-KR</language>
+        <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+        <lastBuildDate>Sun, 12 Jul 2020 00:00:00 +0000</lastBuildDate>
+        <atom:link href="https://yoseobmite.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Ride through capability</title>
+            <link>https://yoseobmite.github.io/posts/2020/07/ride-through-capability/</link>
+            <pubDate>Sun, 12 Jul 2020 00:00:00 +0000</pubDate>
+            
+            <guid>https://yoseobmite.github.io/posts/2020/07/ride-through-capability/</guid>
+            <description>from : Marine Technology Society - DP Vessel Design Philosophy Guidlines PART 2  Ride through capability: This is an essential feature in any variable speed drive to prevent unwanted tripping of the drive on power systems transients. Vessels intending to operate the power plant as a common power system should be able to confirm the ride through capability of their drives by testing. Failure to achieve sufficient ride through capability can result in the loss of all thrusters leading to loss of position.</description>
+            <content type="html"><![CDATA[<blockquote>
+<h3 id="from--marine-technology-society---dp-vessel-design-philosophy-guidlines-part-2">from : Marine Technology Society - DP Vessel Design Philosophy Guidlines PART 2</h3>
+</blockquote>
+<p><em><strong><code>Ride through capability</code></strong></em>: This is an essential feature in any variable speed drive to
+prevent unwanted tripping of the drive on power systems transients. Vessels intending to
+operate the power plant as a common power system should be able to confirm the ride
+through capability of their drives by testing. Failure to achieve sufficient ride through
+capability can result in the loss of all thrusters leading to loss of position. Parameterization
+can have significant influence on a variety of drive functions and care should be taken not
+to defeat the ride through capability by inappropriate selection of parameters or other
+settings. It is important to consider auxiliary systems such as cooling water and hydraulic
+pumps as these also require ride through capability. In some cases it may be possible to
+achieve this by automatic restart if this method is accepted by the classification society
+rules for the DP notation being applied for.</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>GS Macro</title>
+            <link>https://yoseobmite.github.io/posts/2020/07/gs-macro/</link>
+            <pubDate>Sat, 11 Jul 2020 00:00:00 +0000</pubDate>
+            
+            <guid>https://yoseobmite.github.io/posts/2020/07/gs-macro/</guid>
+            <description>gist  image Goldman Sachs Macro At a Glance
+latex $$\int_{a}^{b} x^2 dx$$ The following
+$$\int_{a}^{b} x^2 dx$$
+Is an integral
+$$ \begin{align} \vec{a} \cdot \vec{b} &amp;amp;= |\vec{a}||\vec{b}|cos\theta \\\\\ &amp;amp;= a_1b_1+a_2b_2 \end{align} $$ $$ \begin{align} \vec{a} \cdot \vec{b} &amp;amp;= |\vec{a}||\vec{b}|cos\theta \\
+&amp;amp;= a_1b_1+a_2b_2 \end{align} $$
+$$ \begin{align} A^{\[0\]} &amp;amp; = Input Feature &amp;amp; (1) \\\\\ Z^{\[1\]} &amp;amp; = W^{\[1\]}A^{\[0\]} &amp;amp; (2) \\\\\ A^{\[1\]} &amp;amp; = g(Z^{\[1\]}) &amp;amp; (3) \\\\\ Z^{\[2\]} &amp;amp; = W^{\[2\]}A^{\[1\]} &amp;amp; (4) \\\\\ A^{\[2\]} &amp;amp; = g(Z^{\[2\]}) &amp;amp; (5) \end{align} $$ $$ \begin{align} A^{[0]} &amp;amp; = Input Feature &amp;amp; (1) \\</description>
+            <content type="html"><![CDATA[<h3 id="gist">gist</h3>
+<script type="application/javascript" src="https://gist.github.com/yoseobmite/fd3d384b5edb8f4437a3d71e660b473b.js"></script>
+
+<h3 id="image">image</h3>
+<p>Goldman Sachs Macro At a Glance</p>
+
+    <img src="https://user-images.githubusercontent.com/33090364/87234211-27b45e00-c3cf-11ea-858a-67c12c22a259.png"  alt="GS Macro"  class="center"  />
+
+
+<h3 id="latex">latex</h3>
+<pre><code>$$\int_{a}^{b} x^2 dx$$
+</code></pre><p>The following</p>
+<p>$$\int_{a}^{b} x^2 dx$$</p>
+<p>Is an integral</p>
+<pre><code>$$
+\begin{align}
+\vec{a} \cdot \vec{b} &amp;= |\vec{a}||\vec{b}|cos\theta \\\\\
+&amp;= a_1b_1+a_2b_2
+\end{align}
+$$
+</code></pre><p>$$
+\begin{align}
+\vec{a} \cdot \vec{b} &amp;= |\vec{a}||\vec{b}|cos\theta \\<br>
+&amp;= a_1b_1+a_2b_2
+\end{align}
+$$</p>
+<pre><code>$$
+\begin{align}
+A^{\[0\]} &amp; = Input Feature &amp; (1) \\\\\
+Z^{\[1\]} &amp; = W^{\[1\]}A^{\[0\]} &amp; (2) \\\\\
+A^{\[1\]} &amp; = g(Z^{\[1\]}) &amp; (3) \\\\\
+Z^{\[2\]} &amp; = W^{\[2\]}A^{\[1\]} &amp; (4) \\\\\
+A^{\[2\]} &amp; = g(Z^{\[2\]}) &amp; (5)
+\end{align}
+$$
+</code></pre><p>$$
+\begin{align}
+A^{[0]} &amp; = Input Feature &amp; (1) \\<br>
+Z^{[1]} &amp; = W^{[1]}A^{[0]} &amp; (2) \\<br>
+A^{[1]} &amp; = g(Z^{[1]}) &amp; (3) \\<br>
+Z^{[2]} &amp; = W^{[2]}A^{[1]} &amp; (4) \\<br>
+A^{[2]} &amp; = g(Z^{[2]}) &amp; (5)
+\end{align}
+$$</p>
+<pre><code>$$
+\begin{align}
+Cost &amp; = \frac{1}{2}(\hat{Y}-Y)^2  &amp; (1)\\\\\
+\frac{\partial Cost}{\partial A^{\[2\]}} &amp; = \hat{Y}-Y &amp; (2)\\\\\  
+sigmoid(Z^{\[l\]]}) &amp; = sigmoid(Z^{\[l\]]})(1-sigmoid(Z^{\[l\]]})) &amp; (3)\\\\\
+&amp; = A^{\[l\]}(1-A^{\[l\]}) \\\\\
+\frac{\partial Z^{\[l\]}}{\partial W^{\[2\]}} &amp; = \frac{\partial A^{\[l-1\]}W^{\[l\]}}{\partial W^{\[l\]}} = A^{\[l-1\]} &amp; (4) \\\\\  
+\end{align}
+$$
+</code></pre><p>$$
+\begin{align}
+Cost &amp; = \frac{1}{2}(\hat{Y}-Y)^2  &amp; (1)\\<br>
+\frac{\partial Cost}{\partial A^{[2]}} &amp; = \hat{Y}-Y &amp; (2)\\\<br>
+sigmoid(Z^{[l]]}) &amp; = sigmoid(Z^{[l]]})(1-sigmoid(Z^{[l]]})) &amp; (3)\\<br>
+&amp; = A^{[l]}(1-A^{[l]}) \\<br>
+\frac{\partial Z^{[l]}}{\partial W^{[2]}} &amp; = \frac{\partial A^{[l-1]}W^{[l]}}{\partial W^{[l]}} = A^{[l-1]} &amp; (4) \\\<br>
+\end{align}
+$$</p>
+<pre><code>$$
+\begin{align}
+\Delta W^{\[2\]} &amp; = \frac{\partial Cost}{\partial W^{\[2\]}} \\\\\
+&amp; = \frac{\partial Cost}{\partial A^{\[2\]}}\frac{\partial A^{\[2\]}}{\partial W^{\[2\]}} \\\\\
+&amp; =  \frac{\partial Cost}{\partial A^{\[2\]}}\frac{\partial A^{\[2\]}}{\partial Z^{\[2\]}}\frac{\partial Z^{\[2\]}}{\partial W^{\[2\]}} \\\\\
+&amp; =  (\hat{y}-y)\frac{\partial A^{\[2\]}}{\partial Z^{\[2\]}}\frac{\partial Z^{\[2\]}}{\partial W^{\[2\]}} \\\\\
+&amp; =  (\hat{y}-y)g'(z^{\[2\]})\frac{\partial Z^{\[2\]}}{\partial W^{\[2\]}} \\\\\
+&amp; =  (\hat{y}-y)sigmoid'(z^{\[2\]})\frac{\partial Z^{\[2\]}}{\partial W^{\[2\]}} \\\\\
+&amp; =  (\hat{y}-y)A^{\[2\]}(1-A^{\[2\]})\frac{\partial Z^{\[2\]}}{\partial W^{\[2\]}} \\\\\
+&amp; =  (\hat{y}-y)A^{\[2\]}(1-A^{\[2\]})A^{\[1\]}
+\end{align}
+$$
+</code></pre><p>$$
+\begin{align}
+\Delta W^{[2]} &amp; = \frac{\partial Cost}{\partial W^{[2]}} \\<br>
+&amp; = \frac{\partial Cost}{\partial A^{[2]}}\frac{\partial A^{[2]}}{\partial W^{[2]}} \\<br>
+&amp; =  \frac{\partial Cost}{\partial A^{[2]}}\frac{\partial A^{[2]}}{\partial Z^{[2]}}\frac{\partial Z^{[2]}}{\partial W^{[2]}} \\<br>
+&amp; =  (\hat{y}-y)\frac{\partial A^{[2]}}{\partial Z^{[2]}}\frac{\partial Z^{[2]}}{\partial W^{[2]}} \\<br>
+&amp; =  (\hat{y}-y)g&rsquo;(z^{[2]})\frac{\partial Z^{[2]}}{\partial W^{[2]}} \\<br>
+&amp; =  (\hat{y}-y)sigmoid&rsquo;(z^{[2]})\frac{\partial Z^{[2]}}{\partial W^{[2]}} \\<br>
+&amp; =  (\hat{y}-y)A^{[2]}(1-A^{[2]})\frac{\partial Z^{[2]}}{\partial W^{[2]}} \\<br>
+&amp; =  (\hat{y}-y)A^{[2]}(1-A^{[2]})A^{[1]}
+\end{align}
+$$</p>
+<pre><code>$$
+\begin{align}
+\Delta W^{\[2\]} &amp; =
+  \begin{bmatrix}
+    \Delta w^{\[1\]}11 &amp; \Delta w^{\[1\]}12   \\\\\
+  \end{bmatrix} \\\\\
+  &amp; =\begin{bmatrix}
+    (\hat{y}-y)a^{\[2\]}_1(1-a^{\[2\]}_1)a^{\[1\]}_1 &amp; (\hat{y}-y)a^{\[2\]}_1(1-a^{\[2\]}_1)a^{\[1\]}_2   \\\\\
+  \end{bmatrix} \\\\\
+  &amp; =(\hat{y}-y)a^{\[2\]}_1(1-a^{\[2\]}_1) \begin{bmatrix}
+    a^{\[1\]}_1 &amp; a^{\[1\]}_2   \\\\\
+  \end{bmatrix}
+\end{align}
+$$
+</code></pre><p>$$
+\begin{align}
+\Delta W^{[2]} &amp; =
+\begin{bmatrix}
+\Delta w^{[1]}11 &amp; \Delta w^{[1]}12   \\<br>
+\end{bmatrix} \\<br>
+&amp; =\begin{bmatrix}
+(\hat{y}-y)a^{[2]}_1(1-a^{[2]}_1)a^{[1]}_1 &amp; (\hat{y}-y)a^{[2]}_1(1-a^{[2]}_1)a^{[1]}_2   \\<br>
+\end{bmatrix} \\<br>
+&amp; =(\hat{y}-y)a^{[2]}_1(1-a^{[2]}_1) \begin{bmatrix}
+a^{[1]}_1 &amp; a^{[1]}_2   \\<br>
+\end{bmatrix}
+\end{align}
+$$</p>
+<pre><code>$$
+\begin{align}
+OutputRowSize &amp; = \frac{InputRowSize}{PoolingSize} \\\\\
+OutputColumnSize &amp; = \frac{InputColumnSize}{PoolingSize}
+\end{align}
+$$
+</code></pre><p>$$
+\begin{align}
+OutputRowSize &amp; = \frac{InputRowSize}{PoolingSize} \\<br>
+OutputColumnSize &amp; = \frac{InputColumnSize}{PoolingSize}
+\end{align}
+$$</p>
+<pre><code>$$
+\begin{align}
+Row Size &amp; = \frac{36}{2} = 18 \\\\\
+Column Size &amp; =  \frac{28}{2} = 14  
+\end{align}
+$$
+</code></pre><p>$$
+\begin{align}
+Row Size &amp; = \frac{36}{2} = 18 \\<br>
+Column Size &amp; =  \frac{28}{2} = 14<br>
+\end{align}
+$$</p>
+<pre><code>$$
+\begin{align}
+Row Size &amp; = \frac{N-F}{Strid} + 1 = \frac{18-3}{1} + 1 = 16 \\\\\
+Column Size &amp; =  \frac{N-F}{Strid} + 1 = \frac{14-3}{1} + 1 = 12  
+\end{align}
+$$
+</code></pre><p>$$
+\begin{align}
+Row Size &amp; = \frac{N-F}{Strid} + 1 = \frac{18-3}{1} + 1 = 16 \\<br>
+Column Size &amp; =  \frac{N-F}{Strid} + 1 = \frac{14-3}{1} + 1 = 12<br>
+\end{align}
+$$</p>
+<pre><code>$$
+cost(W, b) = \frac{1}{m}\sum_i^m{L(\hat{y^i}, y^i)} + \lambda\frac{1}{2}||w||^2
+$$
+&lt;/font&gt;
+</code></pre><p>$$
+cost(W, b) = \frac{1}{m}\sum_i^m{L(\hat{y^i}, y^i)} + \lambda\frac{1}{2}||w||^2
+$$
+<!-- raw HTML omitted --></p>
+<pre><code>$$
+L_p = (\sum_i^n |x_i|^p)^{\frac{1}{p}}
+$$
+&lt;/font&gt;
+</code></pre><p>$$
+L_p = (\sum_i^n |x_i|^p)^{\frac{1}{p}}
+$$
+<!-- raw HTML omitted --></p>
+<pre><code>$$
+\begin{align}
+L_1 &amp; = (\sum_i^n |x_i|) \\\\\
+&amp; = |x_1| + |x_2| + |x_3| + .... + |x_n|  
+\end{align}
+$$
+</code></pre><p>$$
+\begin{align}
+L_1 &amp; = (\sum_i^n |x_i|) \\<br>
+&amp; = |x_1| + |x_2| + |x_3| + &hellip;. + |x_n|<br>
+\end{align}
+$$</p>
+<pre><code>$$
+\begin{align}
+x &amp; = [1, 2, 3, 4, 5] \\\\\
+||x||_1 &amp; = (|1| +|2| +|3| +|4| +|5|) \\\\\
+&amp; = 15
+\end{align}
+$$
+</code></pre><p>$$
+\begin{align}
+x &amp; = [1, 2, 3, 4, 5] \\<br>
+||x||_1 &amp; = (|1| +|2| +|3| +|4| +|5|) \\<br>
+&amp; = 15
+\end{align}
+$$</p>
+<pre><code>&gt;$$
+\begin{align}
+tanh(x) &amp; = \frac{1-e^{-x}}{1+e^{-x}} \\\\\
+&amp; = \frac{2}{1+e^{-2x}} -1
+\end{align}
+$$
+</code></pre><blockquote>
+<p>$$
+\begin{align}
+tanh(x) &amp; = \frac{1-e^{-x}}{1+e^{-x}} \\<br>
+&amp; = \frac{2}{1+e^{-2x}} -1
+\end{align}
+$$</p>
+</blockquote>
+<pre><code>&gt;$$
+\begin{align}
+sigmoid(x) &amp; = \frac{1}{1+e^{-x}}  \\\\\
+tanh(x) &amp; = 2sigmoid(2x) -1
+\end{align}
+$$
+</code></pre><blockquote>
+<p>$$
+\begin{align}
+sigmoid(x) &amp; = \frac{1}{1+e^{-x}}  \\<br>
+tanh(x) &amp; = 2sigmoid(2x) -1
+\end{align}
+$$</p>
+</blockquote>
+<pre><code>$$
+\begin{align}
+(e^{x})' &amp;= e^{x} \\\\\
+(e^{-x})' &amp;= -e^{-x} \\\\\
+\big[ \frac{f(x)}{g(x)}\big]' &amp; = \frac{f'(x)g(x)-f(x)g'(x)}{g^2(x)}
+\end{align}
+$$
+</code></pre><p>$$
+\begin{align}
+(e^{x})&rsquo; &amp;= e^{x} \\<br>
+(e^{-x})&rsquo; &amp;= -e^{-x} \\<br>
+\big[ \frac{f(x)}{g(x)}\big]&rsquo; &amp; = \frac{f&rsquo;(x)g(x)-f(x)g&rsquo;(x)}{g^2(x)}
+\end{align}
+$$</p>
+<pre><code>&gt;$$
+\begin{align}
+f(x) &amp; = e^{x}-e^{-x} \\\\\
+g(x) &amp; = e^{x}+e^{-x} \\\\\
+\frac{d}{dx}tanh(x) &amp; = \big[\frac{e^{x}-e^{-x}}{e^{x}+e^{-x}}\big]' \\\\\
+ &amp; =  \big[\frac{f(x)}{g(x)}\big]' \\\\\
+ &amp; = \frac{f'(x)g(x)-f(x)g'(x)}{g^2(x)} \\\\\
+ &amp; = \frac{(e^{x}-(-e^{-x}))(e^{x}+e^{-x}) - (e^{x}-e^{-x})(e^{x}-e^{-x} )}{(1+e^{-x})^2} \\\\\
+ &amp; = \frac{(e^{x}+e^{-x})^2 - (e^{x}-e^{-x})^2}{(e^{x}+e^{-x})^2} \\\\\
+ &amp; = \frac{(e^{x}+e^{-x})^2}{(e^{x}+e^{-x})^2} - \frac{(e^{x}-e^{-x})^2}{(e^{x}+e^{-x})^2} \\\\\
+ &amp; = 1 - \big[\frac{(e^{x}-e^{-x})}{(e^{x}+e^{-x})}\big]^2 \\\\\
+ &amp; = 1 - tanh^2(x) \\\\\
+ &amp; = (1 - tanh(x))(1 + tanh(x))
+\end{align}
+$$
+</code></pre><blockquote>
+<p>$$
+\begin{align}
+f(x) &amp; = e^{x}-e^{-x} \\<br>
+g(x) &amp; = e^{x}+e^{-x} \\<br>
+\frac{d}{dx}tanh(x) &amp; = \big[\frac{e^{x}-e^{-x}}{e^{x}+e^{-x}}\big]&rsquo; \\<br>
+&amp; =  \big[\frac{f(x)}{g(x)}\big]&rsquo; \\<br>
+&amp; = \frac{f&rsquo;(x)g(x)-f(x)g&rsquo;(x)}{g^2(x)} \\<br>
+&amp; = \frac{(e^{x}-(-e^{-x}))(e^{x}+e^{-x}) - (e^{x}-e^{-x})(e^{x}-e^{-x} )}{(1+e^{-x})^2} \\<br>
+&amp; = \frac{(e^{x}+e^{-x})^2 - (e^{x}-e^{-x})^2}{(e^{x}+e^{-x})^2} \\<br>
+&amp; = \frac{(e^{x}+e^{-x})^2}{(e^{x}+e^{-x})^2} - \frac{(e^{x}-e^{-x})^2}{(e^{x}+e^{-x})^2} \\<br>
+&amp; = 1 - \big[\frac{(e^{x}-e^{-x})}{(e^{x}+e^{-x})}\big]^2 \\<br>
+&amp; = 1 - tanh^2(x) \\<br>
+&amp; = (1 - tanh(x))(1 + tanh(x))
+\end{align}
+$$</p>
+</blockquote>
+<pre><code>&gt;$$
+\begin{align}
+\frac{d}{dx}tanh(x) &amp; = 1- tanh^2(x) \\\\\
+ &amp; = (1-tanh(x))(1+tanh(x)) \\\\\
+\end{align}
+$$
+</code></pre><blockquote>
+<p>$$
+\begin{align}
+\frac{d}{dx}tanh(x) &amp; = 1- tanh^2(x) \\<br>
+&amp; = (1-tanh(x))(1+tanh(x)) \\<br>
+\end{align}
+$$</p>
+</blockquote>
+]]></content>
+        </item>
+        
+        <item>
+            <title>“Giraffes Can’t Dance” - read by @brielarson</title>
+            <link>https://yoseobmite.github.io/posts/2020/07/giraffes-cant-dance-read-by-brielarson/</link>
+            <pubDate>Fri, 10 Jul 2020 00:00:00 +0000</pubDate>
+            
+            <guid>https://yoseobmite.github.io/posts/2020/07/giraffes-cant-dance-read-by-brielarson/</guid>
+            <description>savewithstories 인스타그램에서 셀럽들이 나와서 아이들을 위해 동화책을 읽어줍니다. 집에서 자기전 침대에서 읽어주는 분위기라 너무 좋네요. 블링블링 스타들이 동원된 무지막지 프로젝트 입니다.
+브리라슨 편을 올려봅니다.    View this post on Instagram        “Giraffes Can’t Dance” by Giles Andreae, illustrated by Guy Parker-Reese (published by @scholasticinc) - read by @brielarson . THIRTY MILLION CHILDREN rely on school for food. Responding to the needs of kids during school closures, @savethechildren and @nokidhungry have a new fund @SAVEWITHSTORIES to support food banks, and mobile meal trucks, and community feeding programs with funds to do what they do best—and also—with educational toys, books, and worksheets to make sure brains are full, as well as bellies.</description>
+            <content type="html"><![CDATA[<p><code>savewithstories</code> 인스타그램에서 셀럽들이 나와서 아이들을 위해 동화책을 읽어줍니다. 집에서 자기전 침대에서 읽어주는 분위기라 너무 좋네요. 블링블링 스타들이 동원된 무지막지 프로젝트 입니다.</p>
+<p>브리라슨 편을 올려봅니다.
+
+
+<blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/tv/B98Mmb3nanz/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="12" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/tv/B98Mmb3nanz/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;"> View this post on Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div></a> <p style=" margin:8px 0 0 0; padding:0 4px;"> <a href="https://www.instagram.com/tv/B98Mmb3nanz/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank">“Giraffes Can’t Dance” by Giles Andreae, illustrated by Guy Parker-Reese (published by @scholasticinc) - read by @brielarson . THIRTY MILLION CHILDREN rely on school for food. Responding to the needs of kids during school closures, @savethechildren and @nokidhungry have a new fund @SAVEWITHSTORIES to support food banks, and mobile meal trucks, and community feeding programs with funds to do what they do best—and also—with educational toys, books, and worksheets to make sure brains are full, as well as bellies. . If you can manage a one time gift of $10, please text SAVE to 20222. If another amount would work better for you, please visit our website—link in bio. There is no maximum and there is no minimum—together we will rise and together we can help. . Thank you and stay safe. XX #SAVEWITHSTORIES</a></p> <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">A post shared by <a href="https://www.instagram.com/savewithstories/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px;" target="_blank"> #SAVEWITHSTORIES</a> (@savewithstories) on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2020-03-20T03:37:57+00:00">Mar 19, 2020 at 8:37pm PDT</time></p></div></blockquote>
+<script async src="//www.instagram.com/embed.js"></script></p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>klartale new</title>
+            <link>https://yoseobmite.github.io/posts/2020/07/klartale-new/</link>
+            <pubDate>Fri, 10 Jul 2020 00:00:00 +0000</pubDate>
+            
+            <guid>https://yoseobmite.github.io/posts/2020/07/klartale-new/</guid>
+            <description>Raja vil be om en vurdering av planen for bredde-idrett Mange vil at også andre enn topp-idretten skal få drive med sport. Fredag hadde flere idrettsledere et møte med kulturminister Abid Raja. Abid Raja møtte lederne i både Norges Idretts-forbund og Norges Fotball-forbund fredag. De snakket om hva som må til for å starte opp mer av idretten igjen. Den har vært stengt for å hindre smitte av korona. Raja fikk se en plan fra fotball-forbundet.</description>
+            <content type="html"><![CDATA[<h2 id="raja-vil-be-om-en-vurdering-av-planen-for-bredde-idrett">Raja vil be om en vurdering av planen for bredde-idrett</h2>
+<h2 id="mange-vil-at-også-andre-enn-topp-idretten-skal-få-drive-med-sport-fredag-hadde-flere-idrettsledere-et-møte-med-kulturminister-abid-raja">Mange vil at også andre enn topp-idretten skal få drive med sport. Fredag hadde flere idrettsledere et møte med kulturminister Abid Raja.</h2>
+<h3 id="abid-raja-møtte-lederne-i-både-norges-idretts-forbund-og-norges-fotball-forbund-fredag-de-snakket-om-hva-som-må-til-for-å-starte-opp-mer-av-idretten-igjen-den-har-vært-stengt-for-å-hindre-smitte-av-korona">Abid Raja møtte lederne i både Norges Idretts-forbund og Norges Fotball-forbund fredag. De snakket om hva som må til for å starte opp mer av idretten igjen. Den har vært stengt for å hindre smitte av korona.</h3>
+<p>Raja fikk se en plan fra fotball-forbundet. Den sier hva de vil gjøre for å hindre smitte, samtidig som at flere skal kunne spille fotball.</p>
+<p>– Jeg skrev i et brev til idretten at de måtte lage en plan for å starte opp igjen. Jeg har fått den nå. Den skal jeg sende videre til helse-myndighetene. Det er som skal vurdere den. Så skal de si hva som er mulig å få til uten at det kan føre til mer smitte, sier Raja til nyhetsbyrået NTB.</p>
+<blockquote>
+<p><strong>Les mer</strong>: Ber om at det blir åpnet for breddefotball fra 1. august</p>
+</blockquote>
+<p>Han sier det var et bra møte.</p>
+<p>– Jeg føler at jeg og Berit Kjøll og og Terje Svendsen har gode møter. Det har vi hatt hele tiden. Møtet i dag var også bra. Jeg er glad for å høre at idretten vil jobbe sammen med oss og at idrettens ledere tar sitt samfunns-ansvar, sier Raja.</p>
+<p>Han sier at det neste møte mellom dem tidligst blir 10. august. Da kan også helseminister Bent Høie være med. Raja sier at det er helsemyndighetene som skal vurdere om det kan bli åpnet for bredde-idrett.</p>
+<p>Det skal de få bestemme uten at han skal legge press på dem, sier han. Men han skal be de se på saken en gang til.</p>
+<blockquote>
+<p><strong>Les også</strong>: Åpner for at barn og unge kan spille kamper</p>
+</blockquote>
+<p>Det er Terje Svendsen glad for. Han er president i fotball-forbundet.</p>
+<p>– Vi har tatt ansvar. Og vi er klare til å ta mer ansvar. Det har vi gjort med å lage en plan for hvordan vi kan få i gang bredde-idretten igjen, sier han til NTB. Svendsen er glad for at Raja vil se på planene, og sende det videre til helse-myndighetene.</p>
+<p>Han forklarer at de også har laget et opplegg som gjør at klubbene kan lære hva som skal til for at de kan åpne på en trygg måte. Han håper dette kan gjøre at det går raskere å få igang bredde-idretten igjen.</p>
+<blockquote>
+<p><strong>Les også</strong>: Mer penger til idrett, frivillighet og kultur</p>
+</blockquote>
+<p>Raja gjentok at det handler om andre ting enn vond vilje. Han sier at han gjerne skulle åpnet mest mulig, så fort som mulig. Han sier dette handler om all idrett, og at rådene har vært å vente.</p>
+<p>– Vi åpner for næringsliv, kollektiv-trafikken og reiseliv. Vi vil se hvordan det går først. Vi har ingen vaksine eller behandling som vi vet virker mot korona, sier Raja.</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>최근 판데믹상황에서 주의해서 볼 지표들</title>
+            <link>https://yoseobmite.github.io/posts/2020/07/%EC%B5%9C%EA%B7%BC-%ED%8C%90%EB%8D%B0%EB%AF%B9%EC%83%81%ED%99%A9%EC%97%90%EC%84%9C-%EC%A3%BC%EC%9D%98%ED%95%B4%EC%84%9C-%EB%B3%BC-%EC%A7%80%ED%91%9C%EB%93%A4/</link>
+            <pubDate>Fri, 10 Jul 2020 00:00:00 +0000</pubDate>
+            
+            <guid>https://yoseobmite.github.io/posts/2020/07/%EC%B5%9C%EA%B7%BC-%ED%8C%90%EB%8D%B0%EB%AF%B9%EC%83%81%ED%99%A9%EC%97%90%EC%84%9C-%EC%A3%BC%EC%9D%98%ED%95%B4%EC%84%9C-%EB%B3%BC-%EC%A7%80%ED%91%9C%EB%93%A4/</guid>
+            <description>홍춘욱 박사님 블로그에서 받아온 연준 링크를 걸어 봅니다. 판데믹 이후 실물경제는 가늠하기 힘들 정도로 추락하고 확진자 수는 줄어들고 있지 않은 상황에 기업들이 가난해지고 있어 크레딧 위험으로 번지지 않을까 예의 주시 하시고 계신듯 합니다.
+  연준자산규모 및 초과지준   미국회사채 가산금리   인플레이션 기대 심리   El-Erian 님의 트윗입니다. 헤지펀드들이 Tesla 주식에 200억불 넘게 숏을 했다던데, 주가는 하늘을 치솟고 있습니다. Just stunning!
+With today&amp;#39;s new surge higher, @Tesla stock is now up an eye-popping 55% in just the last two trading weeks.</description>
+            <content type="html"><![CDATA[<h2 id="홍춘욱-박사님-블로그에서-받아온-연준-링크를-걸어-봅니다"><code>홍춘욱</code> 박사님 블로그에서 받아온 연준 링크를 걸어 봅니다.</h2>
+<p>판데믹 이후 실물경제는 가늠하기 힘들 정도로 추락하고
+확진자 수는 줄어들고 있지 않은 상황에 기업들이 가난해지고 있어 크레딧 위험으로 번지지 않을까 예의 주시 하시고 계신듯 합니다.</p>
+<ol>
+<li>
+<p><a href="https://fred.stlouisfed.org/graph/?g=sO0N"><strong>연준자산규모 및 초과지준</strong></a>
+
+    <img src="https://fred.stlouisfed.org/graph/fredgraph.png?g=sO0N"  alt="FED php"  class="center"  />
+
+</p>
+</li>
+<li>
+<p><a href="https://fred.stlouisfed.org/graph/?g=sOLD"><strong>미국회사채 가산금리</strong></a>
+
+    <img src="https://fred.stlouisfed.org/graph/fredgraph.png?g=sOLD"  alt="FED php"  class="center"  />
+
+</p>
+</li>
+<li>
+<p><a href="https://fred.stlouisfed.org/graph/?g=sOLH"><strong>인플레이션 기대 심리</strong></a>
+
+    <img src="https://fred.stlouisfed.org/graph/fredgraph.png?g=sOLH"  alt="FED php"  class="center"  />
+
+</p>
+</li>
+</ol>
+<h3 id="el-erian-님의-트윗입니다"><code>El-Erian</code> 님의 트윗입니다.</h3>
+<p>헤지펀드들이 <code>Tesla</code> 주식에 200억불 넘게 숏을 했다던데, 주가는 하늘을 치솟고 있습니다.
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Just stunning!<br><br>With today&#39;s new surge higher, <a href="https://twitter.com/Tesla?ref_src=twsrc%5Etfw">@Tesla</a> stock is now up an eye-popping 55% in just the last two trading weeks...<a href="https://twitter.com/hashtag/markets?src=hash&amp;ref_src=twsrc%5Etfw">#markets</a> <a href="https://twitter.com/hashtag/stocks?src=hash&amp;ref_src=twsrc%5Etfw">#stocks</a> <a href="https://twitter.com/hashtag/TSLA?src=hash&amp;ref_src=twsrc%5Etfw">#TSLA</a> <a href="https://t.co/u1uGaJD2ok">pic.twitter.com/u1uGaJD2ok</a></p>&mdash; Mohamed A. El-Erian (@elerianm) <a href="https://twitter.com/elerianm/status/1281660342779559938?ref_src=twsrc%5Etfw">July 10, 2020</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</p>
+<h3 id="삼프로tv_경제의신과함께-중">&lsquo;삼프로TV_경제의신과함께` 중</h3>
+<p>김일구 이코노미스트 예측도 올려봅니다. 21분부터 나오십니다.
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/hOkVGhxa2Yo" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Creating a New blog</title>
+            <link>https://yoseobmite.github.io/posts/2020/07/creating-a-new-blog/</link>
+            <pubDate>Wed, 08 Jul 2020 00:00:00 +0000</pubDate>
+            
+            <guid>https://yoseobmite.github.io/posts/2020/07/creating-a-new-blog/</guid>
+            <description>개요  블로그를 만들 때 고려할 사항과 만드는 방법에 대하여 알려드립니다.
+  목차  블로그를 만든 이유 다른 사람들의 이유 미리 고민하면 좋을 것들 어떤 블로그가 완성되어 있을지 상상해보세요!(Check-List) (Where) 어떤 서비스(플랫폼)와 기술을 활용할까? 이 블로그는 어떤 플랫폼을 쓰나요? (How-To) 블로그 구축부터 포스팅까지 배워봅시다.    블로그를 만든 이유  지금 이 포스트를 읽고 계신 여러분은 블로그 하나 만들어 볼까?라는 생각을 분명 한번 이상은 해 보셨을 것이다. 같은 질문에 대한 필자의 대답과 고민의 흔적을 아래에 포스팅 하였으니 이 글이 시행착오를 줄이는데 조금이라도 보탬이 되었으면 한다.</description>
+            <content type="html"><![CDATA[<h2 id="개요">개요</h2>
+<blockquote>
+<p>블로그를 만들 때 고려할 사항과 만드는 방법에 대하여 알려드립니다.</p>
+</blockquote>
+<ul>
+<li>목차
+<ul>
+<li><a href="#%EB%B8%94%EB%A1%9C%EA%B7%B8%EB%A5%BC-%EB%A7%8C%EB%93%A0-%EC%9D%B4%EC%9C%A0">블로그를 만든 이유</a></li>
+<li><a href="#%EB%8B%A4%EB%A5%B8-%EC%82%AC%EB%9E%8C%EB%93%A4%EC%9D%98-%EC%9D%B4%EC%9C%A0">다른 사람들의 이유</a></li>
+<li><a href="#%EB%AF%B8%EB%A6%AC-%EA%B3%A0%EB%AF%BC%ED%95%98%EB%A9%B4-%EC%A2%8B%EC%9D%84-%EA%B2%83%EB%93%A4">미리 고민하면 좋을 것들</a></li>
+<li><a href="#%EC%96%B4%EB%96%A4-%EB%B8%94%EB%A1%9C%EA%B7%B8%EA%B0%80-%EC%99%84%EC%84%B1%EB%90%98%EC%96%B4-%EC%9E%88%EC%9D%84%EC%A7%80-%EC%83%81%EC%83%81%ED%95%B4%EB%B3%B4%EC%84%B8%EC%9A%94check-list">어떤 블로그가 완성되어 있을지 상상해보세요!(Check-List)</a></li>
+<li><a href="#where-%EC%96%B4%EB%96%A4-%EC%84%9C%EB%B9%84%EC%8A%A4%ED%94%8C%EB%9E%AB%ED%8F%BC%EC%99%80-%EA%B8%B0%EC%88%A0%EC%9D%84-%ED%99%9C%EC%9A%A9%ED%95%A0%EA%B9%8C">(Where) 어떤 서비스(플랫폼)와 기술을 활용할까?</a></li>
+<li><a href="#%EC%9D%B4-%EB%B8%94%EB%A1%9C%EA%B7%B8%EB%8A%94-%EC%96%B4%EB%96%A4-%ED%94%8C%EB%9E%AB%ED%8F%BC%EC%9D%84-%EC%93%B0%EB%82%98%EC%9A%94">이 블로그는 어떤 플랫폼을 쓰나요?</a></li>
+<li><a href="#how-to-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EA%B5%AC%EC%B6%95%EB%B6%80%ED%84%B0-%ED%8F%AC%EC%8A%A4%ED%8C%85%EA%B9%8C%EC%A7%80-%EB%B0%B0%EC%9B%8C%EB%B4%85%EC%8B%9C%EB%8B%A4">(How-To) 블로그 구축부터 포스팅까지 배워봅시다.</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="블로그를-만든-이유">블로그를 만든 이유</h2>
+<hr>
+<p>지금 이 포스트를 읽고 계신 여러분은 <code>블로그 하나 만들어 볼까?</code>라는 생각을 분명 한번 이상은 해 보셨을 것이다. 같은 질문에 대한 필자의 대답과 고민의 흔적을 아래에 포스팅 하였으니 이 글이 시행착오를 줄이는데 조금이라도 보탬이 되었으면 한다.</p>
+<ul>
+<li>
+<p><strong>종이가 없어서 바위에 정으로라도 글을 새기겠다는 마음가짐</strong><br>
+&ldquo;글쓴이에게 이 정도 열망은 있어야 명작이 탄생할 수 있는 것이다.&rdquo; 학부시절 한 은사께서 하신 말씀이다. 이 정도는 너무 거창하지만, 1만 시간의 법칙 때문일까? 요즘들어 부쩍 배우고 익혀온 기술들을 정리하고 싶어 손과 머리가 근질거릴 때가 많았다. 더불어 요즘 큰 관심을 가지고 있는 데이터 사이언스 분야에 대한 배움을 정리할 곳이 간절했다. 비슷한 느낌이 든다면 여러분도 블로그를 운영할 때가 온 것은 아닐까?</p>
+</li>
+<li>
+<p><strong>Relation &gt; Entity</strong><br>
+사고방식의 취향이라고 해야할까? 학창 시절부터 단편 지식을 완벽하게 숙지 못했더라도 그 지식이 다른 지식과 연결되어 큰 숲을 이루는 관계에 관심이 많았다. 새로운 것을 배우면 머리 속 수많은 거미줄 어느 모퉁이에 매달아야 하는지 고민을 하게된다. 이런 사고 방식을 충족시킬 수 있는 나만의 지식과 데이터를 쌓기에 블로그만한 것이 없을 것이라 생각했다.</p>
+</li>
+<li>
+<p><strong>프로그래머라면 Jekyll?</strong><br>
+이런 허세 때문에 Jekyll 기반의 블로그를 운영하는 것은 아니지만 직업적으로는 꽤 의미있는 일이 된다. 어느 분야에 종사하시는 분일지라도 <code>제너럴리스트 vs 스페셜리스트</code>사이의 고민은 항상 있으실 것이다. 둘 다 정통한 T자형 인재가 정답이겠지만 시간, 재능, 운의 한계로 결코 쉽지만은 않다.<br>
+필자는 프로그래머로 Front-end 보다는 Back-end 기술을 주로 다루며, 서비스보다는 공공 위주 프로젝트를 다루기 때문에 트렌드에 노출될 기회가 적다. 적어도 블로그만큼은 자주 다루기 힘든 기술(Front-end), 트렌드에 뒤떨어지지 않는 기술 그리고 다루고 싶은 기술을 활용하여 지적인 욕구도 충족시키고 제너럴리스트로서의 요건도 갖추고 싶었던 것이 이 블로그를 운영하는 또 다른 이유라고 할 수 있겠다.</p>
+</li>
+<li>
+<p><strong>내 두뇌는 CPU, Memory, 하드디스크 어디에 가깝지?</strong><br>
+컴퓨터는 크게 사고력을 상징하는 CPU, 메타인지를 상징하는 Memory, 기억력을 상징하는 HardDisk, 습득이 빠르고 생각을 전달하는 능력이 탁월한 I/O 등으로 이루어져 있다고 생각한다.(<del>필자가 멋대로 정한 비유이므로 큰 의미는 두지 않으셨으면 한다.</del>) 필자의 경우는 두뇌를 주로 CPU와 Memory의 기능 위주로 활용한다. 때문에 자연스럽게 타 영역에 대한 보완이 필요했는데 특히 기억력을 보완하기 위한 수단으로 블로그를 운영한다.</p>
+</li>
+<li>
+<p><strong>진리탐구의 연장선</strong><br>
+거창하게 써서 부끄럽다. 개똥철학일지는 모르겠지만 내 자식, 지인들에게 그간 노력하며 얻은 지식을 쉽고 빠르게 전달하고 싶은 마음이 컸다. 조금 더 욕심을 부리면 세상 모든 사람들의 시간을 조금이라도 줄여주는데 보탬이 되고 싶다.</p>
+</li>
+</ul>
+<h2 id="다른-사람들의-이유">다른 사람들의 이유</h2>
+<hr>
+<p>그렇다면 다른 사람들은 왜 블로그를 운영하는 것일까? 이 포스팅을 읽는 분들께는 이 질문이 더 중요할지도 모르겠다. 조사한 바 크고 작은 이유를 간추려 보았다.</p>
+<ul>
+<li>공유 정신으로 스스로 <code>사회에 기여</code>하는 사람이 되고 싶어서</li>
+<li><code>시간을 효율적</code>으로 쓰는 사람으로 보여지는게 마음에 든다.</li>
+<li><code>적극</code>적인 사람 또는 <code>열정</code>을 가진 사람으로 보여지는게 좋다.</li>
+<li><code>사업가 마인드</code>를 가진 사람으로 보인다.</li>
+<li>구글 애드센스를 장착하여 <code>광고 수익</code>을 내기 위해서</li>
+<li>사업상 <code>마케팅 수단</code>이 필요하여</li>
+<li>1인 기업, 파워블로그 등의 활동으로 <code>수익 창출</code>을 위하여(유튜버와 유사)</li>
+<li><code>취미가 글쓰기</code>이거나 쓰는 동안 <code>생각이 정리</code>되며 스트레스가 풀려서</li>
+<li>많은 이들과 육아, 가정 등 <code>지식, 노하우</code>를 공유하고 싶어서</li>
+<li>배운 지식을 정리하며 <code>메타적 사고</code>를 넓히고자</li>
+<li><code>취업</code>, 경력관리, 이직에 도움이 되어서</li>
+<li>PC에 쌓여가는 지식을 정리하고, 온라인에 연결하여 <code>접근성</code>을 확보하기 위해서</li>
+<li>SNS 할성화 및 <code>온오프라인 모임</code>을 위하여</li>
+<li><code>Markdown 등의 기술</code>을 써보고 싶어서, 내용에 방해를 받고싶지 않아서</li>
+<li>다른 사람의 정보를 모아놓기 위해서, <code>즐겨찾기</code> 용도로</li>
+<li>기타 외로워서, 관심이 필요, 똑똑해보여서, 주위에서 많이들 하길래, 심심해서 등</li>
+</ul>
+<p>그 외 여러 목적이 있지만 어떤 이유든 글을 쓰기 위한 충분한 동기가 되지 않을까?</p>
+<h2 id="미리-고민하면-좋을-것들">미리 고민하면 좋을 것들</h2>
+<hr>
+<p>미리 고민하지 않으면 블로그 구축 중 은근히 시간을 많이 잡아먹는 요소들로, 만들기로 결정했다면 일상생활 중 미리 고민해놓으면 시간을 상당히 절약할 수 있다.</p>
+<ul>
+<li>네이밍 : 블로그명, Sitename, .. 등 각종 이름짓기</li>
+<li>도메인 보유여부 : 도메인 유지비용 및 네이밍 고려</li>
+<li>개발스택, 언어 : MEAN, LAMP, Jsp, Asp, .. 등</li>
+<li>솔루션(플랫폼) : 미디엄, 브런치, 티스토리, 네이버, .. 등</li>
+<li>호스팅업체 : AWS, Google Cloud, MS Azure, KT Cloud, CAFE24, 가비아, .. 등</li>
+<li>연동할 SNS, E-mail 등</li>
+</ul>
+<h2 id="어떤-블로그가-완성되어-있을지-상상해보세요check-list">어떤 블로그가 완성되어 있을지 상상해보세요!(Check-List)</h2>
+<hr>
+<p>블로그를 만들기로 마음 먹었다면, 미래에 어떤 모습으로 운영되고 있을지 생각해 볼 필요가 있다.</p>
+<ul>
+<li>
+<p><strong>(What) 뭘 쓰고있나요?</strong><br>
+주로 다루게 될 주제가 무엇인지 생각해보는 것이 좋다. 분야는 너무나도 다양하다.</p>
+<ul>
+<li>일기장, 일상, 전원생활, 철학, 소설, &hellip;</li>
+<li>리뷰, 육아, 교육, 주식, 자기계발, &hellip;</li>
+<li>게임, 취미, 여행, 요리, 건축, &hellip;</li>
+<li>역사, 문화, 정치, 종교, 사회, 과학, 예술, &hellip;등 <br>
+흥미있는 주제로 어느 정도 범위를 좁혀놔야 글쓰기의 일상화에 부담이 되지 않아, 가볍게 출발하며 지구력을 얻게되고, 블로그 플랫폼 및 기술 선택 시 도움이 된다.</li>
+</ul>
+</li>
+<li>
+<p><strong>(Who) 누가 읽을까요?</strong>
+깊게 생각해 볼 문제다.(<del>물론 아무도 없을지도 모른다.ㅎㅎㅎ</del>) 문체, 전개 방식을 선택하는 계기가 되고 플랫폼 선택 후 여러번 삭제했다 다시 만드는 등 시행착오를 줄이게 된다. 더불어 글의 분량, 수준(난이도)을 결정하는데 도움이 된다.</p>
+</li>
+<li>
+<p><strong>(When) 언제 써야 할까요? 계속 쓸 수는 있을까요?</strong>
+귀중한 시간을 들여 블로그를 제작한 의미가 퇴색하지 않도록 꾸준히 글을 쓰는 습관이 중요하다. 시간 공간적으로 글쓰기에 문제는 없을지, 계속 운영할 수 있게하는 원동력이 무엇일지, 다시금 <code>Why</code>를 새기면서 스스로의 동기부여가 중요하다.</p>
+</li>
+<li>
+<p><strong>(Why) 왜 쓰고 있나요?</strong><br>
+이 질문이 가장 중요하지만, 위에서 이미 답이 나왔기에 블로그를 쓰기로 결정했을 것이다.</p>
+</li>
+</ul>
+<p>여기까지는 생각을 정리해보는 것만으로 충분했다. 이제부터 직접 블로그를 개설하는 방법에 대하여 구체적으로 다루어보겠다.</p>
+<h2 id="where-어떤-서비스플랫폼와-기술을-활용할까">(Where) 어떤 서비스(플랫폼)와 기술을 활용할까?</h2>
+<hr>
+<p>서비스(플랫폼)별 각각 장.단점이 존재하므로, 블로그의 주제 포커싱에 따라 선택이 필요하다. 아래 선정기준을 체크해 본 후, 이어서 <code>한눈에 제시한 비교표</code>를 통해 본인에게 가장 적합한 블로그를 선택하길 바란다.</p>
+<ul>
+<li>
+<p><strong>서비스(플랫폼) 선정기준</strong></p>
+<ul>
+<li>(비용) 블로그를 만들 수 있다면 돈을 써도 상관없는지?
+<ul>
+<li>AWS, Google Cloud, MS Azure, KT Cloud, CAFE24, 가비아,.. 등 웹 호스팅 업체를 알아봐야 한다.</li>
+</ul>
+</li>
+<li>(글쓰기 집중) 글쓰기에만 집중하고 싶은지?</li>
+<li>(커스터마이징) 홈페이지처럼 내 마음대로 만들고, 바꾸고, 꾸미고 싶은지?</li>
+<li>(개인DB) 데이터베이스처럼 평생 내 자료를 소장하고, 에디팅하고 싶고, 분석도 하고 싶은지?</li>
+<li>(클릭율) 유저들이 많이 접속하길 희망하는지?</li>
+<li>(프로젝트 관리)프로그래머 등 직업적인 특성 상 Git 등의 연동이 필요한지?</li>
+</ul>
+</li>
+<li>
+<p><strong><code>&lt;한눈에 보는 서비스별 장.단점&gt;</code></strong></p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th align="center">서비스<!-- raw HTML omitted -->(플랫폼)</th>
+<th align="center">장점</th>
+<th align="center">단점</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">지킬<!-- raw HTML omitted --><a href="https://jekyllrb-ko.github.io/">Jekyll</a></td>
+<td align="center">-디자인,기능 거의 무제한 <!-- raw HTML omitted --> -비용 무료/속도 빠름 <!-- raw HTML omitted --> -개인DB화 관리</td>
+<td align="center">-양방향 서비스 불가 <!-- raw HTML omitted --> -기능 연동 시 기술적 노하우 필요</td>
+</tr>
+<tr>
+<td align="center">워드프레스<!-- raw HTML omitted --><a href="https://ko.wordpress.com">Wordpress</a></td>
+<td align="center">-이지위그(Wysiwyg) 탁월 <!-- raw HTML omitted --> -APM 웹 프로그래밍 운영가능</td>
+<td align="center">-유료 호스팅 운영 필요<!-- raw HTML omitted -->(AWS, CAFE24 등) <!-- raw HTML omitted --> -유지보수 상당한 노력 필요</td>
+</tr>
+<tr>
+<td align="center">미디엄<!-- raw HTML omitted --><a href="https://medium.com/">Medium</a></td>
+<td align="center">-깔끔한 디자인 <!-- raw HTML omitted --> -서비스 오래 지속될 것으로 예상 <!-- raw HTML omitted --> -포스트에만 집중가능</td>
+<td align="center">-커스터마이징, 기능확장 불가 <!-- raw HTML omitted --> -한글 폰트 문제 <!-- raw HTML omitted --> -낯선기능(respanse 등)</td>
+</tr>
+<tr>
+<td align="center">티스토리<!-- raw HTML omitted --><a href="https://www.tistory.com/">Tistory</a></td>
+<td align="center">-커스터마이징 자유도 <!-- raw HTML omitted -->-깔끔한 디자인 <!-- raw HTML omitted -->-카운팅 등 다양한 기능</td>
+<td align="center">-에디터 Wysiwyg 불편 <!-- raw HTML omitted --> -신규 제작 시 초대장이 필요 <!-- raw HTML omitted --> -기능의 파편화</td>
+</tr>
+<tr>
+<td align="center">텀블러<!-- raw HTML omitted --><a href="https://www.tumblr.com/">Tumblr</a></td>
+<td align="center">-Markdown 지원 <!-- raw HTML omitted -->-이미지업로드 간편 <!-- raw HTML omitted -->-다양한 기능</td>
+<td align="center">-카테고리, 추천글 기능이 없음 <!-- raw HTML omitted -->-속도문제 <!-- raw HTML omitted -->-기술 블로그에는 취약</td>
+</tr>
+<tr>
+<td align="center">스팀잇<!-- raw HTML omitted --><a href="https://steemit.com/">Steemit</a></td>
+<td align="center">-블록체인 포스트에 효과적 <!-- raw HTML omitted --> -스팀달러 Coin 보상</td>
+<td align="center">-에디터, 기능이 약간 부족함</td>
+</tr>
+<tr>
+<td align="center">브런치<!-- raw HTML omitted --><a href="https://brunch.co.kr/">Brunch</a></td>
+<td align="center">-유사글 연결 기능 <!-- raw HTML omitted -->-깔끔한 디자인 <!-- raw HTML omitted -->-포스트에만 집중 가능 <!-- raw HTML omitted -->-모바일 탁월</td>
+<td align="center">-구글 등 해외 검색엔진 노출 문제 <!-- raw HTML omitted -->-커스터마이징 불가 <!-- raw HTML omitted --> -코드 삽입과 gist 지원 불가</td>
+</tr>
+<tr>
+<td align="center">빙글<!-- raw HTML omitted --><a href="https://www.vingle.net">Vingle</a></td>
+<td align="center">-카테고리, 태그 기반 구조</td>
+<td align="center">-노출이 약함<!-- raw HTML omitted -->-사용자 많지 않음</td>
+</tr>
+<tr>
+<td align="center">포스타입<!-- raw HTML omitted --><a href="https://www.postype.com/">Postype</a></td>
+<td align="center">-창작물 판매,후원 가능</td>
+<td align="center">-서비스 조기종료 가능성<!-- raw HTML omitted -->(스타트업)</td>
+</tr>
+<tr>
+<td align="center">구글블로그<!-- raw HTML omitted --><a href="https://www.blogger.com">Blogger</a></td>
+<td align="center">-검색노출 최고</td>
+<td align="center">-검색 노출 외 좋은 점이 없다.</td>
+</tr>
+<tr>
+<td align="center">네이버<!-- raw HTML omitted --><a href="https://blog.naver.com">Naver</a></td>
+<td align="center">-국내 클릭율(CTR) 우수 <!-- raw HTML omitted --> -상품 리뷰에 효과적</td>
+<td align="center">-구글 등 해외 검색엔진 노출 문제 <!-- raw HTML omitted --> -커스터마이징 불가<!-- raw HTML omitted -->(Markdown 사용불가 등)</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>그 외 블로그
+블로그 서비스는 너무나 다양해서 모든 것을 조사할 수는 없다. 다만 입소문이 제법 나있는 블로그 중 개인적인 직관으로 후보에서 제외시켰던 서비스들을 정리하였으니 좀 더 완벽한 조사를 원하신다면 참고하시기 바란다.
+<ul>
+<li><a href="https://www.squarespace.com/">Squarespace</a></li>
+<li><a href="https://www.typepad.com/">TypePad</a></li>
+<li><a href="https://www.movabletype.org/">Movable Type</a></li>
+<li><a href="https://www.drupal.org/">Drupal</a></li>
+<li><a href="https://www.joomla.org/">Joomla</a></li>
+<li><a href="https://ko.wix.com">Wix</a></li>
+<li><a href="https://www.quv.kr">Weebly</a></li>
+<li><a href="https://www.strikingly.com">Strikingly</a></li>
+<li><a href="https://ghost.org/">Ghost</a></li>
+<li><a href="https://www.hubspot.com/">HubSpot</a></li>
+<li><a href="https://www.shopify.com/">Shopify</a></li>
+<li><a href="https://www.jimdo.com/">Jimdo</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="이-블로그는-어떤-플랫폼을-쓰나요">이 블로그는 어떤 플랫폼을 쓰나요?</h2>
+<hr>
+<p>github.io 형태의 URL로 서비스가 제공되는 <!-- raw HTML omitted -->Jekyll 기반의 Github Pages 블로그<!-- raw HTML omitted -->이다. 바로 지금 보고계신 블로그가 그 예이다. 선택한 이유는 다음과 같다.</p>
+<ul>
+<li><code>공짜</code>다. 그런데 유료보다 <code>빠르다</code>.</li>
+<li>마크다운(Markdown) 기반 포스트 작성
+<ul>
+<li>글 작성이 쉽다. <code>글쓰기에 집중</code>하기 쉽다.</li>
+<li><code>나만의 데이터베이스</code>를 보유한 효과가 있다.</li>
+</ul>
+</li>
+<li>기능 확장을 위한 Front-End <code>생태계(Eco)가 풍부</code>하고 수준이 뛰어나다.</li>
+<li><code>Git</code>, Ruby등의 기술을 습관처럼 익히게 된다. 협업도 가능하다.</li>
+<li>디자인, 기능 등 어떤 홈페이지 보다도 <code>다양한 기능</code>을 구현할 수 있다.</li>
+<li><code>프로젝트 개발</code> 시 Git을 통한 연동으로 기술 블로그로서 최적의 기능을 제공한다.</li>
+<li>블로그 만들고 꾸미는 것보다 <code>Publish에 집중</code>하고 싶다.</li>
+<li>서비스(플랫폼, 호스팅 등)가 종료되어도 <code>쉽게 보관, 이동</code>이 가능하다.</li>
+<li><code>광고</code>를 달 수 있다.</li>
+<li>Jekyll외 Ghost, Hexo 같은 <code>정적 사이트 생성기와 연동</code> 가능하다.</li>
+</ul>
+<h2 id="how-to-블로그-구축부터-포스팅까지-배워봅시다">(How-To) 블로그 구축부터 포스팅까지 배워봅시다.</h2>
+<hr>
+<p>만약 필자와 동일하게 Jekyll 기반의 GitHub Pages를 만드시기로 결정했다면 아래 순서대로 포스팅을 읽고 따라하시기만 하면 된다.(각 링크를 클릭) 필자와 다른 어떤 서비스를 이용하시든 쭉 훑어보는 것만으로도 큰 도움이 되실 것이므로 블로그를 구축하는 전체 과정에 대한 개요를 잡는다는 생각으로 읽어주시기 바란다. 대부분 구축방법은 이 범위 내 부분 집합일 뿐이다. 참고로 아직 링크가 걸리지 않은 경우, 조만간 포스팅할 예정이니 양해를 부탁드린다.</p>
+<ul>
+<li>
+<p><code>블로그</code> 구축</p>
+<ol>
+<li><a href="https://theorydb.github.io/envops/2019/05/02/envops-blog-theme/">블로그 테마(Themes) 고르기 및 환경설정</a></li>
+<li><a href="https://theorydb.github.io/envops/2019/05/03/envops-blog-github-pages-jekyll/">GitHub 연동 및 Jekyll 설치</a></li>
+<li><a href="https://theorydb.github.io/envops/2019/05/04/envops-blog-posting-prose-io/">Prose.io 연동으로 포스팅을 쉽게! 배포는 더 쉽게!</a></li>
+<li>개인의 취향에 맞도록 디자인 및 환경설정 변경</li>
+<li>파비콘 만들기</li>
+</ol>
+</li>
+<li>
+<p><code>기능</code> 확장 및 연동</p>
+<ol>
+<li><a href="https://theorydb.github.io/envops/2019/05/11/envops-blog-tipue-search/">Tipue Search를 이용하여 블로그 검색 기능 만들기</a></li>
+<li>블로그 댓글기능 추가</li>
+<li>구글 애널리틱스로 방문자 유입 분석</li>
+<li>구글 검색엔진 등록을 유리하게</li>
+<li><a href="https://theorydb.github.io/envops/2020/04/20/envops-blog-how-to-register-google-adsense/">구글 애드센스(Google Adsense) 적용하기</a></li>
+<li>편리한 운영을 위한 기타 설정 및 오류 발생시 대처방법</li>
+</ol>
+</li>
+<li>
+<p><code>글쓰기</code>를 편하게</p>
+<ol>
+<li><a href="https://theorydb.github.io/envops/2019/05/21/envops-blog-how-to-use-git/">GitHub &amp; Jekyll 사용법</a></li>
+<li><a href="https://theorydb.github.io/envops/2019/05/22/envops-blog-how-to-use-md/">마크다운(Markdown) 사용법 및 예제</a></li>
+<li>이미지 캡션 활용</li>
+</ol>
+</li>
+</ul>
+<p>이로써 블로그를 구축해야 하는 목적, 방법 등 전반적인 모든 것을 알아보았다. 앞으로도 유용한 기능을 계속 올릴 예정이니 관심있게 지켜봐주시길 부탁드린다.</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>How to Markdown</title>
+            <link>https://yoseobmite.github.io/posts/2020/07/how-to-markdown/</link>
+            <pubDate>Wed, 08 Jul 2020 00:00:00 +0000</pubDate>
+            
+            <guid>https://yoseobmite.github.io/posts/2020/07/how-to-markdown/</guid>
+            <description>출처 : theorydb.github.io
+개요  지금 당장 필요한 마크다운(Markdown) 문법부터 단계적으로 배워봅시다.
+  목차  Markdown이란? Markdown 에디터 뭘 쓸까? Markdown 문법1(반드시 알아야 하는) Markdown 문법2(유용한 부가기능) 실전연습 이미지를 쉽게 업로드 하는 방법 소소한 Tip 그리고 고장났을 때    Markdown이란?  Markdown은 문서 작성을 지원하는 태그(Tag) 형식의 문법이다.
+ What is Markdown? (출처 - 위키백과)
+마크다운(markdown)은 일반 텍스트 문서의 양식을 편집하는 문법이다. README 파일이나 온라인 문서, 혹은 일반 텍스트 편집기로 문서 양식을 편집할 때 쓰인다.</description>
+            <content type="html"><![CDATA[<p>출처 : <a href="https://theorydb.github.io">theorydb.github.io</a></p>
+<h2 id="개요">개요</h2>
+<blockquote>
+<p>지금 당장 필요한 <code>마크다운(Markdown)</code> 문법부터 단계적으로 배워봅시다.</p>
+</blockquote>
+<ul>
+<li>목차
+<ul>
+<li><a href="#markdown%EC%9D%B4%EB%9E%80">Markdown이란?</a></li>
+<li><a href="#markdown-%EC%97%90%EB%94%94%ED%84%B0-%EB%AD%98-%EC%93%B8%EA%B9%8C">Markdown 에디터 뭘 쓸까?</a></li>
+<li><a href="#markdown-%EB%AC%B8%EB%B2%951%EB%B0%98%EB%93%9C%EC%8B%9C-%EC%95%8C%EC%95%84%EC%95%BC-%ED%95%98%EB%8A%94">Markdown 문법1(반드시 알아야 하는)</a></li>
+<li><a href="#markdown-%EB%AC%B8%EB%B2%952%EC%9C%A0%EC%9A%A9%ED%95%9C-%EB%B6%80%EA%B0%80%EA%B8%B0%EB%8A%A5">Markdown 문법2(유용한 부가기능)</a></li>
+<li><a href="#%EC%8B%A4%EC%A0%84%EC%97%B0%EC%8A%B5">실전연습</a></li>
+<li><a href="#%EC%9D%B4%EB%AF%B8%EC%A7%80%EB%A5%BC-%EC%89%BD%EA%B2%8C-%EC%97%85%EB%A1%9C%EB%93%9C-%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95">이미지를 쉽게 업로드 하는 방법</a></li>
+<li><a href="#%EC%86%8C%EC%86%8C%ED%95%9C-tip-%EA%B7%B8%EB%A6%AC%EA%B3%A0-%EA%B3%A0%EC%9E%A5%EB%82%AC%EC%9D%84-%EB%95%8C">소소한 Tip 그리고 고장났을 때</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="markdown이란">Markdown이란?</h2>
+<hr>
+<p><a href="http://kirkstrobeck.github.io/whatismarkdown.com/">Markdown</a>은 문서 작성을 지원하는 태그(Tag) 형식의 문법이다.</p>
+<blockquote>
+<p><strong>What is Markdown? (출처 - 위키백과)</strong><br>
+마크다운(markdown)은 일반 텍스트 문서의 양식을 편집하는 문법이다. README 파일이나 온라인 문서, 혹은 일반 텍스트 편집기로 문서 양식을 편집할 때 쓰인다. 마크다운을 이용해 작성된 문서는 쉽게 HTML 등 다른 문서형태로 변환이 가능하다.</p>
+</blockquote>
+<ul>
+<li>
+<p><strong>익숙한 MSWord나 한글(HWP)로 작성하면 안 되나요?</strong><br>
+가능하다. 하지만 <code>WEB에서 글을 쓰고 싶다면</code> 이 둘은 적합한 도구가 아니다. 세상의 거의 모든 컨텐츠가 WEB 기반으로 생산되고 소비되기 때문에 이 문제는 중요하다. 물론 이런 편집기로도 Save As(다른 이름으로 저장) 기능을 통해 HTML 확장자로 변환 후 WEB에 올릴수도 있지만 변환된 소스코드의 양과 복잡도를 보면 경악을 금치 못하게 된다. 더욱이 스타일, 표 등이 온전하게 변환되지 않아 원본과 동일한 품질로 보기 어렵다.</p>
+</li>
+<li>
+<p><strong>WEB문서라면 HTML이나 웹 프로그래밍 언어를 써도 되잖아요.</strong><br>
+가능하다. 하지만 <code>생산성(작성 속도 및 편리성)에 큰 차이</code>가 있다. 더욱이 WEB언어를 모르는 사람이라면 익숙하지 않은 프로그래밍의 문법을 다시 배우고 능숙해지는데 있어 상당한 노력과 시간을 필요로 하게 될 것이다.</p>
+</li>
+<li>
+<p><strong>그 외에 좋은점은 뭔가요?</strong></p>
+<ul>
+<li>배우기가 정말 <code>쉽고 직관적</code>이다.</li>
+<li>Text로 저장 후 <code>HTML으로의 변환이 가능</code>하다. 변환을 지원하는 도구나 Eco(생태계)가 매우 많다.</li>
+<li>Text로 저장하기 때문에 <code>Git을 통한 버전관리가 가능</code>하고, 용량이 적어 <code>보관이 용이</code>하다.</li>
+<li>Python의 Jupyter Notebook, R의 R Markdown 등 다른 기술을 익히는데 있어 훌륭한 커뮤니케이션 도구로써 가치가 있다.</li>
+</ul>
+</li>
+<li>
+<p><strong>안 좋은점은?</strong><br>
+유일하게 안 좋은 점이 하나 있는데 표준이 없다. 핵심 문법을 제외하고는 에디터에 따라 결과물이 달라질 수 있다.</p>
+</li>
+</ul>
+<h2 id="markdown-에디터-뭘-쓸까">Markdown 에디터 뭘 쓸까?</h2>
+<hr>
+<p>윈도우 메모장도 상관없다. 하지만 그따위 것을 쓰려고 이 포스팅을 보시진 않을 것이다.</p>
+<ul>
+<li>
+<p><strong>선정기준</strong></p>
+<ul>
+<li><strong>Q.</strong> 다양한 표현이 가능한가?<br>
+논문 수준 수식, 다양한 Icon 이미지, Code Block, UML 다이어그램,.. 등</li>
+<li><strong>Q.</strong> 어디에 저장되니?<br>
+PC에만 저장되어서 USB에 들고 다녀야 하는건지? 클라우드 개념으로 어디서든 수정 가능한지?</li>
+<li><strong>Q.</strong> 퍼블리쉬(Publish) 지원여부?<br>
+Git, 구글드라이브, 블로거, 드랍박스, 워드프레스, 텀블러, PC, 개발서버, .. 등</li>
+<li>Q. 얼마면 돼? 얼마나 편리한데? 등</li>
+<li>그 외 온라인(인터넷)이 차단(비행기, 네트워크 장애, 비용 문제 등)될 때도 대비할 필요가 있다.</li>
+</ul>
+</li>
+<li>
+<p><strong>추천 에디터</strong></p>
+<ul>
+<li><a href="https://theorydb.github.io/envops/2019/07/04/envops-blog-posting-prose-io/">Prose.io</a>
+<ul>
+<li>어디서나 접속 가능하다.</li>
+<li>Git에 접속하여 <code>배포없이 바로 Markdown의 수정이 가능</code>하다.</li>
+<li>위 링크를 클릭하여 필자가 작성한 Prose.io 설치 및 사용법을 알아보자.</li>
+</ul>
+</li>
+<li><a href="https://stackedit.io">StackEdit</a>
+<ul>
+<li>위에 열거한 <code>구글드라이브, Git, 텀블러 전부 저장 및 배포</code> 가능하다.</li>
+<li>어느 PC에서 접속해도 <code>동시성이 보장</code>된다.</li>
+<li>예쁜 Icon부터 논문 수식까지 거의 모든 마크다운 표현이 가능하다.</li>
+</ul>
+</li>
+<li><a href="http://markdownpad.com/">MarkdownPad</a>
+<ul>
+<li>위 링크에서 다운로드 가능하다. 단, 무료버전은 한계가 많다.(특히 편집탭이 4개밖에 열리지 않는다.)</li>
+<li>클라우드 공유 방식이 아닌 PC에 설치하는 프로그램이다. 기능이 아주 뛰어나진 않다.</li>
+<li>가끔 <code>서버가 다운되거나 인터넷이 느린 경우</code> PC에서 작업하기 때문에 사용할 수 있다는 점이 장점이다.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>그 외의 에디터</strong></p>
+<ul>
+<li><a href="https://macdown.uranusjr.com/">MacDown(for MAC)</a></li>
+<li><a href="https://jbt.github.io/markdown-editor">https://jbt.github.io/markdown-editor</a></li>
+</ul>
+</li>
+</ul>
+<p>필자의 경우 위 세가지 모두 사용한다. 인터넷이 느린 반응을 보일 경우 Markdown Pad로 초안을 작성하고, StackEdit에서 보정 및 예쁜 시각화 지원을 이용한 후 Git을 통해 배포한다. 이후 경미한 수정을 할 경우 배포까지 하는 것은 배보다 배꼽이 큰 형국이므로, Prose를 이용하여 즉시 수정한다.</p>
+<p>일단 <code>초보자</code>라면 또는 포스트를 보고 실습을 원하신다면 위의 Markdown Pad 공식 사이트 링크를 클릭하여 PC에 설치 후 아래 소개될 문법을 익히며 예제를 따라 타이핑해보자. 설치가 아주 쉽다. 그냥 다운로드 버튼으로 다운받아 Next 버튼만 누르면 금방 깔린다.</p>
+<p>온라인 에디터의 경우 퍼블리쉬 등 클라우드 환경의 복잡한 부가 기능을 배우느라 Markdown 자체에 집중을 못할 수도 있다. 나중에 차차 익히면 되므로 먼저 Markdown을 익히는 것에 집중하자.</p>
+<h2 id="markdown-문법1반드시-알아야-하는">Markdown 문법1(반드시 알아야 하는)</h2>
+<hr>
+<p>글을 작성할 때 마다 꼭 사용하는 문법들만 간추려 글을 쓰는 순서 및 흐름대로 기술하였다. 초보자라면 이 부분만 숙지해도 오늘을 보람찬 날로 만들 수 있을 것이다. 너무 쉬워 더 어려운 문법을 배우고 싶으시다면 다음 Chapter인 <a href="#">Markdown의 기타 문법</a>으로 넘어가시기 바란다.</p>
+<p>실습은 간단하다. 마크다운 에디터를 실행한 후, 아래의 [1단계] ~ [8단계]까지 회색박스의 코드를 직접 손으로 코딩하신 후, 미리보기 화면으로 어떻게 보이는지 확인하시면 된다.</p>
+<hr>
+<ul>
+<li><strong>[1단계] <code>헤더(Header)</code> : 제목, 문단별 제목을 쓰고 싶을 때</strong><br>
+글의 구조(개요) 및 큰 틀을 잡을 때 사용한다.</li>
+</ul>
+<pre><code># 제목 1단계
+## 제목 2단계  
+### 제목 3단계
+#### 제목 4단계
+##### 제목 5단계
+###### 제목 6단계 
+</code></pre><h1 id="제목-1단계">제목 1단계</h1>
+<h2 id="제목-2단계">제목 2단계</h2>
+<h3 id="제목-3단계">제목 3단계</h3>
+<h4 id="제목-4단계">제목 4단계</h4>
+<h5 id="제목-5단계">제목 5단계</h5>
+<h6 id="제목-6단계">제목 6단계</h6>
+<hr>
+<ul>
+<li><strong>[2단계] <code>수평선</code> : 내용을 명시적으로 구분하고 싶을 때</strong></li>
+</ul>
+<pre><code>---
+</code></pre><hr>
+<hr>
+<ul>
+<li><strong>[3단계] <code>엔터키(줄바꿈, 개행)</code> : 라인을 바꾸고 싶을 때</strong></li>
+</ul>
+<pre><code>띄어쓰기 2번을 입력하면.(from)  (to)&lt;!-- from과 to 사이에 스페이스 2번 입력--&gt;
+줄이 바뀐다.
+​```
+
+띄어쓰기 2번을 입력하면.(from)  (to)
+줄이 바뀐다.
+    
+---
+*  __[4단계] `목록(List)` : 요소를 나열할 때__  
+
+</code></pre><ol>
+<li>첫번째</li>
+<li>두번째</li>
+<li>세번째</li>
+</ol>
+<ul>
+<li>순서없음
+<ul>
+<li>홍길동
+<ul>
+<li>중대장
+<ul>
+<li>프로실망러
+​```</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ol>
+<li>첫번째</li>
+<li>두번째</li>
+<li>세번째</li>
+</ol>
+<ul>
+<li>순서없음
+<ul>
+<li>홍길동
+<ul>
+<li>중대장
+<ul>
+<li>프로실망러</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<hr>
+<ul>
+<li><strong>[5단계] <code>강조</code> : 문장 내 강조하고 싶은 단어를 눈에 띄게</strong></li>
+</ul>
+<pre><code>__볼드(진하게)__  
+_이탤릭체(기울여서)_    
+~~취소선~~  
+&lt;u&gt;밑줄&lt;/u&gt;  
+__볼드로 진하게 만들다가*이탤릭으로 기울이고*다시 볼드로__(중복 활용도 가능하다.)
+​```
+
+__볼드(진하게)__  
+_이탤릭체(기울여서)_    
+~~취소선~~  
+&lt;u&gt;밑줄&lt;/u&gt;  
+__볼드로 진하게 만들다가*이탤릭으로 기울이고*다시 볼드로__(중복 활용도 가능하다.)  
+
+---
+*  __[6단계] `인용구` : 인용할 경우 또는 분위기 전환시에도 사용(중복 형태 가능)__  
+
+</code></pre><blockquote>
+<p>위키백과?</p>
+<blockquote>
+<p>중대장 드립 검색</p>
+<blockquote>
+<p>&ldquo;오늘 중대장은 너희에게 실망했다&rdquo;
+​```</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<blockquote>
+<p>위키백과?</p>
+<blockquote>
+<p>중대장 드립 검색</p>
+<blockquote>
+<p>&ldquo;오늘 중대장은 너희에게 실망했다&rdquo;</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<hr>
+<ul>
+<li><strong>[7단계] <code>링크(Link)</code> : 클릭하면 다른 페이지, 다른 부분으로 이동 가능</strong></li>
+</ul>
+<pre><code>유형1(`설명어`를 클릭하면 URL로 이동) : [TheoryDB 블로그](https://theorydb.github.io &quot;마우스를 올려놓으면 말풍선이 나옵니다.&quot;)  
+유형2(URL 보여주고 `자동연결`) : &lt;https://theorydb.github.io&gt;  
+유형3(동일 파일 내 `문단 이동`) : [동일파일 내 문단 이동](#markdown의-반드시-알아야-하는-문법)  
+​```
+
+유형1(`설명어`를 클릭하면 URL로 이동) : [TheoryDB 블로그](https://theorydb.github.io &quot;마우스를 올려놓으면 말풍선이 나옵니다.&quot;)  
+유형2(URL 보여주고 `자동연결`) : &lt;https://theorydb.github.io&gt;  
+유형3(동일 파일 내 `문단 이동`) : [동일파일 내 문단 이동](#markdown의-반드시-알아야-하는-문법)  
+&gt;__유형3 문단 매칭방법__ : 제목(header)를 복사 붙여넣기 후,  
+&gt; 1) `특수문자`제거  
+&gt; 2) 스페이스를 갯수만큼 `-`로 변경  
+&gt; 3) 대문자-&gt;`소문자`로 변경   
+&gt; 예) &quot;#Markdown!  장점&quot; -&gt; &quot;#markdown--장점&quot;
+
+유형4(상대 경로로 서버 내 파일이동) 기능은 쓸 일이 거의 없어 제외한다.  
+
+---
+*  __[8단계] `이미지(Image)` : 이미지 보여주기__  
+
+</code></pre><p>유형1(<code>이미지</code> 삽입) :<br>
+<img src="https://theorydb.github.io/assets/img/think/2019-06-25-think-future-ai-1.png" alt="이미지" title="인공지능"></p>
+<p>유형2(<code>사이즈를 조절</code>하고 싶은 경우 HTML 태그로 처리) :<br>
+<!-- raw HTML omitted --></p>
+<p>유형3(이미지 삽입 후, <code>링크 걸기</code>)
+<a href="https://theorydb.github.io/think/2019/06/25/think-future-ai/"><img src="https://theorydb.github.io/assets/img/think/2019-06-25-think-future-ai-1.png" alt="이미지"></a><br>
+​```</p>
+<p>유형1(<code>이미지</code> 삽입) :<br>
+<img src="https://theorydb.github.io/assets/img/think/2019-06-25-think-future-ai-1.png" alt="이미지" title="인공지능"></p>
+<p>유형2(<code>사이즈를 조절</code>하고 싶은 경우 HTML 태그로 처리) :<br>
+<!-- raw HTML omitted --></p>
+<p>유형3(이미지 삽입 후, <code>링크 걸기</code>)
+<a href="https://theorydb.github.io/think/2019/06/25/think-future-ai/"><img src="https://theorydb.github.io/assets/img/think/2019-06-25-think-future-ai-1.png" alt="이미지"></a></p>
+<p>이상 글을 쓸 때 매번 사용하는 Markdown의 문법을 알아보았다.</p>
+<h2 id="markdown-문법2유용한-부가기능">Markdown 문법2(유용한 부가기능)</h2>
+<hr>
+<p>이 Chapter에서 배울 것들은 위의 기능보다는 사용 빈도가 낮지만 굉장히 고차원 적인 표현을 가능하게 해주는 매우 유용한 문법들이다. 필요할 때마다 참고하여 익히면 큰 도움이 될 것이다.</p>
+<hr>
+<ul>
+<li><strong>[1단계] <code>표(Table)</code> : 표 그리기</strong></li>
+</ul>
+<pre><code>|                  | 수학                        | 평가              |
+|:--- | ---: | :---: |
+| 철수             | 90            | 참잘했어요. |
+| 영희           | 50            | 분발하세요. |
+</code></pre><table>
+<thead>
+<tr>
+<th align="left"></th>
+<th align="right">수학</th>
+<th align="center">평가</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">철수</td>
+<td align="right">90</td>
+<td align="center">참잘했어요.</td>
+</tr>
+<tr>
+<td align="left">영희</td>
+<td align="right">50</td>
+<td align="center">분발하세요.</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<ul>
+<li>라인 단위로 생각하면서 구분자(<code>|</code>)로 열을 구분해주면 위와 같이 대충 그려도 알아서 예쁘게 완성된다.</li>
+<li>헤더(머리글)를 분리하고 싶은 경우, 위 예제와 같이 2번째 라인에 <code>---</code>을 사용하면 된다.</li>
+<li>정렬이 필요한 경우, 콜론(<code>:</code>) 기호를 구분선(<code>---</code>) 왼쪽, 오른쪽, 양쪽에 배치한다.</li>
+</ul>
+</blockquote>
+<hr>
+<ul>
+<li><strong>[2단계] <code>수식</code> : 수학, 논문분석 등에 사용</strong></li>
+</ul>
+<pre><code>$$f(x)= if x &lt; x_{min} : (x/x_{min})^a$$  
+$$otherwise : 0$$  
+$$P(w)=U(x/2)(7/5)/Z$$  
+$$p_{\theta}(x) = \int p_{\theta}(2z)p_{\theta}(y\mid k)dz$$  
+$$x = argmax_k((x_t-x_u+x_v)^T*x_m)/(||x_b-x_k+x_l||)$$  
+</code></pre><p>$$f(x)= if x &lt; x_{min} : (x/x_{min})^a$$<br>
+$$otherwise : 0$$<br>
+$$P(w)=U(x/2)(7/5)/Z$$<br>
+$$p_{\theta}(x) = \int p_{\theta}(2z)p_{\theta}(y\mid k)dz$$<br>
+$$x = argmax_k((x_t-x_u+x_v)^T*x_m)/(||x_b-x_k+x_l||)$$</p>
+<blockquote>
+<ul>
+<li>필자가 사용하는 지킬 테마는 별도 설정없이 위 예제와 같이 자유롭게 사용할 수 있다.</li>
+<li>수식 표현에 제한이 있는 경우, <code>MathJax</code> Javascript를 include하여 사용한다.</li>
+</ul>
+</blockquote>
+<pre><code>&lt;script type=&quot;text/javascript&quot; 
+src=&quot;https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML&quot;&gt;
+&lt;/script&gt;
+</code></pre><blockquote>
+<ul>
+<li>표현형식은 <a href="https://en.wikibooks.org/wiki/LaTeX/Mathematics">Latex</a> 표기법과 동일하다.</li>
+<li>몇가지 예를 들자면, 수식은 <code>$$</code>으로 둘러쌓여야 하고 <code>(),{}</code>으로 감싸면 우선순위를 고려한 동일 단위로 인식한다.</li>
+</ul>
+</blockquote>
+<hr>
+<ul>
+<li><strong>[3단계] <code>코드 블록(Code Block)</code> : 소스코드, 외부 인용자료 블록처리 등에 사용</strong></li>
+</ul>
+<pre><code>```python
+py_vector = one_hot_encoding(&quot;파이&quot;,word2index)
+py_vector.dot(torch_vector)
+&gt;&gt;&gt; 0.0
+​```
+</code></pre><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">py_vector <span style="color:#f92672">=</span> one_hot_encoding(<span style="color:#e6db74">&#34;파이&#34;</span>,word2index)
+py_vector<span style="color:#f92672">.</span>dot(torch_vector)
+<span style="color:#f92672">&gt;&gt;&gt;</span> <span style="color:#ae81ff">0.0</span>
+<span style="color:#960050;background-color:#1e0010">​</span>
+</code></pre></div><blockquote>
+<ul>
+<li>`뒤에 python이라고 쓰면 python 언어 스타일에 맞게 구문이 강조된다.</li>
+<li>보통 강조하고 싶은 프로그래밍 언어를 그대로 쓰면 된다.<br>
+ex) bash, cpp, dockerfile, markdown, yml, html, http, json, r, ruby, xml, sql &hellip; 등</li>
+</ul>
+</blockquote>
+<hr>
+<ul>
+<li><strong>[4단계] <code>UML 다이어그램</code> : 순서도, 흐름도 등을 표현할 때 유용하다.</strong><br>
+필요시 아래 링크를 참조하기 바란다.</li>
+</ul>
+<blockquote>
+<ul>
+<li><a href="http://flowchart.js.org/">Flow charts</a></li>
+<li><a href="https://bramp.github.io/js-sequence-diagrams/">Sequence diagrams</a></li>
+</ul>
+</blockquote>
+<h2 id="실전연습">실전연습</h2>
+<hr>
+<p>자! 이제 Markdown의 거의 모든 문법을 알아보았다. <code>백견이 불여일타</code>이므로 반드시 직접 마크다운 문서를 작성해보자.</p>
+<ol>
+<li>연습문제1 : 위의 문법 실습을 그대로 타이핑하는 문서 만들기</li>
+<li>연습문제2 : 이 포스팅과 동일한 문서 만들기<br>
+최대한 정답 없이 위에서 배운 문법을 이용하여 본 포스팅과 동일하게 만들어보자.<br>
+성공한다면 앞으로 그 어떤 마크다운 문서 작성도 두렵지 않을 것이다.</li>
+</ol>
+<blockquote>
+<p><strong><code>연습문제2</code> 정답</strong></p>
+<ol>
+<li><a href="https://github.com/theorydb/theorydb.github.io">필자의 블로그 Github</a>에 접속</li>
+<li>우측의 <code>Clone or download</code>(녹색버튼) 클릭</li>
+<li><code>/theorydb.github.io-master/_posts/</code> 폴더 이동</li>
+<li><code>2019-05-22-envops-blog-how-to-use-md.markdown</code>를 확인</li>
+</ol>
+</blockquote>
+<h2 id="이미지를-쉽게-업로드-하는-방법">이미지를 쉽게 업로드 하는 방법</h2>
+<p>이미지를 웹 어디에 저장하는 것이 편리할까? 더불어 포스트 뿐만 아니라 이미지도 마치 데이터베이스 처럼 평생 관리하고 싶다면? 필자가 추천하고 싶은 방식은 크게 3가지이다.</p>
+<ul>
+<li>
+<p><strong>GitHub의 Issue를 이용하는 방법</strong></p>
+<ul>
+<li>일종의 편법인데 GitHub에서 <code>Issue를 하나 생성</code>한다.<br>
+<img src="https://theorydb.github.io/assets/img/envops/2019-07-22-envops-blog-how-to-use-md-1.jpg" alt="이미지1"></li>
+<li>Write 탭에 PC에 있는 이미지를 <code>Drag &amp; Drop</code>한다. 최종 저장을 안해도 GitHub에 자동으로 업로드가 된다.
+<img src="https://theorydb.github.io/assets/img/envops/2019-07-22-envops-blog-how-to-use-md-2.jpg" alt="이미지2"></li>
+<li>업로드가 다 되면 위 그림과 같은 경로가 생기므로 <code>해당 URL을 복사해서 사용</code>한다. 테스트로 복사한 URL로 접속해보았다.
+<img src="https://theorydb.github.io/assets/img/envops/2019-07-22-envops-blog-how-to-use-md-3.jpg" alt="이미지3"></li>
+<li>이 방식은 즉석 URL을 생성하는데는 최고의 방법이나, 대신 이미지를 체계적으로 관리하기가 어렵다. 대신 중요하지 않은 그림은 이 방식으로 운영하면 편리하다고 하겠다.</li>
+</ul>
+<blockquote>
+<p><strong>쉬어가며</strong><br>
+저장할지 취소할지 결정되지 않은 작성중인 글에 종속된 이미지를 저장하는 것은 분명 자원 낭비다. 보통 이런 웹프로그램을 개발할 때는 브라우저의 Cache Storage 같은 영역에 임시로 올려두고 글의 저장 요청이 발생하는 순간 같이 전송시켜 I/O 접근을 최소화한다.<br>
+또, 단순히 저장공간 낭비만의 문제가 아니다. 네트워크 사용량이 증가하기 때문이다. 만약 AWS같은 클라우드 인프라 위에 이런 프로그램을 개발한다면 엄청난 네트워크 사용량을 유발하게 되고 속도, 저장 공간 문제를 떠나 네트워크 사용량에 따른 과금 폭탄을 맞게 될 것이다.<br>
+그런데 GitHub이 그걸 몰라서 이렇게 자원을 낭비하는 프로그램을 개발했을까? 원래도 GitHub은 소스 코드부터 이미지까지 무한에 가깝게 업로드 가능한 저장소이다. 더불어 짧은 생각에 GitHub Pages를 운영하는 사람들이 편리하게 이미지 관리를 할 수 있도록 서비스 개념으로 열어두지 않았을까 싶기도 한다. 한 수 더 바라보면 딥러닝 등에 활용하지 않을까 싶기도 하고..<br>
+아무튼 이렇게 계속 퍼주기만 하는 Git 당신은 도대체&hellip; 리스펙트 그 이상이다.</p>
+</blockquote>
+</li>
+<li>
+<p><strong>GitHub를 이용하는 방법</strong></p>
+<ul>
+<li>필자가 자주 애용하는 방식이다.</li>
+<li>예를 들면 <code>theorydb.github.io\assets\img\</code>의 위치에 포스트 계층과 동일하게 폴더를 만들어 <code>포스트 제목-일련번호</code>의 형태로 파일을 저장한 후, <code>https://theorydb.github.io/assets/img/think/2019-06-25-think-future-ai-1.png</code>와 같은 방식으로 링크를 걸어 활용한다.</li>
+<li>물론, 이미지 파일 관리에 있어 노가다가 첨가되고 GitHub에 이미지를 먼저 올리지 않으면 Markdown을 작성하며 실시간으로 확인할 수 없다는 불편한 점이 있다.</li>
+<li>하지만 필자가 처음 블로그를 개발했을 때 가장 중요했던 목적 하나는 블로그 서비스가 종료되더라도 포스트와 이미지를 개인 DB화 하여 영구 보존하는 것이었기에 큰 불만이 없는 방식이다. 더불어 숙달되어 큰 불편을 느끼지 않는다.</li>
+</ul>
+</li>
+<li>
+<p><strong>기타</strong></p>
+<ul>
+<li>구글드라이브, 플리커, 드랍박스에 이미지를 체계적으로 관리하고 URL을 생성하여 연결하는 것도 한가지 방법이다.</li>
+<li>큰 불편함을 느끼지 않아 더 찾아보지는 않았는데 이 부분을 쉽게 처리해 줄 Plug-in이 존재할 것으로 믿는다.ㅎㅎ</li>
+</ul>
+</li>
+</ul>
+<h2 id="이미지-만들기-막막할-때">이미지 만들기 막막할 때</h2>
+<ul>
+<li>
+<p><strong>간단한 이미지는 <code>직접</code> 만들자</strong> <br>
+간단한 도식이나 관계도를 정도는 쉽게 만들수 있도록 서비스를 제공하는 사이트를 추천해보겠다.</p>
+<ul>
+<li>
+<ol>
+<li><a href="https://www.autodraw.com/"><code>오토드로우</code></a><br>
+정말 자주 애용하는 등장한지 얼마 안된 따끈따끈한 사이트로 강추한다. 마우스로 대충 그리면 그와 유사한 이미지를 AI가 추천하여 선택할 수 있게 해준다.</li>
+</ol>
+</li>
+<li>
+<ol start="2">
+<li>간단한 그림을 그릴 수 있게 도와주는 사이트</li>
+</ol>
+</li>
+</ul>
+</li>
+<li>
+<p><strong><code>무료 이미지</code> 제공 Site</strong><br>
+도저히 개인 실력으로 만들 수 없는 고급 퀄리티 이미지는 아래 무료로 제공하는 사이트를 이용하자.</p>
+<ul>
+<li><a href="https://pixabay.com/">https://pixabay.com/</a></li>
+<li><a href="https://morguefile.com/">https://morguefile.com/</a></li>
+<li><a href="http://gratisography.com/">http://gratisography.com/</a></li>
+<li><a href="https://unsplash.com/">https://unsplash.com/</a></li>
+<li><a href="http://littlevisuals.co/">http://littlevisuals.co/</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="소소한-tip-그리고-고장났을-때">소소한 Tip 그리고 고장났을 때</h2>
+<hr>
+<p>이 부분은 본 포스트에 댓글로 질문이 달릴 경우 하나씩 추가해 나갈 예정이다. 더불어 언제나 통용되는 한가지 해결책을 남긴다.</p>
+<ul>
+<li>기능용도로 사용하는 특수문자(*,+,- 등)를 있는 그대로 표현하고 싶은경우 <code>\</code> 기호를 앞에 붙이면 된다.</li>
+<li>마크다운에서 지원하지 않거나 표현하기 어려운 경우 <code>HTML 태그로 직접 표현</code>하는 것도 한가지 방법이다.
+<pre><code>예를 들어 테마의 특성 때문에 줄바꿈이 잘 되지 않으면,
+줄바꿈을 원하는 문장뒤에 &lt;BR/&gt; 태그를 원하는 라인 수만큼 넣으면 된다. 
+</code></pre></li>
+</ul>
+<p>이것으로 Markdown의 사용법 강좌를 마치려한다. 꽤 오랜 시간을 내어 성의를 들여 작성했기에 자주 레퍼런스로 활용해 주시면 감사하겠다. 부족한 점은 댓글로 남겨주시면 보완하겠다.</p>
+]]></content>
+        </item>
+        
+    </channel>
+</rss>

@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="map[name:Yoseobmite]">
+<meta name="description" content="개요  블로그를 만들 때 고려할 사항과 만드는 방법에 대하여 알려드립니다.
+  목차  블로그를 만든 이유 다른 사람들의 이유 미리 고민하면 좋을 것들 어떤 블로그가 완성되어 있을지 상상해보세요!(Check-List) (Where) 어떤 서비스(플랫폼)와 기술을 활용할까? 이 블로그는 어떤 플랫폼을 쓰나요? (How-To) 블로그 구축부터 포스팅까지 배워봅시다.    블로그를 만든 이유  지금 이 포스트를 읽고 계신 여러분은 블로그 하나 만들어 볼까?라는 생각을 분명 한번 이상은 해 보셨을 것이다. 같은 질문에 대한 필자의 대답과 고민의 흔적을 아래에 포스팅 하였으니 이 글이 시행착오를 줄이는데 조금이라도 보탬이 되었으면 한다." />
+<meta name="keywords" content="" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="#252627" />
+<link rel="canonical" href="https://yoseobmite.github.io/posts/2020/07/creating-a-new-blog/" />
+
+
+    <title>
+        
+            Creating a New blog :: Story about learning 
+        
+    </title>
+
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.1/css/flag-icon.min.css" rel="stylesheet"
+    type="text/css">
+
+
+
+<link rel="stylesheet" href="https://yoseobmite.github.io/main.d1ea4af8fd04fb24a4f8b882ea54bd04eb245427ca4baf527c81a5dab071410b.css">
+
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="https://yoseobmite.github.io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://yoseobmite.github.io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://yoseobmite.github.io/favicon-16x16.png">
+    <link rel="manifest" href="https://yoseobmite.github.io/site.webmanifest">
+    <link rel="mask-icon" href="https://yoseobmite.github.io/safari-pinned-tab.svg" color="#252627">
+    <link rel="shortcut icon" href="https://yoseobmite.github.io/favicon.ico">
+    <meta name="msapplication-TileColor" content="#252627">
+    <meta name="theme-color" content="#252627">
+
+
+
+<meta itemprop="name" content="Creating a New blog">
+<meta itemprop="description" content="개요  블로그를 만들 때 고려할 사항과 만드는 방법에 대하여 알려드립니다.
+  목차  블로그를 만든 이유 다른 사람들의 이유 미리 고민하면 좋을 것들 어떤 블로그가 완성되어 있을지 상상해보세요!(Check-List) (Where) 어떤 서비스(플랫폼)와 기술을 활용할까? 이 블로그는 어떤 플랫폼을 쓰나요? (How-To) 블로그 구축부터 포스팅까지 배워봅시다.    블로그를 만든 이유  지금 이 포스트를 읽고 계신 여러분은 블로그 하나 만들어 볼까?라는 생각을 분명 한번 이상은 해 보셨을 것이다. 같은 질문에 대한 필자의 대답과 고민의 흔적을 아래에 포스팅 하였으니 이 글이 시행착오를 줄이는데 조금이라도 보탬이 되었으면 한다.">
+<meta itemprop="datePublished" content="2020-07-08T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2020-07-08T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="1376">
+<meta itemprop="image" content="https://yoseobmite.github.io"/>
+
+
+
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://yoseobmite.github.io"/>
+
+<meta name="twitter:title" content="Creating a New blog"/>
+<meta name="twitter:description" content="개요  블로그를 만들 때 고려할 사항과 만드는 방법에 대하여 알려드립니다.
+  목차  블로그를 만든 이유 다른 사람들의 이유 미리 고민하면 좋을 것들 어떤 블로그가 완성되어 있을지 상상해보세요!(Check-List) (Where) 어떤 서비스(플랫폼)와 기술을 활용할까? 이 블로그는 어떤 플랫폼을 쓰나요? (How-To) 블로그 구축부터 포스팅까지 배워봅시다.    블로그를 만든 이유  지금 이 포스트를 읽고 계신 여러분은 블로그 하나 만들어 볼까?라는 생각을 분명 한번 이상은 해 보셨을 것이다. 같은 질문에 대한 필자의 대답과 고민의 흔적을 아래에 포스팅 하였으니 이 글이 시행착오를 줄이는데 조금이라도 보탬이 되었으면 한다."/>
+
+
+
+
+
+
+
+    <meta property="article:published_time" content="2020-07-08 00:00:00 &#43;0000 UTC" />
+
+
+
+
+
+
+
+
+    </head>
+
+    <body class="">
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="https://yoseobmite.github.io/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">></span>
+            <span class="logo__text">$ cd /home/</span>
+            <span class="logo__cursor" style=
+                  "
+                   
+                   ">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="https://yoseobmite.github.io/about/">About</a></li><li><a href="https://yoseobmite.github.io/posts/">Posts</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+
+            <span class="theme-toggle unselectable"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+</span>
+        </span>
+    </span>
+    <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$','$$'], ['\\[', '\\]']],
+        processEscapes: true,
+        processEnvironments: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+    };
+  
+    window.addEventListener('load', (event) => {
+        document.querySelectorAll("mjx-container").forEach(function(x){
+          x.parentElement.classList += 'has-jax'})
+      });
+  
+ </script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script type="text/javascript" id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</header>
+
+
+            <div class="content">
+                
+  <main class="post">
+
+    <div class="post-info">
+      <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock">
+          <circle cx="12" cy="12" r="10"></circle>
+          <polyline points="12 6 12 12 16 14"></polyline>
+        </svg>
+        7 minutes
+
+        
+      </p>
+    </div>
+
+    <article>
+      <h1 class="post-title">
+        <a href="https://yoseobmite.github.io/posts/2020/07/creating-a-new-blog/">Creating a New blog</a>
+      </h1>
+
+      
+
+      <div class="post-content">
+        <h2 id="개요">개요</h2>
+<blockquote>
+<p>블로그를 만들 때 고려할 사항과 만드는 방법에 대하여 알려드립니다.</p>
+</blockquote>
+<ul>
+<li>목차
+<ul>
+<li><a href="#%EB%B8%94%EB%A1%9C%EA%B7%B8%EB%A5%BC-%EB%A7%8C%EB%93%A0-%EC%9D%B4%EC%9C%A0">블로그를 만든 이유</a></li>
+<li><a href="#%EB%8B%A4%EB%A5%B8-%EC%82%AC%EB%9E%8C%EB%93%A4%EC%9D%98-%EC%9D%B4%EC%9C%A0">다른 사람들의 이유</a></li>
+<li><a href="#%EB%AF%B8%EB%A6%AC-%EA%B3%A0%EB%AF%BC%ED%95%98%EB%A9%B4-%EC%A2%8B%EC%9D%84-%EA%B2%83%EB%93%A4">미리 고민하면 좋을 것들</a></li>
+<li><a href="#%EC%96%B4%EB%96%A4-%EB%B8%94%EB%A1%9C%EA%B7%B8%EA%B0%80-%EC%99%84%EC%84%B1%EB%90%98%EC%96%B4-%EC%9E%88%EC%9D%84%EC%A7%80-%EC%83%81%EC%83%81%ED%95%B4%EB%B3%B4%EC%84%B8%EC%9A%94check-list">어떤 블로그가 완성되어 있을지 상상해보세요!(Check-List)</a></li>
+<li><a href="#where-%EC%96%B4%EB%96%A4-%EC%84%9C%EB%B9%84%EC%8A%A4%ED%94%8C%EB%9E%AB%ED%8F%BC%EC%99%80-%EA%B8%B0%EC%88%A0%EC%9D%84-%ED%99%9C%EC%9A%A9%ED%95%A0%EA%B9%8C">(Where) 어떤 서비스(플랫폼)와 기술을 활용할까?</a></li>
+<li><a href="#%EC%9D%B4-%EB%B8%94%EB%A1%9C%EA%B7%B8%EB%8A%94-%EC%96%B4%EB%96%A4-%ED%94%8C%EB%9E%AB%ED%8F%BC%EC%9D%84-%EC%93%B0%EB%82%98%EC%9A%94">이 블로그는 어떤 플랫폼을 쓰나요?</a></li>
+<li><a href="#how-to-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EA%B5%AC%EC%B6%95%EB%B6%80%ED%84%B0-%ED%8F%AC%EC%8A%A4%ED%8C%85%EA%B9%8C%EC%A7%80-%EB%B0%B0%EC%9B%8C%EB%B4%85%EC%8B%9C%EB%8B%A4">(How-To) 블로그 구축부터 포스팅까지 배워봅시다.</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="블로그를-만든-이유">블로그를 만든 이유</h2>
+<hr>
+<p>지금 이 포스트를 읽고 계신 여러분은 <code>블로그 하나 만들어 볼까?</code>라는 생각을 분명 한번 이상은 해 보셨을 것이다. 같은 질문에 대한 필자의 대답과 고민의 흔적을 아래에 포스팅 하였으니 이 글이 시행착오를 줄이는데 조금이라도 보탬이 되었으면 한다.</p>
+<ul>
+<li>
+<p><strong>종이가 없어서 바위에 정으로라도 글을 새기겠다는 마음가짐</strong><br>
+&ldquo;글쓴이에게 이 정도 열망은 있어야 명작이 탄생할 수 있는 것이다.&rdquo; 학부시절 한 은사께서 하신 말씀이다. 이 정도는 너무 거창하지만, 1만 시간의 법칙 때문일까? 요즘들어 부쩍 배우고 익혀온 기술들을 정리하고 싶어 손과 머리가 근질거릴 때가 많았다. 더불어 요즘 큰 관심을 가지고 있는 데이터 사이언스 분야에 대한 배움을 정리할 곳이 간절했다. 비슷한 느낌이 든다면 여러분도 블로그를 운영할 때가 온 것은 아닐까?</p>
+</li>
+<li>
+<p><strong>Relation &gt; Entity</strong><br>
+사고방식의 취향이라고 해야할까? 학창 시절부터 단편 지식을 완벽하게 숙지 못했더라도 그 지식이 다른 지식과 연결되어 큰 숲을 이루는 관계에 관심이 많았다. 새로운 것을 배우면 머리 속 수많은 거미줄 어느 모퉁이에 매달아야 하는지 고민을 하게된다. 이런 사고 방식을 충족시킬 수 있는 나만의 지식과 데이터를 쌓기에 블로그만한 것이 없을 것이라 생각했다.</p>
+</li>
+<li>
+<p><strong>프로그래머라면 Jekyll?</strong><br>
+이런 허세 때문에 Jekyll 기반의 블로그를 운영하는 것은 아니지만 직업적으로는 꽤 의미있는 일이 된다. 어느 분야에 종사하시는 분일지라도 <code>제너럴리스트 vs 스페셜리스트</code>사이의 고민은 항상 있으실 것이다. 둘 다 정통한 T자형 인재가 정답이겠지만 시간, 재능, 운의 한계로 결코 쉽지만은 않다.<br>
+필자는 프로그래머로 Front-end 보다는 Back-end 기술을 주로 다루며, 서비스보다는 공공 위주 프로젝트를 다루기 때문에 트렌드에 노출될 기회가 적다. 적어도 블로그만큼은 자주 다루기 힘든 기술(Front-end), 트렌드에 뒤떨어지지 않는 기술 그리고 다루고 싶은 기술을 활용하여 지적인 욕구도 충족시키고 제너럴리스트로서의 요건도 갖추고 싶었던 것이 이 블로그를 운영하는 또 다른 이유라고 할 수 있겠다.</p>
+</li>
+<li>
+<p><strong>내 두뇌는 CPU, Memory, 하드디스크 어디에 가깝지?</strong><br>
+컴퓨터는 크게 사고력을 상징하는 CPU, 메타인지를 상징하는 Memory, 기억력을 상징하는 HardDisk, 습득이 빠르고 생각을 전달하는 능력이 탁월한 I/O 등으로 이루어져 있다고 생각한다.(<del>필자가 멋대로 정한 비유이므로 큰 의미는 두지 않으셨으면 한다.</del>) 필자의 경우는 두뇌를 주로 CPU와 Memory의 기능 위주로 활용한다. 때문에 자연스럽게 타 영역에 대한 보완이 필요했는데 특히 기억력을 보완하기 위한 수단으로 블로그를 운영한다.</p>
+</li>
+<li>
+<p><strong>진리탐구의 연장선</strong><br>
+거창하게 써서 부끄럽다. 개똥철학일지는 모르겠지만 내 자식, 지인들에게 그간 노력하며 얻은 지식을 쉽고 빠르게 전달하고 싶은 마음이 컸다. 조금 더 욕심을 부리면 세상 모든 사람들의 시간을 조금이라도 줄여주는데 보탬이 되고 싶다.</p>
+</li>
+</ul>
+<h2 id="다른-사람들의-이유">다른 사람들의 이유</h2>
+<hr>
+<p>그렇다면 다른 사람들은 왜 블로그를 운영하는 것일까? 이 포스팅을 읽는 분들께는 이 질문이 더 중요할지도 모르겠다. 조사한 바 크고 작은 이유를 간추려 보았다.</p>
+<ul>
+<li>공유 정신으로 스스로 <code>사회에 기여</code>하는 사람이 되고 싶어서</li>
+<li><code>시간을 효율적</code>으로 쓰는 사람으로 보여지는게 마음에 든다.</li>
+<li><code>적극</code>적인 사람 또는 <code>열정</code>을 가진 사람으로 보여지는게 좋다.</li>
+<li><code>사업가 마인드</code>를 가진 사람으로 보인다.</li>
+<li>구글 애드센스를 장착하여 <code>광고 수익</code>을 내기 위해서</li>
+<li>사업상 <code>마케팅 수단</code>이 필요하여</li>
+<li>1인 기업, 파워블로그 등의 활동으로 <code>수익 창출</code>을 위하여(유튜버와 유사)</li>
+<li><code>취미가 글쓰기</code>이거나 쓰는 동안 <code>생각이 정리</code>되며 스트레스가 풀려서</li>
+<li>많은 이들과 육아, 가정 등 <code>지식, 노하우</code>를 공유하고 싶어서</li>
+<li>배운 지식을 정리하며 <code>메타적 사고</code>를 넓히고자</li>
+<li><code>취업</code>, 경력관리, 이직에 도움이 되어서</li>
+<li>PC에 쌓여가는 지식을 정리하고, 온라인에 연결하여 <code>접근성</code>을 확보하기 위해서</li>
+<li>SNS 할성화 및 <code>온오프라인 모임</code>을 위하여</li>
+<li><code>Markdown 등의 기술</code>을 써보고 싶어서, 내용에 방해를 받고싶지 않아서</li>
+<li>다른 사람의 정보를 모아놓기 위해서, <code>즐겨찾기</code> 용도로</li>
+<li>기타 외로워서, 관심이 필요, 똑똑해보여서, 주위에서 많이들 하길래, 심심해서 등</li>
+</ul>
+<p>그 외 여러 목적이 있지만 어떤 이유든 글을 쓰기 위한 충분한 동기가 되지 않을까?</p>
+<h2 id="미리-고민하면-좋을-것들">미리 고민하면 좋을 것들</h2>
+<hr>
+<p>미리 고민하지 않으면 블로그 구축 중 은근히 시간을 많이 잡아먹는 요소들로, 만들기로 결정했다면 일상생활 중 미리 고민해놓으면 시간을 상당히 절약할 수 있다.</p>
+<ul>
+<li>네이밍 : 블로그명, Sitename, .. 등 각종 이름짓기</li>
+<li>도메인 보유여부 : 도메인 유지비용 및 네이밍 고려</li>
+<li>개발스택, 언어 : MEAN, LAMP, Jsp, Asp, .. 등</li>
+<li>솔루션(플랫폼) : 미디엄, 브런치, 티스토리, 네이버, .. 등</li>
+<li>호스팅업체 : AWS, Google Cloud, MS Azure, KT Cloud, CAFE24, 가비아, .. 등</li>
+<li>연동할 SNS, E-mail 등</li>
+</ul>
+<h2 id="어떤-블로그가-완성되어-있을지-상상해보세요check-list">어떤 블로그가 완성되어 있을지 상상해보세요!(Check-List)</h2>
+<hr>
+<p>블로그를 만들기로 마음 먹었다면, 미래에 어떤 모습으로 운영되고 있을지 생각해 볼 필요가 있다.</p>
+<ul>
+<li>
+<p><strong>(What) 뭘 쓰고있나요?</strong><br>
+주로 다루게 될 주제가 무엇인지 생각해보는 것이 좋다. 분야는 너무나도 다양하다.</p>
+<ul>
+<li>일기장, 일상, 전원생활, 철학, 소설, &hellip;</li>
+<li>리뷰, 육아, 교육, 주식, 자기계발, &hellip;</li>
+<li>게임, 취미, 여행, 요리, 건축, &hellip;</li>
+<li>역사, 문화, 정치, 종교, 사회, 과학, 예술, &hellip;등 <br>
+흥미있는 주제로 어느 정도 범위를 좁혀놔야 글쓰기의 일상화에 부담이 되지 않아, 가볍게 출발하며 지구력을 얻게되고, 블로그 플랫폼 및 기술 선택 시 도움이 된다.</li>
+</ul>
+</li>
+<li>
+<p><strong>(Who) 누가 읽을까요?</strong>
+깊게 생각해 볼 문제다.(<del>물론 아무도 없을지도 모른다.ㅎㅎㅎ</del>) 문체, 전개 방식을 선택하는 계기가 되고 플랫폼 선택 후 여러번 삭제했다 다시 만드는 등 시행착오를 줄이게 된다. 더불어 글의 분량, 수준(난이도)을 결정하는데 도움이 된다.</p>
+</li>
+<li>
+<p><strong>(When) 언제 써야 할까요? 계속 쓸 수는 있을까요?</strong>
+귀중한 시간을 들여 블로그를 제작한 의미가 퇴색하지 않도록 꾸준히 글을 쓰는 습관이 중요하다. 시간 공간적으로 글쓰기에 문제는 없을지, 계속 운영할 수 있게하는 원동력이 무엇일지, 다시금 <code>Why</code>를 새기면서 스스로의 동기부여가 중요하다.</p>
+</li>
+<li>
+<p><strong>(Why) 왜 쓰고 있나요?</strong><br>
+이 질문이 가장 중요하지만, 위에서 이미 답이 나왔기에 블로그를 쓰기로 결정했을 것이다.</p>
+</li>
+</ul>
+<p>여기까지는 생각을 정리해보는 것만으로 충분했다. 이제부터 직접 블로그를 개설하는 방법에 대하여 구체적으로 다루어보겠다.</p>
+<h2 id="where-어떤-서비스플랫폼와-기술을-활용할까">(Where) 어떤 서비스(플랫폼)와 기술을 활용할까?</h2>
+<hr>
+<p>서비스(플랫폼)별 각각 장.단점이 존재하므로, 블로그의 주제 포커싱에 따라 선택이 필요하다. 아래 선정기준을 체크해 본 후, 이어서 <code>한눈에 제시한 비교표</code>를 통해 본인에게 가장 적합한 블로그를 선택하길 바란다.</p>
+<ul>
+<li>
+<p><strong>서비스(플랫폼) 선정기준</strong></p>
+<ul>
+<li>(비용) 블로그를 만들 수 있다면 돈을 써도 상관없는지?
+<ul>
+<li>AWS, Google Cloud, MS Azure, KT Cloud, CAFE24, 가비아,.. 등 웹 호스팅 업체를 알아봐야 한다.</li>
+</ul>
+</li>
+<li>(글쓰기 집중) 글쓰기에만 집중하고 싶은지?</li>
+<li>(커스터마이징) 홈페이지처럼 내 마음대로 만들고, 바꾸고, 꾸미고 싶은지?</li>
+<li>(개인DB) 데이터베이스처럼 평생 내 자료를 소장하고, 에디팅하고 싶고, 분석도 하고 싶은지?</li>
+<li>(클릭율) 유저들이 많이 접속하길 희망하는지?</li>
+<li>(프로젝트 관리)프로그래머 등 직업적인 특성 상 Git 등의 연동이 필요한지?</li>
+</ul>
+</li>
+<li>
+<p><strong><code>&lt;한눈에 보는 서비스별 장.단점&gt;</code></strong></p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th align="center">서비스<!-- raw HTML omitted -->(플랫폼)</th>
+<th align="center">장점</th>
+<th align="center">단점</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">지킬<!-- raw HTML omitted --><a href="https://jekyllrb-ko.github.io/">Jekyll</a></td>
+<td align="center">-디자인,기능 거의 무제한 <!-- raw HTML omitted --> -비용 무료/속도 빠름 <!-- raw HTML omitted --> -개인DB화 관리</td>
+<td align="center">-양방향 서비스 불가 <!-- raw HTML omitted --> -기능 연동 시 기술적 노하우 필요</td>
+</tr>
+<tr>
+<td align="center">워드프레스<!-- raw HTML omitted --><a href="https://ko.wordpress.com">Wordpress</a></td>
+<td align="center">-이지위그(Wysiwyg) 탁월 <!-- raw HTML omitted --> -APM 웹 프로그래밍 운영가능</td>
+<td align="center">-유료 호스팅 운영 필요<!-- raw HTML omitted -->(AWS, CAFE24 등) <!-- raw HTML omitted --> -유지보수 상당한 노력 필요</td>
+</tr>
+<tr>
+<td align="center">미디엄<!-- raw HTML omitted --><a href="https://medium.com/">Medium</a></td>
+<td align="center">-깔끔한 디자인 <!-- raw HTML omitted --> -서비스 오래 지속될 것으로 예상 <!-- raw HTML omitted --> -포스트에만 집중가능</td>
+<td align="center">-커스터마이징, 기능확장 불가 <!-- raw HTML omitted --> -한글 폰트 문제 <!-- raw HTML omitted --> -낯선기능(respanse 등)</td>
+</tr>
+<tr>
+<td align="center">티스토리<!-- raw HTML omitted --><a href="https://www.tistory.com/">Tistory</a></td>
+<td align="center">-커스터마이징 자유도 <!-- raw HTML omitted -->-깔끔한 디자인 <!-- raw HTML omitted -->-카운팅 등 다양한 기능</td>
+<td align="center">-에디터 Wysiwyg 불편 <!-- raw HTML omitted --> -신규 제작 시 초대장이 필요 <!-- raw HTML omitted --> -기능의 파편화</td>
+</tr>
+<tr>
+<td align="center">텀블러<!-- raw HTML omitted --><a href="https://www.tumblr.com/">Tumblr</a></td>
+<td align="center">-Markdown 지원 <!-- raw HTML omitted -->-이미지업로드 간편 <!-- raw HTML omitted -->-다양한 기능</td>
+<td align="center">-카테고리, 추천글 기능이 없음 <!-- raw HTML omitted -->-속도문제 <!-- raw HTML omitted -->-기술 블로그에는 취약</td>
+</tr>
+<tr>
+<td align="center">스팀잇<!-- raw HTML omitted --><a href="https://steemit.com/">Steemit</a></td>
+<td align="center">-블록체인 포스트에 효과적 <!-- raw HTML omitted --> -스팀달러 Coin 보상</td>
+<td align="center">-에디터, 기능이 약간 부족함</td>
+</tr>
+<tr>
+<td align="center">브런치<!-- raw HTML omitted --><a href="https://brunch.co.kr/">Brunch</a></td>
+<td align="center">-유사글 연결 기능 <!-- raw HTML omitted -->-깔끔한 디자인 <!-- raw HTML omitted -->-포스트에만 집중 가능 <!-- raw HTML omitted -->-모바일 탁월</td>
+<td align="center">-구글 등 해외 검색엔진 노출 문제 <!-- raw HTML omitted -->-커스터마이징 불가 <!-- raw HTML omitted --> -코드 삽입과 gist 지원 불가</td>
+</tr>
+<tr>
+<td align="center">빙글<!-- raw HTML omitted --><a href="https://www.vingle.net">Vingle</a></td>
+<td align="center">-카테고리, 태그 기반 구조</td>
+<td align="center">-노출이 약함<!-- raw HTML omitted -->-사용자 많지 않음</td>
+</tr>
+<tr>
+<td align="center">포스타입<!-- raw HTML omitted --><a href="https://www.postype.com/">Postype</a></td>
+<td align="center">-창작물 판매,후원 가능</td>
+<td align="center">-서비스 조기종료 가능성<!-- raw HTML omitted -->(스타트업)</td>
+</tr>
+<tr>
+<td align="center">구글블로그<!-- raw HTML omitted --><a href="https://www.blogger.com">Blogger</a></td>
+<td align="center">-검색노출 최고</td>
+<td align="center">-검색 노출 외 좋은 점이 없다.</td>
+</tr>
+<tr>
+<td align="center">네이버<!-- raw HTML omitted --><a href="https://blog.naver.com">Naver</a></td>
+<td align="center">-국내 클릭율(CTR) 우수 <!-- raw HTML omitted --> -상품 리뷰에 효과적</td>
+<td align="center">-구글 등 해외 검색엔진 노출 문제 <!-- raw HTML omitted --> -커스터마이징 불가<!-- raw HTML omitted -->(Markdown 사용불가 등)</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>그 외 블로그
+블로그 서비스는 너무나 다양해서 모든 것을 조사할 수는 없다. 다만 입소문이 제법 나있는 블로그 중 개인적인 직관으로 후보에서 제외시켰던 서비스들을 정리하였으니 좀 더 완벽한 조사를 원하신다면 참고하시기 바란다.
+<ul>
+<li><a href="https://www.squarespace.com/">Squarespace</a></li>
+<li><a href="https://www.typepad.com/">TypePad</a></li>
+<li><a href="https://www.movabletype.org/">Movable Type</a></li>
+<li><a href="https://www.drupal.org/">Drupal</a></li>
+<li><a href="https://www.joomla.org/">Joomla</a></li>
+<li><a href="https://ko.wix.com">Wix</a></li>
+<li><a href="https://www.quv.kr">Weebly</a></li>
+<li><a href="https://www.strikingly.com">Strikingly</a></li>
+<li><a href="https://ghost.org/">Ghost</a></li>
+<li><a href="https://www.hubspot.com/">HubSpot</a></li>
+<li><a href="https://www.shopify.com/">Shopify</a></li>
+<li><a href="https://www.jimdo.com/">Jimdo</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="이-블로그는-어떤-플랫폼을-쓰나요">이 블로그는 어떤 플랫폼을 쓰나요?</h2>
+<hr>
+<p>github.io 형태의 URL로 서비스가 제공되는 <!-- raw HTML omitted -->Jekyll 기반의 Github Pages 블로그<!-- raw HTML omitted -->이다. 바로 지금 보고계신 블로그가 그 예이다. 선택한 이유는 다음과 같다.</p>
+<ul>
+<li><code>공짜</code>다. 그런데 유료보다 <code>빠르다</code>.</li>
+<li>마크다운(Markdown) 기반 포스트 작성
+<ul>
+<li>글 작성이 쉽다. <code>글쓰기에 집중</code>하기 쉽다.</li>
+<li><code>나만의 데이터베이스</code>를 보유한 효과가 있다.</li>
+</ul>
+</li>
+<li>기능 확장을 위한 Front-End <code>생태계(Eco)가 풍부</code>하고 수준이 뛰어나다.</li>
+<li><code>Git</code>, Ruby등의 기술을 습관처럼 익히게 된다. 협업도 가능하다.</li>
+<li>디자인, 기능 등 어떤 홈페이지 보다도 <code>다양한 기능</code>을 구현할 수 있다.</li>
+<li><code>프로젝트 개발</code> 시 Git을 통한 연동으로 기술 블로그로서 최적의 기능을 제공한다.</li>
+<li>블로그 만들고 꾸미는 것보다 <code>Publish에 집중</code>하고 싶다.</li>
+<li>서비스(플랫폼, 호스팅 등)가 종료되어도 <code>쉽게 보관, 이동</code>이 가능하다.</li>
+<li><code>광고</code>를 달 수 있다.</li>
+<li>Jekyll외 Ghost, Hexo 같은 <code>정적 사이트 생성기와 연동</code> 가능하다.</li>
+</ul>
+<h2 id="how-to-블로그-구축부터-포스팅까지-배워봅시다">(How-To) 블로그 구축부터 포스팅까지 배워봅시다.</h2>
+<hr>
+<p>만약 필자와 동일하게 Jekyll 기반의 GitHub Pages를 만드시기로 결정했다면 아래 순서대로 포스팅을 읽고 따라하시기만 하면 된다.(각 링크를 클릭) 필자와 다른 어떤 서비스를 이용하시든 쭉 훑어보는 것만으로도 큰 도움이 되실 것이므로 블로그를 구축하는 전체 과정에 대한 개요를 잡는다는 생각으로 읽어주시기 바란다. 대부분 구축방법은 이 범위 내 부분 집합일 뿐이다. 참고로 아직 링크가 걸리지 않은 경우, 조만간 포스팅할 예정이니 양해를 부탁드린다.</p>
+<ul>
+<li>
+<p><code>블로그</code> 구축</p>
+<ol>
+<li><a href="https://theorydb.github.io/envops/2019/05/02/envops-blog-theme/">블로그 테마(Themes) 고르기 및 환경설정</a></li>
+<li><a href="https://theorydb.github.io/envops/2019/05/03/envops-blog-github-pages-jekyll/">GitHub 연동 및 Jekyll 설치</a></li>
+<li><a href="https://theorydb.github.io/envops/2019/05/04/envops-blog-posting-prose-io/">Prose.io 연동으로 포스팅을 쉽게! 배포는 더 쉽게!</a></li>
+<li>개인의 취향에 맞도록 디자인 및 환경설정 변경</li>
+<li>파비콘 만들기</li>
+</ol>
+</li>
+<li>
+<p><code>기능</code> 확장 및 연동</p>
+<ol>
+<li><a href="https://theorydb.github.io/envops/2019/05/11/envops-blog-tipue-search/">Tipue Search를 이용하여 블로그 검색 기능 만들기</a></li>
+<li>블로그 댓글기능 추가</li>
+<li>구글 애널리틱스로 방문자 유입 분석</li>
+<li>구글 검색엔진 등록을 유리하게</li>
+<li><a href="https://theorydb.github.io/envops/2020/04/20/envops-blog-how-to-register-google-adsense/">구글 애드센스(Google Adsense) 적용하기</a></li>
+<li>편리한 운영을 위한 기타 설정 및 오류 발생시 대처방법</li>
+</ol>
+</li>
+<li>
+<p><code>글쓰기</code>를 편하게</p>
+<ol>
+<li><a href="https://theorydb.github.io/envops/2019/05/21/envops-blog-how-to-use-git/">GitHub &amp; Jekyll 사용법</a></li>
+<li><a href="https://theorydb.github.io/envops/2019/05/22/envops-blog-how-to-use-md/">마크다운(Markdown) 사용법 및 예제</a></li>
+<li>이미지 캡션 활용</li>
+</ol>
+</li>
+</ul>
+<p>이로써 블로그를 구축해야 하는 목적, 방법 등 전반적인 모든 것을 알아보았다. 앞으로도 유용한 기능을 계속 올릴 예정이니 관심있게 지켜봐주시길 부탁드린다.</p>
+
+      </div>
+    </article>
+
+    <hr />
+
+    <div class="post-info">
+
+      <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text">
+          <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+          <polyline points="14 2 14 8 20 8"></polyline>
+          <line x1="16" y1="13" x2="8" y2="13"></line>
+          <line x1="16" y1="17" x2="8" y2="17"></line>
+          <polyline points="10 9 9 9 8 9"></polyline>
+        </svg>
+        1376 Words
+      </p>
+
+      <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar">
+          <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+          <line x1="16" y1="2" x2="16" y2="6"></line>
+          <line x1="8" y1="2" x2="8" y2="6"></line>
+          <line x1="3" y1="10" x2="21" y2="10"></line>
+        </svg>
+        2020-07-08 02:00 &#43;0200
+      </p>
+    </div>
+      <hr />
+      <div class="sharing-buttons">
+        
+<a class="resp-sharing-button__link" href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fyoseobmite.github.io%2fposts%2f2020%2f07%2fcreating-a-new-blog%2f" target="_blank" rel="noopener" aria-label="" title="Share on facebook">
+  <div class="resp-sharing-button resp-sharing-button--facebook resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="https://twitter.com/intent/tweet/?url=https%3a%2f%2fyoseobmite.github.io%2fposts%2f2020%2f07%2fcreating-a-new-blog%2f" target="_blank" rel="noopener" aria-label="" title="Share on twitter">
+  <div class="resp-sharing-button resp-sharing-button--twitter resp-sharing-button--small">
+      <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="https://www.tumblr.com/widgets/share/tool?posttype=link&amp;title=Creating%20a%20New%20blog&amp;caption=Creating%20a%20New%20blog&amp;canonicalUrl=https%3a%2f%2fyoseobmite.github.io%2fposts%2f2020%2f07%2fcreating-a-new-blog%2f" target="_blank" rel="noopener" aria-label="" title="Share on tumblr">
+  <div class="resp-sharing-button resp-sharing-button--tumblr resp-sharing-button--small">
+    <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.563 24c-5.093 0-7.031-3.756-7.031-6.411V9.747H5.116V6.648c3.63-1.313 4.512-4.596 4.71-6.469C9.84.051 9.941 0 9.999 0h3.517v6.114h4.801v3.633h-4.82v7.47c.016 1.001.375 2.371 2.207 2.371h.09c.631-.02 1.486-.205 1.936-.419l1.156 3.425c-.436.636-2.4 1.374-4.156 1.404h-.178l.011.002z"/></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="mailto:?subject=Creating%20a%20New%20blog&amp;body=https%3a%2f%2fyoseobmite.github.io%2fposts%2f2020%2f07%2fcreating-a-new-blog%2f" target="_self" rel="noopener" aria-label="" title="Share via email">
+  <div class="resp-sharing-button resp-sharing-button--email resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="https://pinterest.com/pin/create/button/?url=https%3a%2f%2fyoseobmite.github.io%2fposts%2f2020%2f07%2fcreating-a-new-blog%2f&amp;media=https%3a%2f%2fyoseobmite.github.io%2fposts%2f2020%2f07%2fcreating-a-new-blog%2f;description=Creating%20a%20New%20blog" target="_blank" rel="noopener" aria-label="" title="Share on pinterest">
+  <div class="resp-sharing-button resp-sharing-button--pinterest resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.162-.105-.949-.199-2.403.041-3.439.219-.937 1.406-5.957 1.406-5.957s-.359-.72-.359-1.781c0-1.663.967-2.911 2.168-2.911 1.024 0 1.518.769 1.518 1.688 0 1.029-.653 2.567-.992 3.992-.285 1.193.6 2.165 1.775 2.165 2.128 0 3.768-2.245 3.768-5.487 0-2.861-2.063-4.869-5.008-4.869-3.41 0-5.409 2.562-5.409 5.199 0 1.033.394 2.143.889 2.741.099.12.112.225.085.345-.09.375-.293 1.199-.334 1.363-.053.225-.172.271-.401.165-1.495-.69-2.433-2.878-2.433-4.646 0-3.776 2.748-7.252 7.92-7.252 4.158 0 7.392 2.967 7.392 6.923 0 4.135-2.607 7.462-6.233 7.462-1.214 0-2.354-.629-2.758-1.379l-.749 2.848c-.269 1.045-1.004 2.352-1.498 3.146 1.123.345 2.306.535 3.55.535 6.607 0 11.985-5.365 11.985-11.987C23.97 5.39 18.592.026 11.985.026L12.017 0z"/></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fyoseobmite.github.io%2fposts%2f2020%2f07%2fcreating-a-new-blog%2f&amp;title=Creating%20a%20New%20blog&amp;summary=Creating%20a%20New%20blog&amp;source=https%3a%2f%2fyoseobmite.github.io%2fposts%2f2020%2f07%2fcreating-a-new-blog%2f" target="_blank" rel="noopener" aria-label="" title="Share on linkedin">
+  <div class="resp-sharing-button resp-sharing-button--linkedin resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="https://reddit.com/submit/?url=https%3a%2f%2fyoseobmite.github.io%2fposts%2f2020%2f07%2fcreating-a-new-blog%2f&amp;resubmit=true&amp;title=Creating%20a%20New%20blog" target="_blank" rel="noopener" aria-label="" title="Share on reddit">
+  <div class="resp-sharing-button resp-sharing-button--reddit resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M12 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0zm5.01 4.744c.688 0 1.25.561 1.25 1.249a1.25 1.25 0 0 1-2.498.056l-2.597-.547-.8 3.747c1.824.07 3.48.632 4.674 1.488.308-.309.73-.491 1.207-.491.968 0 1.754.786 1.754 1.754 0 .716-.435 1.333-1.01 1.614a3.111 3.111 0 0 1 .042.52c0 2.694-3.13 4.87-7.004 4.87-3.874 0-7.004-2.176-7.004-4.87 0-.183.015-.366.043-.534A1.748 1.748 0 0 1 4.028 12c0-.968.786-1.754 1.754-1.754.463 0 .898.196 1.207.49 1.207-.883 2.878-1.43 4.744-1.487l.885-4.182a.342.342 0 0 1 .14-.197.35.35 0 0 1 .238-.042l2.906.617a1.214 1.214 0 0 1 1.108-.701zM9.25 12C8.561 12 8 12.562 8 13.25c0 .687.561 1.248 1.25 1.248.687 0 1.248-.561 1.248-1.249 0-.688-.561-1.249-1.249-1.249zm5.5 0c-.687 0-1.248.561-1.248 1.25 0 .687.561 1.248 1.249 1.248.688 0 1.249-.561 1.249-1.249 0-.687-.562-1.249-1.25-1.249zm-5.466 3.99a.327.327 0 0 0-.231.094.33.33 0 0 0 0 .463c.842.842 2.484.913 2.961.913.477 0 2.105-.056 2.961-.913a.361.361 0 0 0 .029-.463.33.33 0 0 0-.464 0c-.547.533-1.684.73-2.512.73-.828 0-1.979-.196-2.512-.73a.326.326 0 0 0-.232-.095z"/></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="https://www.xing.com/app/user?op=share;url=https%3a%2f%2fyoseobmite.github.io%2fposts%2f2020%2f07%2fcreating-a-new-blog%2f;title=Creating%20a%20New%20blog" target="_blank" rel="noopener" aria-label="" title="Share on xing">
+  <div class="resp-sharing-button resp-sharing-button--xing resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M18.188 0c-.517 0-.741.325-.927.66 0 0-7.455 13.224-7.702 13.657.015.024 4.919 9.023 4.919 9.023.17.308.436.66.967.66h3.454c.211 0 .375-.078.463-.22.089-.151.089-.346-.009-.536l-4.879-8.916c-.004-.006-.004-.016 0-.022L22.139.756c.095-.191.097-.387.006-.535C22.056.078 21.894 0 21.686 0h-3.498zM3.648 4.74c-.211 0-.385.074-.473.216-.09.149-.078.339.02.531l2.34 4.05c.004.01.004.016 0 .021L1.86 16.051c-.099.188-.093.381 0 .529.085.142.239.234.45.234h3.461c.518 0 .766-.348.945-.667l3.734-6.609-2.378-4.155c-.172-.315-.434-.659-.962-.659H3.648v.016z"/></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="whatsapp://send?text=Creating%20a%20New%20blog%20https%3a%2f%2fyoseobmite.github.io%2fposts%2f2020%2f07%2fcreating-a-new-blog%2f" target="_blank" rel="noopener" aria-label="" title="Share on whatsapp">
+  <div class="resp-sharing-button resp-sharing-button--whatsapp resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="https://news.ycombinator.com/submitlink?u=https%3a%2f%2fyoseobmite.github.io%2fposts%2f2020%2f07%2fcreating-a-new-blog%2f&amp;t=Creating%20a%20New%20blog" target="_blank" rel="noopener" aria-label="" title="Share on hacker news">
+  <div class="resp-sharing-button resp-sharing-button--hackernews resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+			<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M0 24V0h24v24H0zM6.951 5.896l4.112 7.708v5.064h1.583v-4.972l4.148-7.799h-1.749l-2.457 4.875c-.372.745-.688 1.434-.688 1.434s-.297-.708-.651-1.434L8.831 5.896h-1.88z"/></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="https://telegram.me/share/url?text=Creating%20a%20New%20blog&amp;url=https%3a%2f%2fyoseobmite.github.io%2fposts%2f2020%2f07%2fcreating-a-new-blog%2f" target="_blank" rel="noopener" aria-label="" title="Share on telegram">
+  <div class="resp-sharing-button resp-sharing-button--telegram resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+    </div>
+  </div>
+</a>
+
+      </div>
+
+    
+      <div class="pagination">
+        <div class="pagination__title">
+          <span class="pagination__title-h"></span>
+          <hr />
+        </div>
+
+        <div class="pagination__buttons">
+          
+            <span class="button previous">
+              <a href="https://yoseobmite.github.io/posts/2020/07/%EC%B5%9C%EA%B7%BC-%ED%8C%90%EB%8D%B0%EB%AF%B9%EC%83%81%ED%99%A9%EC%97%90%EC%84%9C-%EC%A3%BC%EC%9D%98%ED%95%B4%EC%84%9C-%EB%B3%BC-%EC%A7%80%ED%91%9C%EB%93%A4/">
+                <span class="button__icon">←</span>
+                <span class="button__text">최근 판데믹상황에서 주의해서 볼 지표들</span>
+              </a>
+            </span>
+          
+
+          
+            <span class="button next">
+              <a href="https://yoseobmite.github.io/posts/2020/07/how-to-markdown/">
+                <span class="button__text">How to Markdown</span>
+                <span class="button__icon">→</span>
+              </a>
+            </span>
+          
+        </div>
+      </div>
+    
+
+
+    
+    
+    <script src="https://utteranc.es/client.js"
+            repo="yoseobmite/blog-comments"
+            issue-term="pathname"
+            theme="github-light"
+            crossorigin="anonymous"
+            async>
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://github.com/utterance">comments powered by utterances.</a></noscript> 
+  </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2020</span>
+            
+                <span><a href="https://yoseobmite.github.io">Yoseobmite</a></span>
+            
+            
+                <span><a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a></span>
+            
+            <span> <a href="https://yoseobmite.github.io/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></span>
+        </div>
+    </div>
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>Powered by <a href="http://gohugo.io">Hugo</a></span>
+            
+        </div>
+    </div>
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+
+<script type="text/javascript" src="https://yoseobmite.github.io/bundle.min.dc716e9092c9820b77f96da294d0120aeeb189b5bcea9752309ebea27fd53bbe6b13cffb2aca8ecf32525647ceb7001f76091de4199ac5a3caa432c070247f5b.js" integrity="sha512-3HFukJLJggt3&#43;W2ilNASCu6xibW86pdSMJ6&#43;on/VO75rE8/7KsqOzzJSVkfOtwAfdgkd5BmaxaPKpDLAcCR/Ww=="></script>
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-108668950-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+
+
+
+    </body>
+</html>

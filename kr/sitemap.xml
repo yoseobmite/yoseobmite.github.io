@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://yoseobmite.github.io/kr/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://yoseobmite.github.io/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://yoseobmite.github.io/fr/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="no"
+                href="https://yoseobmite.github.io/no/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="kr"
+                href="https://yoseobmite.github.io/kr/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://yoseobmite.github.io/kr/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://yoseobmite.github.io/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://yoseobmite.github.io/fr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="no"
+                href="https://yoseobmite.github.io/no/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="kr"
+                href="https://yoseobmite.github.io/kr/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://yoseobmite.github.io/kr/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://yoseobmite.github.io/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://yoseobmite.github.io/fr/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="no"
+                href="https://yoseobmite.github.io/no/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="kr"
+                href="https://yoseobmite.github.io/kr/tags/"
+                />
+  </url>
+  
+</urlset>
