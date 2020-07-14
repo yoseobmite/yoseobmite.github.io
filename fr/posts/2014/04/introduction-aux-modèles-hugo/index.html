@@ -7,7 +7,7 @@
 <meta name="author" content="map[name:Michael Henderson]">
 <meta name="description" content="Hugo utilise l&amp;rsquo;excellente librairie go html/template pour son moteur de modèles. c&amp;rsquo;est un moteur extrêmement léger qui offre un très petit nombre de fonctions logiques. À notre expérience, c&amp;rsquo;est juste ce qu&amp;rsquo;il faut pour créer un bon site web statique. Si vous avez déjà utilisé d&amp;rsquo;autre moteurs de modèles pour différents langages ou frameworks, vous allez retrouver beaucoup de similitudes avec les modèles go.
 Ce document est une introduction sur l&amp;rsquo;utilisation de Go templates." />
-<meta name="keywords" content="" />
+<meta name="keywords" content="YoseobMite" />
 <meta name="robots" content="noodp" />
 <meta name="theme-color" content="#252627" />
 <link rel="canonical" href="https://yoseobmite.github.io/fr/posts/2014/04/introduction-aux-mod%C3%A8les-hugo/" />
@@ -16,7 +16,7 @@ Ce document est une introduction sur l&amp;rsquo;utilisation de Go templates." /
 
     <title>
         
-            Introduction aux modèles (Hu)go :: Story about learning  — Hello Friend NG Theme
+            Introduction aux modèles (Hu)go :: Story about learning  — YOSEOBMITE
         
     </title>
 
@@ -395,10 +395,10 @@ notoc: true
 <p>Dans votre configuration de plus haut niveau (ex <code>config.yaml</code>), vous pouvez
 définir des paramètres de site, dont les valeurs vous seront accessibles.</p>
 <p>Pour les instances, vous pourriez délarer :</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#66d9ef">params</span>:
-  <span style="color:#66d9ef">CopyrightHTML</span>: <span style="color:#e6db74">&#34;Copyright &amp;#xA9; 2013 John Doe. All Rights Reserved.&#34;</span>
-  <span style="color:#66d9ef">TwitterUser</span>: <span style="color:#e6db74">&#34;spf13&#34;</span>
-  <span style="color:#66d9ef">SidebarRecentLimit</span>: <span style="color:#ae81ff">5</span>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#fff;font-weight:bold">params</span>:
+  <span style="color:#fff;font-weight:bold">CopyrightHTML</span>: <span style="color:#0ff;font-weight:bold">&#34;Copyright &amp;#xA9; 2013 John Doe. All Rights Reserved.&#34;</span>
+  <span style="color:#fff;font-weight:bold">TwitterUser</span>: <span style="color:#0ff;font-weight:bold">&#34;spf13&#34;</span>
+  <span style="color:#fff;font-weight:bold">SidebarRecentLimit</span>: <span style="color:#ff0;font-weight:bold">5</span>
 </code></pre></div><p>Avec un pied de page, vous devriez déclarer un <code>&lt;footer&gt;</code> qui est affiché
 seulement si le paramètre <code>CopyrightHTML</code> est déclaré, et si il l&rsquo;est, vous
 devriez le déclarer comme HTML-safe, afin d'éviter d'échapper les entités HTML.

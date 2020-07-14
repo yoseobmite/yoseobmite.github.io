@@ -7,7 +7,7 @@
 <meta name="author" content="map[name:Hugo Authors]">
 <meta name="description" content="Hugo uses the excellent Go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in Go templates.
 This document is a brief primer on using Go templates." />
-<meta name="keywords" content=", go, golang, templates, themes, development" />
+<meta name="keywords" content="YoseobMite, go, golang, templates, themes, development" />
 <meta name="robots" content="noodp" />
 <meta name="theme-color" content="#252627" />
 <link rel="canonical" href="https://yoseobmite.github.io/posts/2014/04/hugo-template-primer/" />
@@ -16,7 +16,7 @@ This document is a brief primer on using Go templates." />
 
     <title>
         
-            (Hu)go Template Primer :: Story about learning  — Hello Friend NG Theme
+            (Hu)go Template Primer :: Story about learning  — YOSEOBMITE
         
     </title>
 
@@ -393,10 +393,10 @@ notoc: true
 <p>In your top-level configuration file (eg, <code>config.yaml</code>) you can define site
 parameters, which are values which will be available to you in chrome.</p>
 <p>For instance, you might declare:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#66d9ef">params</span>:
-  <span style="color:#66d9ef">CopyrightHTML</span>: <span style="color:#e6db74">&#34;Copyright &amp;#xA9; 2013 John Doe. All Rights Reserved.&#34;</span>
-  <span style="color:#66d9ef">TwitterUser</span>: <span style="color:#e6db74">&#34;spf13&#34;</span>
-  <span style="color:#66d9ef">SidebarRecentLimit</span>: <span style="color:#ae81ff">5</span>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#fff;font-weight:bold">params</span>:
+  <span style="color:#fff;font-weight:bold">CopyrightHTML</span>: <span style="color:#0ff;font-weight:bold">&#34;Copyright &amp;#xA9; 2013 John Doe. All Rights Reserved.&#34;</span>
+  <span style="color:#fff;font-weight:bold">TwitterUser</span>: <span style="color:#0ff;font-weight:bold">&#34;spf13&#34;</span>
+  <span style="color:#fff;font-weight:bold">SidebarRecentLimit</span>: <span style="color:#ff0;font-weight:bold">5</span>
 </code></pre></div><p>Within a footer layout, you might then declare a <code>&lt;footer&gt;</code> which is only
 provided if the <code>CopyrightHTML</code> parameter is provided, and if it is given,
 you would declare it to be HTML-safe, so that the HTML entity is not escaped
