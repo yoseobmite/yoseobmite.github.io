@@ -41,7 +41,7 @@
 <p><strong>Linux용 Windows 하위 시스템 설치</strong></p>
 <p>Windows에서 Linux 배포를 실행하기 전에 &ldquo;Linux용 Windows 하위 시스템&rdquo; 옵션 기능을 사용해야 합니다.</p>
 <p><code>PowerShell</code>을 관리자 권한으로 열어 실행합니다.</p>
-<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ZSH" data-lang="ZSH">dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ZSH" data-lang="ZSH">dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
 </code></pre></div><p><code>WSL 1</code>만 설치하려면 지금 머신을 다시 시작하여 선택한 <code>Linux</code> 배포 설치로 이동해야 합니다. 그렇지 않으면 다시 시작될 때까지 기다렸다가 <code>WSL 2</code>로 업데이트로 이동합니다. <code>WSL 2</code>와 <code>WSL 1</code>비교에 대해 자세히 알아보세요.</p>
 <p><strong>WSL 2로 업데이트</strong></p>
 <p><code>WSL 2</code>로 업데이트하려면 다음 조건을 충족해야 합니다.
@@ -50,11 +50,11 @@
 <p><strong>&lsquo;가상 머신 플랫폼&rsquo; 옵션 구성 요소 사용</strong></p>
 <p>WSL 2를 설치하기 전에 &ldquo;가상 머신 플랫폼&rdquo; 옵션 기능을 사용하도록 설정해야 합니다.</p>
 <p><code>PowerShell</code>을 관리자 권한으로 열어 실행합니다.</p>
-<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ZSH" data-lang="ZSH">dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ZSH" data-lang="ZSH">dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
 </code></pre></div><p>머신을 다시 시작하여 <code>WSL</code> 설치를 완료하고 WSL 2로 업데이트합니다.</p>
 <p><strong>WSL 2를 기본 버전으로 설정</strong></p>
 <p>새 <code>Linux</code> 배포를 설치할 때 <code>PowerShell</code>에서 다음 명령을 실행하여 <code>WSL 2</code>를 기본 버전으로 설정합니다.</p>
-<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ZSH" data-lang="ZSH">wsl --set-default-version <span style="color:#2aa198">2</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ZSH" data-lang="ZSH">wsl --set-default-version <span style="color:#ae81ff">2</span>
 </code></pre></div><p><strong>선택한 Linux 배포 설치</strong></p>
 <pre><code>[`Microsoft Store`](https://aka.ms/wslstore)를 열고 즐겨 찾는 `Linux` 배포를 선택합니다.
 </code></pre>
@@ -65,42 +65,42 @@
 <p>새로 설치된 <code>Linux</code> 배포를 처음 시작하면 콘솔 창이 열리고 파일이 압축 해제되어 PC에 저장될 때까지 1~2분 정도 기다려야 합니다. 이후의 모든 시작은 1초도 걸리지 않습니다.
 새 <code>Linux</code> 배포에 대한 사용자 계정 및 암호를 만들어야 합니다.
 <code>WSL 2</code>를 기본 아키텍처로 설정하려는 경우 이 명령을 사용하여 수행할 수 있습니다.</p>
-<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ZSH" data-lang="ZSH">wsl --set-default-version <span style="color:#2aa198">2</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ZSH" data-lang="ZSH">wsl --set-default-version <span style="color:#ae81ff">2</span>
 </code></pre></div><p>시작 창에서 <code>ubuntu20.04 LTS</code> 를 발견 할수 있습니다.</p>
 <h2 id="몇가지-기본설정-하기">몇가지 기본설정 하기</h2>
 <hr>
 <p>기본 패키지 설치와 전체 업데이트</p>
-<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ZSH" data-lang="ZSH">sudo apt update
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ZSH" data-lang="ZSH">sudo apt update
 sudo apt install vim git curl 
 sudo apt upgrade -y
 sudo apt autoremove -y
 </code></pre></div><h2 id="zsh과-oh-my-zsh-설치-그리고-플러그인-적용">zsh과 oh-my-zsh 설치, 그리고 플러그인 적용</h2>
 <hr>
 <p>데스크탑 환경에서 <code>bash</code> 쉘의 시대는 저물고 있고 바야흐로 <code>zsh</code>의 시대입니다.</p>
-<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ZSH" data-lang="ZSH">sudo apt install zsh -y <span style="color:#719e07">&amp;&amp;</span> chsh -s <span style="color:#586e75">`</span>which zsh<span style="color:#586e75">`</span>
-<span style="color:#586e75"># chsh 명령어 실행시 password 를 확인합니다.</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ZSH" data-lang="ZSH">sudo apt install zsh -y <span style="color:#f92672">&amp;&amp;</span> chsh -s <span style="color:#e6db74">`</span>which zsh<span style="color:#e6db74">`</span>
+<span style="color:#75715e"># chsh 명령어 실행시 password 를 확인합니다.</span>
 curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
 </code></pre></div><p>chsh 명령어로 기본 쉘을 변경해도 로그아웃 후 재 로그인 전까지 Terminal 앱에서는 bash 쉘이 기본으로 나타납니다.</p>
 <p><strong>zsh bullet-train 테마</strong></p>
 <p>zsh에서는 <code>agnoster</code> 테마가 가장 유명하지만 저는 <code>bullet-train</code> 테마를 사용합니다.</p>
-<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ZSH" data-lang="ZSH">wget http://raw.github.com/caiogondim/bullet-train-oh-my-zsh-theme/master/bullet-train.zsh-theme <span style="color:#719e07">&amp;&amp;</span> mkdir <span style="color:#268bd2">$ZSH_CUSTOM</span>/themes <span style="color:#719e07">&amp;&amp;</span> mv bullet-train.zsh-theme <span style="color:#268bd2">$ZSH_CUSTOM</span>/themes/
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ZSH" data-lang="ZSH">wget http://raw.github.com/caiogondim/bullet-train-oh-my-zsh-theme/master/bullet-train.zsh-theme <span style="color:#f92672">&amp;&amp;</span> mkdir $ZSH_CUSTOM/themes <span style="color:#f92672">&amp;&amp;</span> mv bullet-train.zsh-theme $ZSH_CUSTOM/themes/
 </code></pre></div><p>위 명령어를 실행 후 <code>~/.zshrc</code> 파일을 열어 <code>ZSH_THEME</code> 값을 <code>bullet-train</code> 으로 바꿔줍니다.</p>
-<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ZSH" data-lang="ZSH"><span style="color:#586e75"># ...</span>
-<span style="color:#268bd2">ZSH_THEME</span><span style="color:#719e07">=</span><span style="color:#2aa198">&#34;bullet-train&#34;</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ZSH" data-lang="ZSH"><span style="color:#75715e"># ...</span>
+ZSH_THEME<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;bullet-train&#34;</span>
 </code></pre></div><p><strong>유용한 플러그인 설치</strong></p>
 <p>다양한 기능을 이제부터 익혀보렵니다. ^^!</p>
-<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ZSH" data-lang="ZSH">git clone git://github.com/zsh-users/zsh-autosuggestions <span style="color:#268bd2">$ZSH_CUSTOM</span>/plugins/zsh-autosuggestions --depth<span style="color:#719e07">=</span><span style="color:#2aa198">1</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ZSH" data-lang="ZSH">git clone git://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions --depth<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>
 Bash
-</code></pre></div><div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ZSH" data-lang="ZSH">git clone https://github.com/zsh-users/zsh-syntax-highlighting.git <span style="color:#2aa198">${</span><span style="color:#268bd2">ZSH_CUSTOM</span><span style="color:#719e07">:-</span>~/.oh-my-zsh/custom<span style="color:#2aa198">}</span>/plugins/zsh-syntax-highlighting --depth<span style="color:#719e07">=</span><span style="color:#2aa198">1</span>
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ZSH" data-lang="ZSH">git clone https://github.com/zsh-users/zsh-syntax-highlighting.git <span style="color:#e6db74">${</span>ZSH_CUSTOM<span style="color:#66d9ef">:-</span>~/.oh-my-zsh/custom<span style="color:#e6db74">}</span>/plugins/zsh-syntax-highlighting --depth<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>
 </code></pre></div><p>플러그인 설치 후 <code>~/.zshrc</code> 에서 설치한 플러그인을 <code>plugins</code> 에 추가합니다.</p>
-<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ZSH" data-lang="ZSH"><span style="color:#268bd2">plugins</span><span style="color:#719e07">=(</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ZSH" data-lang="ZSH">plugins<span style="color:#f92672">=(</span>
   git
   zsh-autosuggestions
   zsh-syntax-highlighting
- <span style="color:#719e07">)</span>
+ <span style="color:#f92672">)</span>
 </code></pre></div><p><strong>Powerline 폰트 or D2 폰트설치</strong></p>
 <p>윈도우 폰트에 매뉴얼로 설치 하였습니다.</p>
-<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ZSH" data-lang="ZSH">wget https://github.com/powerline/fonts/raw/master/UbuntuMono/Ubuntu%20Mono%20derivative%20Powerline.ttf
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ZSH" data-lang="ZSH">wget https://github.com/powerline/fonts/raw/master/UbuntuMono/Ubuntu%20Mono%20derivative%20Powerline.ttf
 wget https://github.com/powerline/fonts/raw/master/UbuntuMono/Ubuntu%20Mono%20derivative%20Powerline%20Italic.ttf
 wget https://github.com/powerline/fonts/raw/master/UbuntuMono/Ubuntu%20Mono%20derivative%20Powerline%20Bold.ttf
 wget https://github.com/powerline/fonts/raw/master/UbuntuMono/Ubuntu%20Mono%20derivative%20Powerline%20Bold%20Italic.ttf
@@ -109,14 +109,14 @@ wget https://github.com/powerline/fonts/raw/master/UbuntuMono/Ubuntu%20Mono%20de
 <a href="https://code.visualstudio.com/docs/remote/wsl-tutorial">Remote development in WSL</a>
 간단히 Visual Studio Code 터미널로 연결 됩니다. 유레카. !!!
 시험삼아 파이썬을 설치 해봅니다.</p>
-<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ZSH" data-lang="ZSH">sudo apt update
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ZSH" data-lang="ZSH">sudo apt update
 sudo apt install python3 python3-pip
 </code></pre></div><p>우아하게 버전확인 해봅니다. (좋네유)</p>
-<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ZSH" data-lang="ZSH">python3 --version
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ZSH" data-lang="ZSH">python3 --version
 </code></pre></div><h2 id="hugo-설치">Hugo 설치</h2>
 <hr>
 <p>우분투 설치 버전을 설치합니다(행복)</p>
-<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ZSH" data-lang="ZSH">sudo apt-get install hugo
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ZSH" data-lang="ZSH">sudo apt-get install hugo
 </code></pre></div><p><strong>hugo 장점</strong></p>
 <ul>
 <li>속도가 훨씬 빠르다.</li>
@@ -126,32 +126,32 @@ sudo apt install python3 python3-pip
 <p><strong>간단한 설정 명령</strong></p>
 <pre><code>출처 : [IALY's BLOG](https://ialy1595.github.io/post/blog-construct-1/) 
 </code></pre>
-<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ZSH" data-lang="ZSH">hugo new site &lt;프로젝트 이름&gt;
-<span style="color:#b58900">cd</span> &lt;프로젝트 이름&gt;
-</code></pre></div><div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ZSH" data-lang="ZSH">$ git clone &lt;테마 github 페이지 주소&gt; themes/&lt;테마 이름&gt;
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ZSH" data-lang="ZSH">hugo new site &lt;프로젝트 이름&gt;
+cd &lt;프로젝트 이름&gt;
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ZSH" data-lang="ZSH">$ git clone &lt;테마 github 페이지 주소&gt; themes/&lt;테마 이름&gt;
 </code></pre></div><p><code>테마커스트마이징</code>
 에도 도전하고 싶으나 Go, HTML, CSS, Java Script 벽에 부디치고 나중에 바로잡으려면 험한 꼴을 봅니다. Hogo Themes Gallary 멀리하고 테마는 하나만 써야 합니다.
 <a href="https://ialy1595.github.io/post/blog-construct-2/">IALY&rsquo;s BLOG</a></p>
-<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ZSH" data-lang="ZSH">hugo server -D
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ZSH" data-lang="ZSH">hugo server -D
 </code></pre></div><h2 id="github-deploy">Github deploy</h2>
 <hr>
 <p>다양한 호스팅 가능하고, 저는 Github를 사용합니다. 다양한 장점이 있더이다.</p>
 <pre><code>[hosting on github](https://gohugo.io/hosting-and-deployment/hosting-on-github/)
 </code></pre>
 <p>명령어를 deploy.sh 운영가능 하고, 어찌저찌 makefile로 설정해서 가능하네요.</p>
-<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-makefile" data-lang="makefile"><span style="color:#586e75"># makefile in &lt;프로젝트이름&gt; 두고, .gitignore 설정도 필요 합니다. 
-</span><span style="color:#586e75"># make push 하면 알아서 올려줍니다. 
-</span><span style="color:#586e75"></span><span style="color:#268bd2">HUGO</span> <span style="color:#719e07">=</span> hugo
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-makefile" data-lang="makefile"><span style="color:#75715e"># makefile in &lt;프로젝트이름&gt; 두고, .gitignore 설정도 필요 합니다. 
+</span><span style="color:#75715e"># make push 하면 알아서 올려줍니다. 
+</span><span style="color:#75715e"></span>HUGO <span style="color:#f92672">=</span> hugo
 
-<span style="color:#268bd2">COMMIT_MESSAGE</span> <span style="color:#719e07">=</span> <span style="color:#2aa198">&#34;rebuilding site </span><span style="color:#719e07">$(</span>shell date +%Y-%m-%d<span style="color:#719e07">)</span><span style="color:#2aa198">&#34;</span>
+COMMIT_MESSAGE <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;rebuilding site </span><span style="color:#66d9ef">$(</span>shell date +%Y-%m-%d<span style="color:#66d9ef">)</span><span style="color:#e6db74">&#34;</span>
 
-<span style="color:#268bd2">push</span><span style="color:#719e07">:</span>
-	<span style="color:#b58900">echo</span> <span style="color:#2aa198">&#34;\033[0;32mDeploying updates to GitHub...\033[0m&#34;</span>
+<span style="color:#a6e22e">push</span><span style="color:#f92672">:</span>
+	echo <span style="color:#e6db74">&#34;\033[0;32mDeploying updates to GitHub...\033[0m&#34;</span>
 
 	rm -rf public 
 	git clone https://github.com/yoseobmite/yoseobmite.github.io public
-	<span style="color:#719e07">$(</span>HUGO<span style="color:#719e07">)</span> -D
-	<span style="color:#b58900">cd</span> ./public <span style="color:#719e07">&amp;&amp;</span> git add . <span style="color:#719e07">&amp;&amp;</span> git commit -m <span style="color:#719e07">$(</span>COMMIT_MESSAGE<span style="color:#719e07">)</span> <span style="color:#719e07">&amp;&amp;</span> git push
+	<span style="color:#66d9ef">$(</span>HUGO<span style="color:#66d9ef">)</span> -D
+	cd ./public <span style="color:#f92672">&amp;&amp;</span> git add . <span style="color:#f92672">&amp;&amp;</span> git commit -m <span style="color:#66d9ef">$(</span>COMMIT_MESSAGE<span style="color:#66d9ef">)</span> <span style="color:#f92672">&amp;&amp;</span> git push
 </code></pre></div><h2 id="shortcord-및-추가-기능">shortcord 및 추가 기능</h2>
 <hr>
 <p><strong>image</strong> shortcord 기능이 내장되어 있는 테마 여서 기록해 둡니다.</p>
@@ -160,7 +160,7 @@ sudo apt install python3 python3-pip
 <p><code>alt</code> (optional)</p>
 <p><code>position</code> (optional, default: left, options: [left, center, right])</p>
 <p><code>style</code></p>
-<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-zsh" data-lang="zsh">
     <img src="/img/hello.png"  alt="Hello Friend"  class="center"  style="border-radius: 8px;"  />
 
 
@@ -1199,10 +1199,10 @@ py_vector = one_hot_encoding(&quot;파이&quot;,word2index)
 py_vector.dot(torch_vector)
 &gt;&gt;&gt; 0.0
 ​```
-</code></pre><div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">py_vector <span style="color:#719e07">=</span> one_hot_encoding(<span style="color:#2aa198">&#34;파이&#34;</span>,word2index)
-py_vector<span style="color:#719e07">.</span>dot(torch_vector)
-<span style="color:#719e07">&gt;&gt;&gt;</span> <span style="color:#2aa198">0.0</span>
-​
+</code></pre><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">py_vector <span style="color:#f92672">=</span> one_hot_encoding(<span style="color:#e6db74">&#34;파이&#34;</span>,word2index)
+py_vector<span style="color:#f92672">.</span>dot(torch_vector)
+<span style="color:#f92672">&gt;&gt;&gt;</span> <span style="color:#ae81ff">0.0</span>
+<span style="color:#960050;background-color:#1e0010">​</span>
 </code></pre></div><blockquote>
 <ul>
 <li>`뒤에 python이라고 쓰면 python 언어 스타일에 맞게 구문이 강조된다.</li>
@@ -2498,10 +2498,10 @@ notoc: true
 <p>In your top-level configuration file (eg, <code>config.yaml</code>) you can define site
 parameters, which are values which will be available to you in chrome.</p>
 <p>For instance, you might declare:</p>
-<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#719e07">params</span>:
-  <span style="color:#719e07">CopyrightHTML</span>: <span style="color:#2aa198">&#34;Copyright &amp;#xA9; 2013 John Doe. All Rights Reserved.&#34;</span>
-  <span style="color:#719e07">TwitterUser</span>: <span style="color:#2aa198">&#34;spf13&#34;</span>
-  <span style="color:#719e07">SidebarRecentLimit</span>: <span style="color:#2aa198">5</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#66d9ef">params</span>:
+  <span style="color:#66d9ef">CopyrightHTML</span>: <span style="color:#e6db74">&#34;Copyright &amp;#xA9; 2013 John Doe. All Rights Reserved.&#34;</span>
+  <span style="color:#66d9ef">TwitterUser</span>: <span style="color:#e6db74">&#34;spf13&#34;</span>
+  <span style="color:#66d9ef">SidebarRecentLimit</span>: <span style="color:#ae81ff">5</span>
 </code></pre></div><p>Within a footer layout, you might then declare a <code>&lt;footer&gt;</code> which is only
 provided if the <code>CopyrightHTML</code> parameter is provided, and if it is given,
 you would declare it to be HTML-safe, so that the HTML entity is not escaped
