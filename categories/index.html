@@ -17,8 +17,13 @@
         
         
       
-        
-          
+      
+    
+  
+    
+    
+      
+      
         
         
         
@@ -36,9 +41,6 @@
   
     
     
-  
-    
-    
       
       
         
@@ -46,7 +48,6 @@
         
         
         
-          
           
           
         
@@ -151,17 +152,37 @@ if (!doNotTrack) {
   </div>
   
     
-      <a class="header-right-picture "
-         href="https://yoseobmite.github.io/#about">
+      <a class="header-right-icon open-algolia-search"
+         href="https://yoseobmite.github.io/#search">
     
     
+      <i class="fa fa-lg fa-search"></i>
     
-      
-        <img class="header-picture" src="https://www.gravatar.com/avatar/f6c12e465869ce091686fdd55fe58b9e?s=90" alt="Author&#39;s picture" />
-      
     
     </a>
   
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$','$$'], ['\\[', '\\]']],
+        processEscapes: true,
+        processEnvironments: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+    };
+  
+    window.addEventListener('load', (event) => {
+        document.querySelectorAll("mjx-container").forEach(function(x){
+          x.parentElement.classList += 'has-jax'})
+      });
+  
+  </script>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script type="text/javascript" id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </header>
 
       <nav id="sidebar" data-behavior="3">
@@ -283,36 +304,13 @@ if (!doNotTrack) {
               
                 
                 <div>
-                  <a href="#posts-list-%25EC%258B%259C%25EC%259E%25A5%25EC%259D%2584%25EB%25B3%25B4%25EB%258A%2594%25EB%2588%2588" class="category-anchor" data-category="시장을보는눈" data-parent-categories="">시장을보는눈</a>
-                  
-                    
-                    
-                      
-
-
-                    
+                  <a href="#posts-list-newblog" class="category-anchor" data-category="newBlog" data-parent-categories="">newBlog</a>
                   
                 </div>
               
                 
                 <div>
-                  <a href="#posts-list-tranquilpeak" class="category-anchor" data-category="tranquilpeak" data-parent-categories="">tranquilpeak</a>
-                  
-                    
-                    
-                      
-
-  <ul style="margin-bottom:0;">
-    <div>
-      <a href="#posts-list-features" class="category-anchor" data-category="features" data-parent-categories="tranquilpeak"> / features</a>
-    </div>
-  
-  
-  
-  </ul>
-
-
-                    
+                  <a href="#posts-list-test" class="category-anchor" data-category="test" data-parent-categories="">test</a>
                   
                 </div>
               
@@ -322,35 +320,34 @@ if (!doNotTrack) {
             
               
                 
-                <div id="posts-list-%EC%8B%9C%EC%9E%A5%EC%9D%84%EB%B3%B4%EB%8A%94%EB%88%88" class="archive box" data-category="시장을보는눈" data-parent-categories="" style="display: block;">
+                <div id="posts-list-newblog" class="archive box" data-category="newBlog" data-parent-categories="" style="display: block;">
                   <h4 class="archive-title text-xlarge">
-                    <a class="link-unstyled" href="%EC%8B%9C%EC%9E%A5%EC%9D%84%EB%B3%B4%EB%8A%94%EB%88%88">시장을보는눈 (1)</a>
+                    <a class="link-unstyled" href="newblog">newBlog (1)</a>
                   </h4>
                   <ul class="archive-posts">
                     
                       <li class="archive-post">
-                        <a class="archive-post-title" href="https://yoseobmite.github.io/2020/07/%EC%B5%9C%EA%B7%BC-%EC%A3%BC%EC%9D%98%ED%95%B4%EC%84%9C-%EB%B3%BC-%EC%A7%80%ED%91%9C%EB%93%A4/">최근 주의해서 볼 지표들</a><span class="archive-post-date"> - 
-  July 10, 2020
+                        <a class="archive-post-title" href="https://yoseobmite.github.io/2020/07/hugo-blog-create/">Hugo blog create</a><span class="archive-post-date"> - 
+  July 13, 2020
 </span>
                       </li>
                     
-                    
-                      
-                      
-                        
-
-
-                      
                     
                   </ul>
                 </div>
               
                 
-                <div id="posts-list-tranquilpeak" class="archive box" data-category="tranquilpeak" data-parent-categories="" style="display: block;">
+                <div id="posts-list-test" class="archive box" data-category="test" data-parent-categories="" style="display: block;">
                   <h4 class="archive-title text-xlarge">
-                    <a class="link-unstyled" href="tranquilpeak">tranquilpeak (1)</a>
+                    <a class="link-unstyled" href="test">test (2)</a>
                   </h4>
                   <ul class="archive-posts">
+                    
+                      <li class="archive-post">
+                        <a class="archive-post-title" href="https://yoseobmite.github.io/1/01/page-test/">page test</a><span class="archive-post-date"> - 
+  January 1, 1
+</span>
+                      </li>
                     
                       <li class="archive-post">
                         <a class="archive-post-title" href="https://yoseobmite.github.io/2020/07/giraffes-cant-dance-read-by-brielarson/">“Giraffes Can’t Dance” - read by @brielarson</a><span class="archive-post-date"> - 
@@ -358,31 +355,6 @@ if (!doNotTrack) {
 </span>
                       </li>
                     
-                    
-                      
-                      
-                        
-
-  <div id="posts-list-features" class="archive" data-category="features" data-parent-categories="tranquilpeak" style="display: block;">
-  <h4 class="archive-title text-xlarge">
-    <a class="link-unstyled" href="features">features (1)</a>
-  </h4>
-  <ul class="archive-posts">
-    
-      <li class="archive-post" style="display: list-item;">
-        <a class="archive-post-title" href="https://yoseobmite.github.io/2020/07/giraffes-cant-dance-read-by-brielarson/">“Giraffes Can’t Dance” - read by @brielarson</a><span class="archive-post-date"> - 
-  July 10, 2020
-</span>
-      </li>
-    
-  </ul>
-  
-  
-  
-  </div>
-
-
-                      
                     
                   </ul>
                 </div>

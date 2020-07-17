@@ -8,12 +8,22 @@
   </url>
   
   <url>
+    <loc>https://yoseobmite.github.io/categories/</loc>
+    <lastmod>2020-07-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yoseobmite.github.io/</loc>
     <lastmod>2020-07-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yoseobmite.github.io/2020/07/hugbo-blog-create/</loc>
+    <loc>https://yoseobmite.github.io/2020/07/hugo-blog-create/</loc>
+    <lastmod>2020-07-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yoseobmite.github.io/categories/newblog/</loc>
     <lastmod>2020-07-13T00:00:00+00:00</lastmod>
   </url>
   
@@ -23,27 +33,12 @@
   </url>
   
   <url>
-    <loc>https://yoseobmite.github.io/categories/</loc>
+    <loc>https://yoseobmite.github.io/tags/hugo/</loc>
     <lastmod>2020-07-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yoseobmite.github.io/categories/features/</loc>
-    <lastmod>2020-07-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yoseobmite.github.io/tags/pagination/</loc>
-    <lastmod>2020-07-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yoseobmite.github.io/tags/shortcord-hugo/</loc>
-    <lastmod>2020-07-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yoseobmite.github.io/tags/social/</loc>
+    <loc>https://yoseobmite.github.io/tags/page/</loc>
     <lastmod>2020-07-10T00:00:00+00:00</lastmod>
   </url>
   
@@ -53,32 +48,37 @@
   </url>
   
   <url>
-    <loc>https://yoseobmite.github.io/tags/tags/</loc>
+    <loc>https://yoseobmite.github.io/tags/test/</loc>
     <lastmod>2020-07-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yoseobmite.github.io/categories/tranquilpeak/</loc>
-    <lastmod>2020-07-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yoseobmite.github.io/categories/%EC%8B%9C%EC%9E%A5%EC%9D%84%EB%B3%B4%EB%8A%94%EB%88%88/</loc>
-    <lastmod>2020-07-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yoseobmite.github.io/tags/%EC%97%B0%EC%A4%80/</loc>
-    <lastmod>2020-07-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yoseobmite.github.io/2020/07/%EC%B5%9C%EA%B7%BC-%EC%A3%BC%EC%9D%98%ED%95%B4%EC%84%9C-%EB%B3%BC-%EC%A7%80%ED%91%9C%EB%93%A4/</loc>
+    <loc>https://yoseobmite.github.io/categories/test/</loc>
     <lastmod>2020-07-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://yoseobmite.github.io/archives/</loc>
+  </url>
+  
+  <url>
+    <loc>https://yoseobmite.github.io/1/01/page-test/</loc>
+  </url>
+  
+  <url>
+    <loc>https://yoseobmite.github.io/tags/pagination/</loc>
+  </url>
+  
+  <url>
+    <loc>https://yoseobmite.github.io/tags/social/</loc>
+  </url>
+  
+  <url>
+    <loc>https://yoseobmite.github.io/tags/tags/</loc>
+  </url>
+  
+  <url>
+    <loc>https://yoseobmite.github.io/tags/%EC%97%B0%EC%A4%80/</loc>
   </url>
   
 </urlset>

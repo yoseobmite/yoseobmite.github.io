@@ -92,17 +92,37 @@ if (!doNotTrack) {
   </div>
   
     
-      <a class="header-right-picture "
-         href="https://yoseobmite.github.io/#about">
+      <a class="header-right-icon open-algolia-search"
+         href="https://yoseobmite.github.io/#search">
     
     
+      <i class="fa fa-lg fa-search"></i>
     
-      
-        <img class="header-picture" src="https://www.gravatar.com/avatar/f6c12e465869ce091686fdd55fe58b9e?s=90" alt="Author&#39;s picture" />
-      
     
     </a>
   
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$','$$'], ['\\[', '\\]']],
+        processEscapes: true,
+        processEnvironments: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+    };
+  
+    window.addEventListener('load', (event) => {
+        document.querySelectorAll("mjx-container").forEach(function(x){
+          x.parentElement.classList += 'has-jax'})
+      });
+  
+  </script>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script type="text/javascript" id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </header>
 
       <nav id="sidebar" data-behavior="3">
@@ -221,12 +241,16 @@ if (!doNotTrack) {
 
             <section>
               
-                <a class="tag tag--primary tag--small" href="#pagination-list" data-tag="pagination">
-                  pagination
+                <a class="tag tag--primary tag--small" href="#hugo-list" data-tag="hugo">
+                  hugo
                 </a>
               
-                <a class="tag tag--primary tag--small" href="#shortcord-hugo-list" data-tag="shortcord-hugo">
-                  shortcord-hugo
+                <a class="tag tag--primary tag--small" href="#page-list" data-tag="page">
+                  page
+                </a>
+              
+                <a class="tag tag--primary tag--small" href="#pagination-list" data-tag="pagination">
+                  pagination
                 </a>
               
                 <a class="tag tag--primary tag--small" href="#social-list" data-tag="social">
@@ -237,6 +261,10 @@ if (!doNotTrack) {
                   tags
                 </a>
               
+                <a class="tag tag--primary tag--small" href="#test-list" data-tag="test">
+                  test
+                </a>
+              
                 <a class="tag tag--primary tag--small" href="#%25EC%2597%25B0%25EC%25A4%2580-list" data-tag="연준">
                   연준
                 </a>
@@ -244,30 +272,10 @@ if (!doNotTrack) {
             </section>
             <section class="boxes">
               
-                <div id="pagination-list" class="archive box" data-tag="pagination">
+                <div id="hugo-list" class="archive box" data-tag="hugo">
                   <h4 class="archive-title">
-                    <a class="link-unstyled" href="pagination">
-                      pagination (1)
-                    </a>
-                  </h4>
-                  <ul class="archive-posts">
-                    
-                      <li class="archive-post">
-                        <a class="archive-post-title" href="https://yoseobmite.github.io/2020/07/%EC%B5%9C%EA%B7%BC-%EC%A3%BC%EC%9D%98%ED%95%B4%EC%84%9C-%EB%B3%BC-%EC%A7%80%ED%91%9C%EB%93%A4/">
-                          최근 주의해서 볼 지표들
-                        </a>
-                        <span class="archive-post-date"> - 
-  July 10, 2020
-</span>
-                      </li>
-                    
-                  </ul>
-                </div>
-              
-                <div id="shortcord-hugo-list" class="archive box" data-tag="shortcord-hugo">
-                  <h4 class="archive-title">
-                    <a class="link-unstyled" href="shortcord-hugo">
-                      shortcord-hugo (1)
+                    <a class="link-unstyled" href="hugo">
+                      hugo (1)
                     </a>
                   </h4>
                   <ul class="archive-posts">
@@ -284,6 +292,46 @@ if (!doNotTrack) {
                   </ul>
                 </div>
               
+                <div id="page-list" class="archive box" data-tag="page">
+                  <h4 class="archive-title">
+                    <a class="link-unstyled" href="page">
+                      page (1)
+                    </a>
+                  </h4>
+                  <ul class="archive-posts">
+                    
+                      <li class="archive-post">
+                        <a class="archive-post-title" href="https://yoseobmite.github.io/2020/07/giraffes-cant-dance-read-by-brielarson/">
+                          “Giraffes Can’t Dance” - read by @brielarson
+                        </a>
+                        <span class="archive-post-date"> - 
+  July 10, 2020
+</span>
+                      </li>
+                    
+                  </ul>
+                </div>
+              
+                <div id="pagination-list" class="archive box" data-tag="pagination">
+                  <h4 class="archive-title">
+                    <a class="link-unstyled" href="pagination">
+                      pagination (1)
+                    </a>
+                  </h4>
+                  <ul class="archive-posts">
+                    
+                      <li class="archive-post">
+                        <a class="archive-post-title" href="https://yoseobmite.github.io/1/01/page-test/">
+                          page test
+                        </a>
+                        <span class="archive-post-date"> - 
+  January 1, 1
+</span>
+                      </li>
+                    
+                  </ul>
+                </div>
+              
                 <div id="social-list" class="archive box" data-tag="social">
                   <h4 class="archive-title">
                     <a class="link-unstyled" href="social">
@@ -293,11 +341,11 @@ if (!doNotTrack) {
                   <ul class="archive-posts">
                     
                       <li class="archive-post">
-                        <a class="archive-post-title" href="https://yoseobmite.github.io/2020/07/%EC%B5%9C%EA%B7%BC-%EC%A3%BC%EC%9D%98%ED%95%B4%EC%84%9C-%EB%B3%BC-%EC%A7%80%ED%91%9C%EB%93%A4/">
-                          최근 주의해서 볼 지표들
+                        <a class="archive-post-title" href="https://yoseobmite.github.io/1/01/page-test/">
+                          page test
                         </a>
                         <span class="archive-post-date"> - 
-  July 10, 2020
+  January 1, 1
 </span>
                       </li>
                     
@@ -313,8 +361,28 @@ if (!doNotTrack) {
                   <ul class="archive-posts">
                     
                       <li class="archive-post">
-                        <a class="archive-post-title" href="https://yoseobmite.github.io/2020/07/%EC%B5%9C%EA%B7%BC-%EC%A3%BC%EC%9D%98%ED%95%B4%EC%84%9C-%EB%B3%BC-%EC%A7%80%ED%91%9C%EB%93%A4/">
-                          최근 주의해서 볼 지표들
+                        <a class="archive-post-title" href="https://yoseobmite.github.io/1/01/page-test/">
+                          page test
+                        </a>
+                        <span class="archive-post-date"> - 
+  January 1, 1
+</span>
+                      </li>
+                    
+                  </ul>
+                </div>
+              
+                <div id="test-list" class="archive box" data-tag="test">
+                  <h4 class="archive-title">
+                    <a class="link-unstyled" href="test">
+                      test (1)
+                    </a>
+                  </h4>
+                  <ul class="archive-posts">
+                    
+                      <li class="archive-post">
+                        <a class="archive-post-title" href="https://yoseobmite.github.io/2020/07/giraffes-cant-dance-read-by-brielarson/">
+                          “Giraffes Can’t Dance” - read by @brielarson
                         </a>
                         <span class="archive-post-date"> - 
   July 10, 2020
@@ -333,11 +401,11 @@ if (!doNotTrack) {
                   <ul class="archive-posts">
                     
                       <li class="archive-post">
-                        <a class="archive-post-title" href="https://yoseobmite.github.io/2020/07/%EC%B5%9C%EA%B7%BC-%EC%A3%BC%EC%9D%98%ED%95%B4%EC%84%9C-%EB%B3%BC-%EC%A7%80%ED%91%9C%EB%93%A4/">
-                          최근 주의해서 볼 지표들
+                        <a class="archive-post-title" href="https://yoseobmite.github.io/1/01/page-test/">
+                          page test
                         </a>
                         <span class="archive-post-date"> - 
-  July 10, 2020
+  January 1, 1
 </span>
                       </li>
                     

@@ -12,27 +12,45 @@
     
     
     <item>
+      <title>hugo</title>
+      <link>https://yoseobmite.github.io/tags/hugo/</link>
+      <pubDate>Fri, 10 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://yoseobmite.github.io/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>page</title>
+      <link>https://yoseobmite.github.io/tags/page/</link>
+      <pubDate>Fri, 10 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://yoseobmite.github.io/tags/page/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://yoseobmite.github.io/tags/test/</link>
+      <pubDate>Fri, 10 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://yoseobmite.github.io/tags/test/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>pagination</title>
       <link>https://yoseobmite.github.io/tags/pagination/</link>
-      <pubDate>Fri, 10 Jul 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://yoseobmite.github.io/tags/pagination/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>shortcord hugo</title>
-      <link>https://yoseobmite.github.io/tags/shortcord-hugo/</link>
-      <pubDate>Fri, 10 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://yoseobmite.github.io/tags/shortcord-hugo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>social</title>
       <link>https://yoseobmite.github.io/tags/social/</link>
-      <pubDate>Fri, 10 Jul 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://yoseobmite.github.io/tags/social/</guid>
       <description></description>
@@ -41,7 +59,7 @@
     <item>
       <title>tags</title>
       <link>https://yoseobmite.github.io/tags/tags/</link>
-      <pubDate>Fri, 10 Jul 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://yoseobmite.github.io/tags/tags/</guid>
       <description></description>
@@ -50,7 +68,7 @@
     <item>
       <title>연준</title>
       <link>https://yoseobmite.github.io/tags/%EC%97%B0%EC%A4%80/</link>
-      <pubDate>Fri, 10 Jul 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://yoseobmite.github.io/tags/%EC%97%B0%EC%A4%80/</guid>
       <description></description>
