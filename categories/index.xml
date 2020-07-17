@@ -6,9 +6,37 @@
     <description>Recent content in Categories on Hotel Adriano</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Fri, 10 Jul 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://yoseobmite.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>features</title>
+      <link>https://yoseobmite.github.io/categories/features/</link>
+      <pubDate>Fri, 10 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://yoseobmite.github.io/categories/features/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tranquilpeak</title>
+      <link>https://yoseobmite.github.io/categories/tranquilpeak/</link>
+      <pubDate>Fri, 10 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://yoseobmite.github.io/categories/tranquilpeak/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>시장을보는눈</title>
+      <link>https://yoseobmite.github.io/categories/%EC%8B%9C%EC%9E%A5%EC%9D%84%EB%B3%B4%EB%8A%94%EB%88%88/</link>
+      <pubDate>Fri, 10 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://yoseobmite.github.io/categories/%EC%8B%9C%EC%9E%A5%EC%9D%84%EB%B3%B4%EB%8A%94%EB%88%88/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
