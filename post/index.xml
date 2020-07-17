@@ -33,6 +33,21 @@ WSL은 윈도우환경에서 기존의 Virtual Box나 Hyper-V와 같은 가상�
     </item>
     
     <item>
+      <title>GS Macro</title>
+      <link>https://yoseobmite.github.io/2020/07/gs-macro/</link>
+      <pubDate>Sat, 11 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://yoseobmite.github.io/2020/07/gs-macro/</guid>
+      <description>gist  image Goldman Sachs Macro At a Glance
+ latex $$\int_{a}^{b} x^2 dx$$ The following
+$$\int_{a}^{b} x^2 dx$$
+Is an integral
+$$ \begin{align} \vec{a} \cdot \vec{b} &amp;amp;= |\vec{a}||\vec{b}|cos\theta \\\\\ &amp;amp;= a_1b_1+a_2b_2 \end{align} $$ $$ \begin{align} \vec{a} \cdot \vec{b} &amp;amp;= |\vec{a}||\vec{b}|cos\theta \\
+&amp;amp;= a_1b_1+a_2b_2 \end{align} $$
+$$ \begin{align} A^{\[0\]} &amp;amp; = Input Feature &amp;amp; (1) \\\\\ Z^{\[1\]} &amp;amp; = W^{\[1\]}A^{\[0\]} &amp;amp; (2) \\\\\ A^{\[1\]} &amp;amp; = g(Z^{\[1\]}) &amp;amp; (3) \\\\\ Z^{\[2\]} &amp;amp; = W^{\[2\]}A^{\[1\]} &amp;amp; (4) \\\\\ A^{\[2\]} &amp;amp; = g(Z^{\[2\]}) &amp;amp; (5) \end{align} $$ $$ \begin{align} A^{[0]} &amp;amp; = Input Feature &amp;amp; (1) \\</description>
+    </item>
+    
+    <item>
       <title>page test</title>
       <link>https://yoseobmite.github.io/1/01/page-test/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
