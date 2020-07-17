@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="generator" content="Hugo 0.68.3 with theme Tranquilpeak 0.4.8-BETA">
+<meta name="author" content="Porco Rosso">
+<meta name="keywords" content="">
+<meta name="description" content="개요  블로그를 만들 때 고려할 사항과 만드는 방법에 대하여 알려드립니다.
+  목차  블로그를 만든 이유 다른 사람들의 이유 미리 고민하면 좋을 것들 어떤 블로그가 완성되어 있을지 상상해보세요!(Check-List) (Where) 어떤 서비스(플랫폼)와 기술을 활용할까? 이 블로그는 어떤 플랫폼을 쓰나요? (How-To) 블로그 구축부터 포스팅까지 배워봅시다.    블로그를 만든 이유  지금 이 포스트를 읽고 계신 여러분은 블로그 하나 만들어 볼까?라는 생각을 분명 한번 이상은 해 보셨을 것이다. 같은 질문에 대한 필자의 대답과 고민의 흔적을 아래에 포스팅 하였으니 이 글이 시행착오를 줄이는데 조금이라도 보탬이 되었으면 한다.">
+
+
+<meta property="og:description" content="개요  블로그를 만들 때 고려할 사항과 만드는 방법에 대하여 알려드립니다.
+  목차  블로그를 만든 이유 다른 사람들의 이유 미리 고민하면 좋을 것들 어떤 블로그가 완성되어 있을지 상상해보세요!(Check-List) (Where) 어떤 서비스(플랫폼)와 기술을 활용할까? 이 블로그는 어떤 플랫폼을 쓰나요? (How-To) 블로그 구축부터 포스팅까지 배워봅시다.    블로그를 만든 이유  지금 이 포스트를 읽고 계신 여러분은 블로그 하나 만들어 볼까?라는 생각을 분명 한번 이상은 해 보셨을 것이다. 같은 질문에 대한 필자의 대답과 고민의 흔적을 아래에 포스팅 하였으니 이 글이 시행착오를 줄이는데 조금이라도 보탬이 되었으면 한다.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Creating a New blog">
+<meta name="twitter:title" content="Creating a New blog">
+<meta property="og:url" content="https://yoseobdoc.github.io/2020/07/creating-a-new-blog/">
+<meta property="twitter:url" content="https://yoseobdoc.github.io/2020/07/creating-a-new-blog/">
+<meta property="og:site_name" content="Hotel Adriano">
+<meta property="og:description" content="개요  블로그를 만들 때 고려할 사항과 만드는 방법에 대하여 알려드립니다.
+  목차  블로그를 만든 이유 다른 사람들의 이유 미리 고민하면 좋을 것들 어떤 블로그가 완성되어 있을지 상상해보세요!(Check-List) (Where) 어떤 서비스(플랫폼)와 기술을 활용할까? 이 블로그는 어떤 플랫폼을 쓰나요? (How-To) 블로그 구축부터 포스팅까지 배워봅시다.    블로그를 만든 이유  지금 이 포스트를 읽고 계신 여러분은 블로그 하나 만들어 볼까?라는 생각을 분명 한번 이상은 해 보셨을 것이다. 같은 질문에 대한 필자의 대답과 고민의 흔적을 아래에 포스팅 하였으니 이 글이 시행착오를 줄이는데 조금이라도 보탬이 되었으면 한다.">
+<meta name="twitter:description" content="개요  블로그를 만들 때 고려할 사항과 만드는 방법에 대하여 알려드립니다.
+  목차  블로그를 만든 이유 다른 사람들의 이유 미리 고민하면 좋을 것들 어떤 블로그가 완성되어 있을지 상상해보세요!(Check-List) (Where) 어떤 서비스(플랫폼)와 기술을 활용할까? 이 블로그는 어떤 플랫폼을 쓰나요? (How-To) 블로그 구축부터 포스팅까지 배워봅시다.    블로그를 만든 이유  지금 이 포스트를 읽고 계신 여러분은 블로그 하나 만들어 볼까?라는 생각을 분명 한번 이상은 해 보셨을 것이다. 같은 질문에 대한 필자의 대답과 고민의 흔적을 아래에 포스팅 하였으니 이 글이 시행착오를 줄이는데 조금이라도 보탬이 되었으면 한다.">
+<meta property="og:locale" content="en-us">
+
+  
+    <meta property="article:published_time" content="2020-07-08T00:00:00">
+  
+  
+    <meta property="article:modified_time" content="2020-07-08T00:00:00">
+  
+  
+  
+  
+
+
+<meta name="twitter:card" content="summary">
+
+  <meta name="twitter:site" content="@se6644">
+
+
+  <meta name="twitter:creator" content="@se6644">
+
+
+
+
+
+
+
+
+
+
+  <meta property="og:image" content="https://www.gravatar.com/avatar/f6c12e465869ce091686fdd55fe58b9e?s=640">
+  <meta property="twitter:image" content="https://www.gravatar.com/avatar/f6c12e465869ce091686fdd55fe58b9e?s=640">
+
+
+    <title>Creating a New blog</title>
+
+    <link rel="icon" href="https://yoseobdoc.github.io/favicon.png">
+    
+
+    
+
+    <link rel="canonical" href="https://yoseobdoc.github.io/2020/07/creating-a-new-blog/">
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/jquery.fancybox.min.css" integrity="sha256-vuXZ9LGmmwtjqFX1F+EKin1ThZMub58gKULUyf0qECk=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/helpers/jquery.fancybox-thumbs.min.css" integrity="sha256-SEa4XYAHihTcEP1f5gARTB2K26Uk8PsndQYHQC1f4jU=" crossorigin="anonymous" />
+    
+    
+    <link rel="stylesheet" href="https://yoseobdoc.github.io/css/style-twzjdbqhmnnacqs0pwwdzcdbt8yhv8giawvjqjmyfoqnvazl0dalmnhdkvp7.min.css" />
+    
+    
+
+    
+      
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-108668950-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+    
+    
+  </head>
+
+  <body>
+    <div id="blog">
+      <header id="header" data-behavior="5">
+  <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
+  <div class="header-title">
+    <a class="header-title-link" href="https://yoseobdoc.github.io/">Hotel Adriano</a>
+  </div>
+  
+    
+      <a class="header-right-picture "
+         href="https://yoseobdoc.github.io/#about">
+    
+    
+    
+      
+        <img class="header-picture" src="https://www.gravatar.com/avatar/f6c12e465869ce091686fdd55fe58b9e?s=90" alt="Author&#39;s picture" />
+      
+    
+    </a>
+  
+</header>
+
+      <nav id="sidebar" data-behavior="5">
+  <div class="sidebar-container">
+    
+      <div class="sidebar-profile">
+        <a href="https://yoseobdoc.github.io/#about">
+          <img class="sidebar-profile-picture" src="https://www.gravatar.com/avatar/f6c12e465869ce091686fdd55fe58b9e?s=110" alt="Author&#39;s picture" />
+        </a>
+        <h4 class="sidebar-profile-name">Porco Rosso</h4>
+        
+          <h5 class="sidebar-profile-bio">Porco treats himself to dinner at the Hotel Adriano, which is run by his friend Gina.</h5>
+        
+      </div>
+    
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://yoseobdoc.github.io/">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-home"></i>
+      
+      <span class="sidebar-button-desc">Home</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://yoseobdoc.github.io/categories">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-bookmark"></i>
+      
+      <span class="sidebar-button-desc">Categories</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://yoseobdoc.github.io/tags">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-tags"></i>
+      
+      <span class="sidebar-button-desc">Tags</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://yoseobdoc.github.io/archives">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-archive"></i>
+      
+      <span class="sidebar-button-desc">Posts</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://yoseobdoc.github.io/#about">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-question"></i>
+      
+      <span class="sidebar-button-desc">About</span>
+    </a>
+  </li>
+
+
+    </ul>
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://github.com/yoseobdoc" target="_blank" rel="noopener">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-github"></i>
+      
+      <span class="sidebar-button-desc">GitHub</span>
+    </a>
+  </li>
+
+
+    </ul>
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://yoseobdoc.github.io/index.xml">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-rss"></i>
+      
+      <span class="sidebar-button-desc">RSS</span>
+    </a>
+  </li>
+
+
+    </ul>
+  </div>
+</nav>
+
+      
+
+      <div id="main" data-behavior="5"
+        class="
+               hasCoverMetaIn
+               ">
+        <article class="post" itemscope itemType="http://schema.org/BlogPosting">
+          
+          
+            <div class="post-header main-content-wrap text-left">
+  
+    <h1 class="post-title" itemprop="headline">
+      Creating a New blog
+    </h1>
+  
+  
+  <div class="postShorten-meta post-meta">
+    
+      <time itemprop="datePublished" datetime="2020-07-08T00:00:00Z">
+        
+  July 8, 2020
+
+      </time>
+    
+    
+  </div>
+
+</div>
+          
+          <div class="post-content markdown" itemprop="articleBody">
+            <div class="main-content-wrap">
+              <h2 id="개요">개요</h2>
+<blockquote>
+<p>블로그를 만들 때 고려할 사항과 만드는 방법에 대하여 알려드립니다.</p>
+</blockquote>
+<ul>
+<li>목차
+<ul>
+<li><a href="#%EB%B8%94%EB%A1%9C%EA%B7%B8%EB%A5%BC-%EB%A7%8C%EB%93%A0-%EC%9D%B4%EC%9C%A0">블로그를 만든 이유</a></li>
+<li><a href="#%EB%8B%A4%EB%A5%B8-%EC%82%AC%EB%9E%8C%EB%93%A4%EC%9D%98-%EC%9D%B4%EC%9C%A0">다른 사람들의 이유</a></li>
+<li><a href="#%EB%AF%B8%EB%A6%AC-%EA%B3%A0%EB%AF%BC%ED%95%98%EB%A9%B4-%EC%A2%8B%EC%9D%84-%EA%B2%83%EB%93%A4">미리 고민하면 좋을 것들</a></li>
+<li><a href="#%EC%96%B4%EB%96%A4-%EB%B8%94%EB%A1%9C%EA%B7%B8%EA%B0%80-%EC%99%84%EC%84%B1%EB%90%98%EC%96%B4-%EC%9E%88%EC%9D%84%EC%A7%80-%EC%83%81%EC%83%81%ED%95%B4%EB%B3%B4%EC%84%B8%EC%9A%94check-list">어떤 블로그가 완성되어 있을지 상상해보세요!(Check-List)</a></li>
+<li><a href="#where-%EC%96%B4%EB%96%A4-%EC%84%9C%EB%B9%84%EC%8A%A4%ED%94%8C%EB%9E%AB%ED%8F%BC%EC%99%80-%EA%B8%B0%EC%88%A0%EC%9D%84-%ED%99%9C%EC%9A%A9%ED%95%A0%EA%B9%8C">(Where) 어떤 서비스(플랫폼)와 기술을 활용할까?</a></li>
+<li><a href="#%EC%9D%B4-%EB%B8%94%EB%A1%9C%EA%B7%B8%EB%8A%94-%EC%96%B4%EB%96%A4-%ED%94%8C%EB%9E%AB%ED%8F%BC%EC%9D%84-%EC%93%B0%EB%82%98%EC%9A%94">이 블로그는 어떤 플랫폼을 쓰나요?</a></li>
+<li><a href="#how-to-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EA%B5%AC%EC%B6%95%EB%B6%80%ED%84%B0-%ED%8F%AC%EC%8A%A4%ED%8C%85%EA%B9%8C%EC%A7%80-%EB%B0%B0%EC%9B%8C%EB%B4%85%EC%8B%9C%EB%8B%A4">(How-To) 블로그 구축부터 포스팅까지 배워봅시다.</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="블로그를-만든-이유">블로그를 만든 이유</h2>
+<hr>
+<p>지금 이 포스트를 읽고 계신 여러분은 <code>블로그 하나 만들어 볼까?</code>라는 생각을 분명 한번 이상은 해 보셨을 것이다. 같은 질문에 대한 필자의 대답과 고민의 흔적을 아래에 포스팅 하였으니 이 글이 시행착오를 줄이는데 조금이라도 보탬이 되었으면 한다.</p>
+<ul>
+<li>
+<p><strong>종이가 없어서 바위에 정으로라도 글을 새기겠다는 마음가짐</strong><br>
+&ldquo;글쓴이에게 이 정도 열망은 있어야 명작이 탄생할 수 있는 것이다.&rdquo; 학부시절 한 은사께서 하신 말씀이다. 이 정도는 너무 거창하지만, 1만 시간의 법칙 때문일까? 요즘들어 부쩍 배우고 익혀온 기술들을 정리하고 싶어 손과 머리가 근질거릴 때가 많았다. 더불어 요즘 큰 관심을 가지고 있는 데이터 사이언스 분야에 대한 배움을 정리할 곳이 간절했다. 비슷한 느낌이 든다면 여러분도 블로그를 운영할 때가 온 것은 아닐까?</p>
+</li>
+<li>
+<p><strong>Relation &gt; Entity</strong><br>
+사고방식의 취향이라고 해야할까? 학창 시절부터 단편 지식을 완벽하게 숙지 못했더라도 그 지식이 다른 지식과 연결되어 큰 숲을 이루는 관계에 관심이 많았다. 새로운 것을 배우면 머리 속 수많은 거미줄 어느 모퉁이에 매달아야 하는지 고민을 하게된다. 이런 사고 방식을 충족시킬 수 있는 나만의 지식과 데이터를 쌓기에 블로그만한 것이 없을 것이라 생각했다.</p>
+</li>
+<li>
+<p><strong>프로그래머라면 Jekyll?</strong><br>
+이런 허세 때문에 Jekyll 기반의 블로그를 운영하는 것은 아니지만 직업적으로는 꽤 의미있는 일이 된다. 어느 분야에 종사하시는 분일지라도 <code>제너럴리스트 vs 스페셜리스트</code>사이의 고민은 항상 있으실 것이다. 둘 다 정통한 T자형 인재가 정답이겠지만 시간, 재능, 운의 한계로 결코 쉽지만은 않다.<br>
+필자는 프로그래머로 Front-end 보다는 Back-end 기술을 주로 다루며, 서비스보다는 공공 위주 프로젝트를 다루기 때문에 트렌드에 노출될 기회가 적다. 적어도 블로그만큼은 자주 다루기 힘든 기술(Front-end), 트렌드에 뒤떨어지지 않는 기술 그리고 다루고 싶은 기술을 활용하여 지적인 욕구도 충족시키고 제너럴리스트로서의 요건도 갖추고 싶었던 것이 이 블로그를 운영하는 또 다른 이유라고 할 수 있겠다.</p>
+</li>
+<li>
+<p><strong>내 두뇌는 CPU, Memory, 하드디스크 어디에 가깝지?</strong><br>
+컴퓨터는 크게 사고력을 상징하는 CPU, 메타인지를 상징하는 Memory, 기억력을 상징하는 HardDisk, 습득이 빠르고 생각을 전달하는 능력이 탁월한 I/O 등으로 이루어져 있다고 생각한다.(<del>필자가 멋대로 정한 비유이므로 큰 의미는 두지 않으셨으면 한다.</del>) 필자의 경우는 두뇌를 주로 CPU와 Memory의 기능 위주로 활용한다. 때문에 자연스럽게 타 영역에 대한 보완이 필요했는데 특히 기억력을 보완하기 위한 수단으로 블로그를 운영한다.</p>
+</li>
+<li>
+<p><strong>진리탐구의 연장선</strong><br>
+거창하게 써서 부끄럽다. 개똥철학일지는 모르겠지만 내 자식, 지인들에게 그간 노력하며 얻은 지식을 쉽고 빠르게 전달하고 싶은 마음이 컸다. 조금 더 욕심을 부리면 세상 모든 사람들의 시간을 조금이라도 줄여주는데 보탬이 되고 싶다.</p>
+</li>
+</ul>
+<h2 id="다른-사람들의-이유">다른 사람들의 이유</h2>
+<hr>
+<p>그렇다면 다른 사람들은 왜 블로그를 운영하는 것일까? 이 포스팅을 읽는 분들께는 이 질문이 더 중요할지도 모르겠다. 조사한 바 크고 작은 이유를 간추려 보았다.</p>
+<ul>
+<li>공유 정신으로 스스로 <code>사회에 기여</code>하는 사람이 되고 싶어서</li>
+<li><code>시간을 효율적</code>으로 쓰는 사람으로 보여지는게 마음에 든다.</li>
+<li><code>적극</code>적인 사람 또는 <code>열정</code>을 가진 사람으로 보여지는게 좋다.</li>
+<li><code>사업가 마인드</code>를 가진 사람으로 보인다.</li>
+<li>구글 애드센스를 장착하여 <code>광고 수익</code>을 내기 위해서</li>
+<li>사업상 <code>마케팅 수단</code>이 필요하여</li>
+<li>1인 기업, 파워블로그 등의 활동으로 <code>수익 창출</code>을 위하여(유튜버와 유사)</li>
+<li><code>취미가 글쓰기</code>이거나 쓰는 동안 <code>생각이 정리</code>되며 스트레스가 풀려서</li>
+<li>많은 이들과 육아, 가정 등 <code>지식, 노하우</code>를 공유하고 싶어서</li>
+<li>배운 지식을 정리하며 <code>메타적 사고</code>를 넓히고자</li>
+<li><code>취업</code>, 경력관리, 이직에 도움이 되어서</li>
+<li>PC에 쌓여가는 지식을 정리하고, 온라인에 연결하여 <code>접근성</code>을 확보하기 위해서</li>
+<li>SNS 할성화 및 <code>온오프라인 모임</code>을 위하여</li>
+<li><code>Markdown 등의 기술</code>을 써보고 싶어서, 내용에 방해를 받고싶지 않아서</li>
+<li>다른 사람의 정보를 모아놓기 위해서, <code>즐겨찾기</code> 용도로</li>
+<li>기타 외로워서, 관심이 필요, 똑똑해보여서, 주위에서 많이들 하길래, 심심해서 등</li>
+</ul>
+<p>그 외 여러 목적이 있지만 어떤 이유든 글을 쓰기 위한 충분한 동기가 되지 않을까?</p>
+<h2 id="미리-고민하면-좋을-것들">미리 고민하면 좋을 것들</h2>
+<hr>
+<p>미리 고민하지 않으면 블로그 구축 중 은근히 시간을 많이 잡아먹는 요소들로, 만들기로 결정했다면 일상생활 중 미리 고민해놓으면 시간을 상당히 절약할 수 있다.</p>
+<ul>
+<li>네이밍 : 블로그명, Sitename, .. 등 각종 이름짓기</li>
+<li>도메인 보유여부 : 도메인 유지비용 및 네이밍 고려</li>
+<li>개발스택, 언어 : MEAN, LAMP, Jsp, Asp, .. 등</li>
+<li>솔루션(플랫폼) : 미디엄, 브런치, 티스토리, 네이버, .. 등</li>
+<li>호스팅업체 : AWS, Google Cloud, MS Azure, KT Cloud, CAFE24, 가비아, .. 등</li>
+<li>연동할 SNS, E-mail 등</li>
+</ul>
+<h2 id="어떤-블로그가-완성되어-있을지-상상해보세요check-list">어떤 블로그가 완성되어 있을지 상상해보세요!(Check-List)</h2>
+<hr>
+<p>블로그를 만들기로 마음 먹었다면, 미래에 어떤 모습으로 운영되고 있을지 생각해 볼 필요가 있다.</p>
+<ul>
+<li>
+<p><strong>(What) 뭘 쓰고있나요?</strong><br>
+주로 다루게 될 주제가 무엇인지 생각해보는 것이 좋다. 분야는 너무나도 다양하다.</p>
+<ul>
+<li>일기장, 일상, 전원생활, 철학, 소설, &hellip;</li>
+<li>리뷰, 육아, 교육, 주식, 자기계발, &hellip;</li>
+<li>게임, 취미, 여행, 요리, 건축, &hellip;</li>
+<li>역사, 문화, 정치, 종교, 사회, 과학, 예술, &hellip;등 <br>
+흥미있는 주제로 어느 정도 범위를 좁혀놔야 글쓰기의 일상화에 부담이 되지 않아, 가볍게 출발하며 지구력을 얻게되고, 블로그 플랫폼 및 기술 선택 시 도움이 된다.</li>
+</ul>
+</li>
+<li>
+<p><strong>(Who) 누가 읽을까요?</strong>
+깊게 생각해 볼 문제다.(<del>물론 아무도 없을지도 모른다.ㅎㅎㅎ</del>) 문체, 전개 방식을 선택하는 계기가 되고 플랫폼 선택 후 여러번 삭제했다 다시 만드는 등 시행착오를 줄이게 된다. 더불어 글의 분량, 수준(난이도)을 결정하는데 도움이 된다.</p>
+</li>
+<li>
+<p><strong>(When) 언제 써야 할까요? 계속 쓸 수는 있을까요?</strong>
+귀중한 시간을 들여 블로그를 제작한 의미가 퇴색하지 않도록 꾸준히 글을 쓰는 습관이 중요하다. 시간 공간적으로 글쓰기에 문제는 없을지, 계속 운영할 수 있게하는 원동력이 무엇일지, 다시금 <code>Why</code>를 새기면서 스스로의 동기부여가 중요하다.</p>
+</li>
+<li>
+<p><strong>(Why) 왜 쓰고 있나요?</strong><br>
+이 질문이 가장 중요하지만, 위에서 이미 답이 나왔기에 블로그를 쓰기로 결정했을 것이다.</p>
+</li>
+</ul>
+<p>여기까지는 생각을 정리해보는 것만으로 충분했다. 이제부터 직접 블로그를 개설하는 방법에 대하여 구체적으로 다루어보겠다.</p>
+<h2 id="where-어떤-서비스플랫폼와-기술을-활용할까">(Where) 어떤 서비스(플랫폼)와 기술을 활용할까?</h2>
+<hr>
+<p>서비스(플랫폼)별 각각 장.단점이 존재하므로, 블로그의 주제 포커싱에 따라 선택이 필요하다. 아래 선정기준을 체크해 본 후, 이어서 <code>한눈에 제시한 비교표</code>를 통해 본인에게 가장 적합한 블로그를 선택하길 바란다.</p>
+<ul>
+<li>
+<p><strong>서비스(플랫폼) 선정기준</strong></p>
+<ul>
+<li>(비용) 블로그를 만들 수 있다면 돈을 써도 상관없는지?
+<ul>
+<li>AWS, Google Cloud, MS Azure, KT Cloud, CAFE24, 가비아,.. 등 웹 호스팅 업체를 알아봐야 한다.</li>
+</ul>
+</li>
+<li>(글쓰기 집중) 글쓰기에만 집중하고 싶은지?</li>
+<li>(커스터마이징) 홈페이지처럼 내 마음대로 만들고, 바꾸고, 꾸미고 싶은지?</li>
+<li>(개인DB) 데이터베이스처럼 평생 내 자료를 소장하고, 에디팅하고 싶고, 분석도 하고 싶은지?</li>
+<li>(클릭율) 유저들이 많이 접속하길 희망하는지?</li>
+<li>(프로젝트 관리)프로그래머 등 직업적인 특성 상 Git 등의 연동이 필요한지?</li>
+</ul>
+</li>
+<li>
+<p><strong><code>&lt;한눈에 보는 서비스별 장.단점&gt;</code></strong></p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th align="center">서비스<!-- raw HTML omitted -->(플랫폼)</th>
+<th align="center">장점</th>
+<th align="center">단점</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">지킬<!-- raw HTML omitted --><a href="https://jekyllrb-ko.github.io/">Jekyll</a></td>
+<td align="center">-디자인,기능 거의 무제한 <!-- raw HTML omitted --> -비용 무료/속도 빠름 <!-- raw HTML omitted --> -개인DB화 관리</td>
+<td align="center">-양방향 서비스 불가 <!-- raw HTML omitted --> -기능 연동 시 기술적 노하우 필요</td>
+</tr>
+<tr>
+<td align="center">워드프레스<!-- raw HTML omitted --><a href="https://ko.wordpress.com">Wordpress</a></td>
+<td align="center">-이지위그(Wysiwyg) 탁월 <!-- raw HTML omitted --> -APM 웹 프로그래밍 운영가능</td>
+<td align="center">-유료 호스팅 운영 필요<!-- raw HTML omitted -->(AWS, CAFE24 등) <!-- raw HTML omitted --> -유지보수 상당한 노력 필요</td>
+</tr>
+<tr>
+<td align="center">미디엄<!-- raw HTML omitted --><a href="https://medium.com/">Medium</a></td>
+<td align="center">-깔끔한 디자인 <!-- raw HTML omitted --> -서비스 오래 지속될 것으로 예상 <!-- raw HTML omitted --> -포스트에만 집중가능</td>
+<td align="center">-커스터마이징, 기능확장 불가 <!-- raw HTML omitted --> -한글 폰트 문제 <!-- raw HTML omitted --> -낯선기능(respanse 등)</td>
+</tr>
+<tr>
+<td align="center">티스토리<!-- raw HTML omitted --><a href="https://www.tistory.com/">Tistory</a></td>
+<td align="center">-커스터마이징 자유도 <!-- raw HTML omitted -->-깔끔한 디자인 <!-- raw HTML omitted -->-카운팅 등 다양한 기능</td>
+<td align="center">-에디터 Wysiwyg 불편 <!-- raw HTML omitted --> -신규 제작 시 초대장이 필요 <!-- raw HTML omitted --> -기능의 파편화</td>
+</tr>
+<tr>
+<td align="center">텀블러<!-- raw HTML omitted --><a href="https://www.tumblr.com/">Tumblr</a></td>
+<td align="center">-Markdown 지원 <!-- raw HTML omitted -->-이미지업로드 간편 <!-- raw HTML omitted -->-다양한 기능</td>
+<td align="center">-카테고리, 추천글 기능이 없음 <!-- raw HTML omitted -->-속도문제 <!-- raw HTML omitted -->-기술 블로그에는 취약</td>
+</tr>
+<tr>
+<td align="center">스팀잇<!-- raw HTML omitted --><a href="https://steemit.com/">Steemit</a></td>
+<td align="center">-블록체인 포스트에 효과적 <!-- raw HTML omitted --> -스팀달러 Coin 보상</td>
+<td align="center">-에디터, 기능이 약간 부족함</td>
+</tr>
+<tr>
+<td align="center">브런치<!-- raw HTML omitted --><a href="https://brunch.co.kr/">Brunch</a></td>
+<td align="center">-유사글 연결 기능 <!-- raw HTML omitted -->-깔끔한 디자인 <!-- raw HTML omitted -->-포스트에만 집중 가능 <!-- raw HTML omitted -->-모바일 탁월</td>
+<td align="center">-구글 등 해외 검색엔진 노출 문제 <!-- raw HTML omitted -->-커스터마이징 불가 <!-- raw HTML omitted --> -코드 삽입과 gist 지원 불가</td>
+</tr>
+<tr>
+<td align="center">빙글<!-- raw HTML omitted --><a href="https://www.vingle.net">Vingle</a></td>
+<td align="center">-카테고리, 태그 기반 구조</td>
+<td align="center">-노출이 약함<!-- raw HTML omitted -->-사용자 많지 않음</td>
+</tr>
+<tr>
+<td align="center">포스타입<!-- raw HTML omitted --><a href="https://www.postype.com/">Postype</a></td>
+<td align="center">-창작물 판매,후원 가능</td>
+<td align="center">-서비스 조기종료 가능성<!-- raw HTML omitted -->(스타트업)</td>
+</tr>
+<tr>
+<td align="center">구글블로그<!-- raw HTML omitted --><a href="https://www.blogger.com">Blogger</a></td>
+<td align="center">-검색노출 최고</td>
+<td align="center">-검색 노출 외 좋은 점이 없다.</td>
+</tr>
+<tr>
+<td align="center">네이버<!-- raw HTML omitted --><a href="https://blog.naver.com">Naver</a></td>
+<td align="center">-국내 클릭율(CTR) 우수 <!-- raw HTML omitted --> -상품 리뷰에 효과적</td>
+<td align="center">-구글 등 해외 검색엔진 노출 문제 <!-- raw HTML omitted --> -커스터마이징 불가<!-- raw HTML omitted -->(Markdown 사용불가 등)</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>그 외 블로그
+블로그 서비스는 너무나 다양해서 모든 것을 조사할 수는 없다. 다만 입소문이 제법 나있는 블로그 중 개인적인 직관으로 후보에서 제외시켰던 서비스들을 정리하였으니 좀 더 완벽한 조사를 원하신다면 참고하시기 바란다.
+<ul>
+<li><a href="https://www.squarespace.com/">Squarespace</a></li>
+<li><a href="https://www.typepad.com/">TypePad</a></li>
+<li><a href="https://www.movabletype.org/">Movable Type</a></li>
+<li><a href="https://www.drupal.org/">Drupal</a></li>
+<li><a href="https://www.joomla.org/">Joomla</a></li>
+<li><a href="https://ko.wix.com">Wix</a></li>
+<li><a href="https://www.quv.kr">Weebly</a></li>
+<li><a href="https://www.strikingly.com">Strikingly</a></li>
+<li><a href="https://ghost.org/">Ghost</a></li>
+<li><a href="https://www.hubspot.com/">HubSpot</a></li>
+<li><a href="https://www.shopify.com/">Shopify</a></li>
+<li><a href="https://www.jimdo.com/">Jimdo</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="이-블로그는-어떤-플랫폼을-쓰나요">이 블로그는 어떤 플랫폼을 쓰나요?</h2>
+<hr>
+<p>github.io 형태의 URL로 서비스가 제공되는 <!-- raw HTML omitted -->Jekyll 기반의 Github Pages 블로그<!-- raw HTML omitted -->이다. 바로 지금 보고계신 블로그가 그 예이다. 선택한 이유는 다음과 같다.</p>
+<ul>
+<li><code>공짜</code>다. 그런데 유료보다 <code>빠르다</code>.</li>
+<li>마크다운(Markdown) 기반 포스트 작성
+<ul>
+<li>글 작성이 쉽다. <code>글쓰기에 집중</code>하기 쉽다.</li>
+<li><code>나만의 데이터베이스</code>를 보유한 효과가 있다.</li>
+</ul>
+</li>
+<li>기능 확장을 위한 Front-End <code>생태계(Eco)가 풍부</code>하고 수준이 뛰어나다.</li>
+<li><code>Git</code>, Ruby등의 기술을 습관처럼 익히게 된다. 협업도 가능하다.</li>
+<li>디자인, 기능 등 어떤 홈페이지 보다도 <code>다양한 기능</code>을 구현할 수 있다.</li>
+<li><code>프로젝트 개발</code> 시 Git을 통한 연동으로 기술 블로그로서 최적의 기능을 제공한다.</li>
+<li>블로그 만들고 꾸미는 것보다 <code>Publish에 집중</code>하고 싶다.</li>
+<li>서비스(플랫폼, 호스팅 등)가 종료되어도 <code>쉽게 보관, 이동</code>이 가능하다.</li>
+<li><code>광고</code>를 달 수 있다.</li>
+<li>Jekyll외 Ghost, Hexo 같은 <code>정적 사이트 생성기와 연동</code> 가능하다.</li>
+</ul>
+<h2 id="how-to-블로그-구축부터-포스팅까지-배워봅시다">(How-To) 블로그 구축부터 포스팅까지 배워봅시다.</h2>
+<hr>
+<p>만약 필자와 동일하게 Jekyll 기반의 GitHub Pages를 만드시기로 결정했다면 아래 순서대로 포스팅을 읽고 따라하시기만 하면 된다.(각 링크를 클릭) 필자와 다른 어떤 서비스를 이용하시든 쭉 훑어보는 것만으로도 큰 도움이 되실 것이므로 블로그를 구축하는 전체 과정에 대한 개요를 잡는다는 생각으로 읽어주시기 바란다. 대부분 구축방법은 이 범위 내 부분 집합일 뿐이다. 참고로 아직 링크가 걸리지 않은 경우, 조만간 포스팅할 예정이니 양해를 부탁드린다.</p>
+<ul>
+<li>
+<p><code>블로그</code> 구축</p>
+<ol>
+<li><a href="https://theorydb.github.io/envops/2019/05/02/envops-blog-theme/">블로그 테마(Themes) 고르기 및 환경설정</a></li>
+<li><a href="https://theorydb.github.io/envops/2019/05/03/envops-blog-github-pages-jekyll/">GitHub 연동 및 Jekyll 설치</a></li>
+<li><a href="https://theorydb.github.io/envops/2019/05/04/envops-blog-posting-prose-io/">Prose.io 연동으로 포스팅을 쉽게! 배포는 더 쉽게!</a></li>
+<li>개인의 취향에 맞도록 디자인 및 환경설정 변경</li>
+<li>파비콘 만들기</li>
+</ol>
+</li>
+<li>
+<p><code>기능</code> 확장 및 연동</p>
+<ol>
+<li><a href="https://theorydb.github.io/envops/2019/05/11/envops-blog-tipue-search/">Tipue Search를 이용하여 블로그 검색 기능 만들기</a></li>
+<li>블로그 댓글기능 추가</li>
+<li>구글 애널리틱스로 방문자 유입 분석</li>
+<li>구글 검색엔진 등록을 유리하게</li>
+<li><a href="https://theorydb.github.io/envops/2020/04/20/envops-blog-how-to-register-google-adsense/">구글 애드센스(Google Adsense) 적용하기</a></li>
+<li>편리한 운영을 위한 기타 설정 및 오류 발생시 대처방법</li>
+</ol>
+</li>
+<li>
+<p><code>글쓰기</code>를 편하게</p>
+<ol>
+<li><a href="https://theorydb.github.io/envops/2019/05/21/envops-blog-how-to-use-git/">GitHub &amp; Jekyll 사용법</a></li>
+<li><a href="https://theorydb.github.io/envops/2019/05/22/envops-blog-how-to-use-md/">마크다운(Markdown) 사용법 및 예제</a></li>
+<li>이미지 캡션 활용</li>
+</ol>
+</li>
+</ul>
+<p>이로써 블로그를 구축해야 하는 목적, 방법 등 전반적인 모든 것을 알아보았다. 앞으로도 유용한 기능을 계속 올릴 예정이니 관심있게 지켜봐주시길 부탁드린다.</p>
+
+              
+            </div>
+          </div>
+          <div id="post-footer" class="post-footer main-content-wrap">
+            
+              
+            
+            <div class="post-actions-wrap">
+  
+      <nav >
+        <ul class="post-actions post-action-nav">
+          
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="https://yoseobdoc.github.io/2020/07/%EC%B5%9C%EA%B7%BC-%ED%8C%90%EB%8D%B0%EB%AF%B9%EC%83%81%ED%99%A9%EC%97%90%EC%84%9C-%EC%A3%BC%EC%9D%98%ED%95%B4%EC%84%9C-%EB%B3%BC-%EC%A7%80%ED%91%9C%EB%93%A4/" data-tooltip="최근 판데믹상황에서 주의해서 볼 지표들">
+              
+                  <i class="fa fa-angle-left"></i>
+                  <span class="hide-xs hide-sm text-small icon-ml">NEXT</span>
+                </a>
+            </li>
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="https://yoseobdoc.github.io/2020/07/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0/" data-tooltip="마크다운 이해하기">
+              
+                  <span class="hide-xs hide-sm text-small icon-mr">PREVIOUS</span>
+                  <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+          
+        </ul>
+      </nav>
+    <ul class="post-actions post-action-share" >
+      
+        <li class="post-action hide-lg hide-md hide-sm">
+          <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions">
+            <i class="fa fa-share-alt"></i>
+          </a>
+        </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/se6644%25!%28EXTRA%20string=https://yoseobdoc.github.io/2020/07/creating-a-new-blog/%29">
+              <i class="fa fa-twitter"></i>
+            </a>
+          </li>
+        
+      
+      
+        <li class="post-action">
+          <a class="post-action-btn btn btn--default" href="#disqus_thread">
+            <i class="fa fa-comment-o"></i>
+          </a>
+        </li>
+      
+      <li class="post-action">
+        
+          <a class="post-action-btn btn btn--default" href="#">
+        
+          <i class="fa fa-list"></i>
+        </a>
+      </li>
+    </ul>
+  
+</div>
+
+            
+              
+                <div id="disqus_thread">
+  <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+              
+            
+          </div>
+        </article>
+        <footer id="footer" class="main-content-wrap">
+  <span class="copyrights">
+    &copy; 2020 Porco Rosso. All Rights Reserved
+  </span>
+</footer>
+
+      </div>
+      <div id="bottom-bar" class="post-bottom-bar" data-behavior="5">
+        <div class="post-actions-wrap">
+  
+      <nav >
+        <ul class="post-actions post-action-nav">
+          
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="https://yoseobdoc.github.io/2020/07/%EC%B5%9C%EA%B7%BC-%ED%8C%90%EB%8D%B0%EB%AF%B9%EC%83%81%ED%99%A9%EC%97%90%EC%84%9C-%EC%A3%BC%EC%9D%98%ED%95%B4%EC%84%9C-%EB%B3%BC-%EC%A7%80%ED%91%9C%EB%93%A4/" data-tooltip="최근 판데믹상황에서 주의해서 볼 지표들">
+              
+                  <i class="fa fa-angle-left"></i>
+                  <span class="hide-xs hide-sm text-small icon-ml">NEXT</span>
+                </a>
+            </li>
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="https://yoseobdoc.github.io/2020/07/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0/" data-tooltip="마크다운 이해하기">
+              
+                  <span class="hide-xs hide-sm text-small icon-mr">PREVIOUS</span>
+                  <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+          
+        </ul>
+      </nav>
+    <ul class="post-actions post-action-share" >
+      
+        <li class="post-action hide-lg hide-md hide-sm">
+          <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions">
+            <i class="fa fa-share-alt"></i>
+          </a>
+        </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/se6644%25!%28EXTRA%20string=https://yoseobdoc.github.io/2020/07/creating-a-new-blog/%29">
+              <i class="fa fa-twitter"></i>
+            </a>
+          </li>
+        
+      
+      
+        <li class="post-action">
+          <a class="post-action-btn btn btn--default" href="#disqus_thread">
+            <i class="fa fa-comment-o"></i>
+          </a>
+        </li>
+      
+      <li class="post-action">
+        
+          <a class="post-action-btn btn btn--default" href="#">
+        
+          <i class="fa fa-list"></i>
+        </a>
+      </li>
+    </ul>
+  
+</div>
+
+      </div>
+      <div id="share-options-bar" class="share-options-bar" data-behavior="5">
+  <i id="btn-close-shareoptions" class="fa fa-close"></i>
+  <ul class="share-options">
+    
+      <li class="share-option">
+        <a class="share-option-btn" target="new" href="https://twitter.com/se6644%25!%28EXTRA%20string=https%3A%2F%2Fyoseobdoc.github.io%2F2020%2F07%2Fcreating-a-new-blog%2F%29">
+          <i class="fa fa-twitter"></i><span>Share on Twitter</span>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+<div id="share-options-mask" class="share-options-mask"></div>
+    </div>
+    
+    <div id="about">
+  <div id="about-card">
+    <div id="about-btn-close">
+      <i class="fa fa-remove"></i>
+    </div>
+    
+      <img id="about-card-picture" src="https://www.gravatar.com/avatar/f6c12e465869ce091686fdd55fe58b9e?s=110" alt="Author&#39;s picture" />
+    
+    <h4 id="about-card-name">Porco Rosso</h4>
+    
+      <div id="about-card-bio">Porco treats himself to dinner at the Hotel Adriano, which is run by his friend Gina.</div>
+    
+    
+      <div id="about-card-job">
+        <i class="fa fa-briefcase"></i>
+        <br/>
+        an Italian World War I fighter ace and freelance bounty hunter
+      </div>
+    
+    
+      <div id="about-card-location">
+        <i class="fa fa-map-marker"></i>
+        <br/>
+         Adriatic Sea
+      </div>
+    
+  </div>
+</div>
+
+    
+
+    
+  
+    <div id="cover" style="background-image:url('http://www.ghibli.jp/images/buta1.jpg');"></div>
+  
+
+
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.7/js/jquery.fancybox.min.js" integrity="sha256-GEAnjcTqVP+vBp3SSc8bEDQqvWAZMiHyUSIorrWwH50=" crossorigin="anonymous"></script>
+
+
+<script src="https://yoseobdoc.github.io/js/script-pcw6v3xilnxydl1vddzazdverrnn9ctynvnxgwho987mfyqkuylcb1nlt.min.js"></script>
+
+
+<script lang="javascript">
+window.onload = updateMinWidth;
+window.onresize = updateMinWidth;
+document.getElementById("sidebar").addEventListener("transitionend", updateMinWidth);
+function updateMinWidth() {
+  var sidebar = document.getElementById("sidebar");
+  var main = document.getElementById("main");
+  main.style.minWidth = "";
+  var w1 = getComputedStyle(main).getPropertyValue("min-width");
+  var w2 = getComputedStyle(sidebar).getPropertyValue("width");
+  var w3 = getComputedStyle(sidebar).getPropertyValue("left");
+  main.style.minWidth = `calc(${w1} - ${w2} - ${w3})`;
+}
+</script>
+
+<script>
+$(document).ready(function() {
+  hljs.configure({ classPrefix: '', useBR: false });
+  $('pre.code-highlight > code, pre > code').each(function(i, block) {
+    if (!$(this).hasClass('codeblock')) {
+      $(this).addClass('codeblock');
+    }
+    hljs.highlightBlock(block);
+  });
+});
+</script>
+
+
+  
+    
+      <script>
+        var disqus_config = function () {
+          this.page.url = 'https:\/\/yoseobdoc.github.io\/2020\/07\/creating-a-new-blog\/';
+          
+            this.page.identifier = '\/2020\/07\/creating-a-new-blog\/'
+          
+        };
+        (function() {
+          
+          
+          if (window.location.hostname == "localhost") {
+            return;
+          }
+          var d = document, s = d.createElement('script');
+          var disqus_shortname = 'yoseobmite';
+          s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+
+          s.setAttribute('data-timestamp', +new Date());
+          (d.head || d.body).appendChild(s);
+        })();
+      </script>
+    
+  
+
+
+
+
+    
+  </body>
+</html>
+

@@ -1,125 +1,117 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Story about learning</title>
-    <link>https://yoseobmite.github.io/</link>
-    <description>Recent content on Story about learning</description>
+    <title>Hotel Adriano</title>
+    <link>https://yoseobdoc.github.io/</link>
+    <description>Recent content on Hotel Adriano</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ko-KR</language>
-    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Wed, 09 Apr 2014 00:00:00 +0000</lastBuildDate>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 09 Jul 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://yoseobmite.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://yoseobdoc.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Norwegian Verb</title>
+      <link>https://yoseobdoc.github.io/2020/07/norwegian-verb/</link>
+      <pubDate>Wed, 15 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://yoseobdoc.github.io/2020/07/norwegian-verb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NOW NTNU chapter1</title>
+      <link>https://yoseobdoc.github.io/2020/07/now-ntnu-chapter1/</link>
+      <pubDate>Wed, 15 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://yoseobdoc.github.io/2020/07/now-ntnu-chapter1/</guid>
+      <description>CHAPTER 1  1 KEN  Ken Robbins kommer fra England. Han bor i London. Ken er 23 år gammel. Han reiser med tog fra Oslo til Tronheim. Ken Snakker med ei dame. Hun kommer fra Norge.
+         Monika: Jeg hetter Monnika. Hav heter du?   ken: Jeg heter Ken.   Monika: Hvor komer du fra?   Ken: Jeg kommer fra England.</description>
+    </item>
+    
+    <item>
       <title>hugbo blog create</title>
-      <link>https://yoseobmite.github.io/posts/2020/07/hugbo-blog-create/</link>
+      <link>https://yoseobdoc.github.io/2020/07/hugbo-blog-create/</link>
       <pubDate>Mon, 13 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://yoseobmite.github.io/posts/2020/07/hugbo-blog-create/</guid>
+      <guid>https://yoseobdoc.github.io/2020/07/hugbo-blog-create/</guid>
       <description>여름 휴가시작후 ubuntu20.04 를 설치 나름 안정된 데스탑환경을 만족 스럽더군요 다시 정적 블로그 static blog시작 해볼까 하고 __Hugo__를 둘러 봅니다. 윈도우10에서 우분투 환경으로 동작 가능하다기에 도전 해보았습니다.
  개요 - 설치 순서 - [WLS2 설치](#h2-idwls2-설치-1330wls2-설치h2) - [몇가지 기본설정 하기](#몇가지-기본설정-하기) - [zsh과 oh-my-zsh 설치, 그리고 플러그인 적용](#zsh과-oh-my-zsh-설치-그리고-플러그인-적용) - [Hugo 설치](#h3-idhugo-설치-17hugo-설치h3) - [Github deploy](#github-deploy) - [shortcord 및 추가 기능](#shortcord-및-추가-기능)  WLS2 설치  Windows Subsystem for Linux? WSL은 윈도우환경에서 기존의 Virtual Box나 Hyper-V와 같은 가상머신을 이용하지 않고(실질 적으로 가상머신을 이용하기는 하지만.</description>
     </item>
     
     <item>
-      <title>GS Macro</title>
-      <link>https://yoseobmite.github.io/posts/2020/07/gs-macro/</link>
-      <pubDate>Sat, 11 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://yoseobmite.github.io/posts/2020/07/gs-macro/</guid>
-      <description>gist  image Goldman Sachs Macro At a Glance
-latex $$\int_{a}^{b} x^2 dx$$ The following
-$$\int_{a}^{b} x^2 dx$$
-Is an integral
-$$ \begin{align} \vec{a} \cdot \vec{b} &amp;amp;= |\vec{a}||\vec{b}|cos\theta \\\\\ &amp;amp;= a_1b_1+a_2b_2 \end{align} $$ $$ \begin{align} \vec{a} \cdot \vec{b} &amp;amp;= |\vec{a}||\vec{b}|cos\theta \\
-&amp;amp;= a_1b_1+a_2b_2 \end{align} $$
-$$ \begin{align} A^{\[0\]} &amp;amp; = Input Feature &amp;amp; (1) \\\\\ Z^{\[1\]} &amp;amp; = W^{\[1\]}A^{\[0\]} &amp;amp; (2) \\\\\ A^{\[1\]} &amp;amp; = g(Z^{\[1\]}) &amp;amp; (3) \\\\\ Z^{\[2\]} &amp;amp; = W^{\[2\]}A^{\[1\]} &amp;amp; (4) \\\\\ A^{\[2\]} &amp;amp; = g(Z^{\[2\]}) &amp;amp; (5) \end{align} $$ $$ \begin{align} A^{[0]} &amp;amp; = Input Feature &amp;amp; (1) \\</description>
-    </item>
-    
-    <item>
       <title>“Giraffes Can’t Dance” - read by @brielarson</title>
-      <link>https://yoseobmite.github.io/posts/2020/07/giraffes-cant-dance-read-by-brielarson/</link>
+      <link>https://yoseobdoc.github.io/2020/07/giraffes-cant-dance-read-by-brielarson/</link>
       <pubDate>Fri, 10 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://yoseobmite.github.io/posts/2020/07/giraffes-cant-dance-read-by-brielarson/</guid>
+      <guid>https://yoseobdoc.github.io/2020/07/giraffes-cant-dance-read-by-brielarson/</guid>
       <description>savewithstories 인스타그램에서 셀럽들이 나와서 아이들을 위해 동화책을 읽어줍니다. 집에서 자기전 침대에서 읽어주는 분위기라 너무 좋네요. 블링블링 스타들이 동원된 무지막지 프로젝트 입니다.
 브리라슨 편을 올려봅니다.    View this post on Instagram        “Giraffes Can’t Dance” by Giles Andreae, illustrated by Guy Parker-Reese (published by @scholasticinc) - read by @brielarson . THIRTY MILLION CHILDREN rely on school for food. Responding to the needs of kids during school closures, @savethechildren and @nokidhungry have a new fund @SAVEWITHSTORIES to support food banks, and mobile meal trucks, and community feeding programs with funds to do what they do best—and also—with educational toys, books, and worksheets to make sure brains are full, as well as bellies.</description>
     </item>
     
     <item>
       <title>klartale new</title>
-      <link>https://yoseobmite.github.io/posts/2020/07/klartale-new/</link>
+      <link>https://yoseobdoc.github.io/2020/07/klartale-new/</link>
       <pubDate>Fri, 10 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://yoseobmite.github.io/posts/2020/07/klartale-new/</guid>
+      <guid>https://yoseobdoc.github.io/2020/07/klartale-new/</guid>
       <description>Raja vil be om en vurdering av planen for bredde-idrett Mange vil at også andre enn topp-idretten skal få drive med sport. Fredag hadde flere idrettsledere et møte med kulturminister Abid Raja. Abid Raja møtte lederne i både Norges Idretts-forbund og Norges Fotball-forbund fredag. De snakket om hva som må til for å starte opp mer av idretten igjen. Den har vært stengt for å hindre smitte av korona. Raja fikk se en plan fra fotball-forbundet.</description>
     </item>
     
     <item>
       <title>최근 판데믹상황에서 주의해서 볼 지표들</title>
-      <link>https://yoseobmite.github.io/posts/2020/07/%EC%B5%9C%EA%B7%BC-%ED%8C%90%EB%8D%B0%EB%AF%B9%EC%83%81%ED%99%A9%EC%97%90%EC%84%9C-%EC%A3%BC%EC%9D%98%ED%95%B4%EC%84%9C-%EB%B3%BC-%EC%A7%80%ED%91%9C%EB%93%A4/</link>
+      <link>https://yoseobdoc.github.io/2020/07/%EC%B5%9C%EA%B7%BC-%ED%8C%90%EB%8D%B0%EB%AF%B9%EC%83%81%ED%99%A9%EC%97%90%EC%84%9C-%EC%A3%BC%EC%9D%98%ED%95%B4%EC%84%9C-%EB%B3%BC-%EC%A7%80%ED%91%9C%EB%93%A4/</link>
       <pubDate>Fri, 10 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://yoseobmite.github.io/posts/2020/07/%EC%B5%9C%EA%B7%BC-%ED%8C%90%EB%8D%B0%EB%AF%B9%EC%83%81%ED%99%A9%EC%97%90%EC%84%9C-%EC%A3%BC%EC%9D%98%ED%95%B4%EC%84%9C-%EB%B3%BC-%EC%A7%80%ED%91%9C%EB%93%A4/</guid>
+      <guid>https://yoseobdoc.github.io/2020/07/%EC%B5%9C%EA%B7%BC-%ED%8C%90%EB%8D%B0%EB%AF%B9%EC%83%81%ED%99%A9%EC%97%90%EC%84%9C-%EC%A3%BC%EC%9D%98%ED%95%B4%EC%84%9C-%EB%B3%BC-%EC%A7%80%ED%91%9C%EB%93%A4/</guid>
       <description>홍춘욱 박사님 블로그에서 받아온 연준 링크를 걸어 봅니다. 판데믹 이후 실물경제는 가늠하기 힘들 정도로 추락하고 확진자 수는 줄어들고 있지 않은 상황에 기업들이 가난해지고 있어 크레딧 위험으로 번지지 않을까 예의 주시 하시고 계신듯 합니다.
-  연준자산규모 및 초과지준   미국회사채 가산금리   인플레이션 기대 심리   El-Erian 님의 트윗입니다. 헤지펀드들이 Tesla 주식에 200억불 넘게 숏을 했다던데, 주가는 하늘을 치솟고 있습니다. Just stunning!
+  연준자산규모 및 초과지준    미국회사채 가산금리    인플레이션 기대 심리    El-Erian 님의 트윗입니다. 헤지펀드들이 Tesla 주식에 200억불 넘게 숏을 했다던데, 주가는 하늘을 치솟고 있습니다. Just stunning!
 With today&amp;#39;s new surge higher, @Tesla stock is now up an eye-popping 55% in just the last two trading weeks.</description>
     </item>
     
     <item>
       <title>Creating a New blog</title>
-      <link>https://yoseobmite.github.io/posts/2020/07/creating-a-new-blog/</link>
+      <link>https://yoseobdoc.github.io/2020/07/creating-a-new-blog/</link>
       <pubDate>Wed, 08 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://yoseobmite.github.io/posts/2020/07/creating-a-new-blog/</guid>
+      <guid>https://yoseobdoc.github.io/2020/07/creating-a-new-blog/</guid>
       <description>개요  블로그를 만들 때 고려할 사항과 만드는 방법에 대하여 알려드립니다.
   목차  블로그를 만든 이유 다른 사람들의 이유 미리 고민하면 좋을 것들 어떤 블로그가 완성되어 있을지 상상해보세요!(Check-List) (Where) 어떤 서비스(플랫폼)와 기술을 활용할까? 이 블로그는 어떤 플랫폼을 쓰나요? (How-To) 블로그 구축부터 포스팅까지 배워봅시다.    블로그를 만든 이유  지금 이 포스트를 읽고 계신 여러분은 블로그 하나 만들어 볼까?라는 생각을 분명 한번 이상은 해 보셨을 것이다. 같은 질문에 대한 필자의 대답과 고민의 흔적을 아래에 포스팅 하였으니 이 글이 시행착오를 줄이는데 조금이라도 보탬이 되었으면 한다.</description>
     </item>
     
     <item>
-      <title>How to Markdown</title>
-      <link>https://yoseobmite.github.io/posts/2020/07/how-to-markdown/</link>
+      <title>마크다운 이해하기</title>
+      <link>https://yoseobdoc.github.io/2020/07/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0/</link>
       <pubDate>Wed, 08 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://yoseobmite.github.io/posts/2020/07/how-to-markdown/</guid>
-      <description>출처 : theorydb.github.io
-개요  지금 당장 필요한 마크다운(Markdown) 문법부터 단계적으로 배워봅시다.
+      <guid>https://yoseobdoc.github.io/2020/07/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0/</guid>
+      <description>How to Markdown 개요  지금 당장 필요한 마크다운(Markdown) 문법부터 단계적으로 배워봅시다.
   목차  Markdown이란? Markdown 에디터 뭘 쓸까? Markdown 문법1(반드시 알아야 하는) Markdown 문법2(유용한 부가기능) 실전연습 이미지를 쉽게 업로드 하는 방법 소소한 Tip 그리고 고장났을 때    Markdown이란?  Markdown은 문서 작성을 지원하는 태그(Tag) 형식의 문법이다.
  What is Markdown? (출처 - 위키백과)
 마크다운(markdown)은 일반 텍스트 문서의 양식을 편집하는 문법이다. README 파일이나 온라인 문서, 혹은 일반 텍스트 편집기로 문서 양식을 편집할 때 쓰인다.</description>
     </item>
     
     <item>
-      <title>Creating a New Theme</title>
-      <link>https://yoseobmite.github.io/posts/2014/09/creating-a-new-theme/</link>
-      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://yoseobmite.github.io/posts/2014/09/creating-a-new-theme/</guid>
-      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
-We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
-    </item>
-    
-    <item>
-      <title>Migrate to Hugo from Jekyll</title>
-      <link>https://yoseobmite.github.io/posts/2014/03/migrate-to-hugo-from-jekyll/</link>
-      <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://yoseobmite.github.io/posts/2014/03/migrate-to-hugo-from-jekyll/</guid>
-      <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
-▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png  should become
-▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
-    </item>
-    
-    <item>
       <title>About</title>
-      <link>https://yoseobmite.github.io/about/</link>
-      <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
+      <link>https://yoseobdoc.github.io/about/</link>
+      <pubDate>Thu, 09 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://yoseobmite.github.io/about/</guid>
-      <description>Written in Go, Hugo is an open source static site generator available under the Apache Licence 2.0. Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
-Hugo makes use of a variety of open source projects including:
-https://github.com/yuin/goldmark https://github.</description>
+      <guid>https://yoseobdoc.github.io/about/</guid>
+      <description>Hugo로 Github.io 블로그 만들기 찾다보니 Jekyll - Static Site Generator의 존재를 알게 되었다.
+Jekyll과 Github Page의 조합으로 bolg 열심히 만들었으나. 매번 먼가 하나씩 추가할때 꼬는게 너무 많아 열심히 관리 포기 했었드랬다. Hugo와 Github Page의 조합으로 Learnlog로 사용할 개인 블로그를 만들기로 했다.
+여름휴가 시작과 함께 우분투20.04 설치하고 집중공략을 시작!
+ HUGO 설정법을 찾기 쉽게 about에 남기기로&amp;hellip;. 출처 : https://ryan-han.com
+0. 목차 1. Static Site Generator 란? 2. Static Site Generator 선택 과정 3.</description>
+    </item>
+    
+    <item>
+      <title>Cover image showcase</title>
+      <link>https://yoseobdoc.github.io/2015/05/cover-image-showcase/</link>
+      <pubDate>Wed, 13 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://yoseobdoc.github.io/2015/05/cover-image-showcase/</guid>
+      <description>&lt;p&gt;Tranquilpeak integrate a unique &amp;ldquo;cover image&amp;rdquo; feature. Open this post to see how this feature sublimate your article.&lt;/p&gt;</description>
     </item>
     
   </channel>
